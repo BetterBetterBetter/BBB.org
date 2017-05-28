@@ -1,7 +1,9 @@
 @import 'nib'
 
 
-
+$red = #aa0000
+$purple = #330033
+$gold = #b7b512
 
 
 @keyframes strobeBG
@@ -29,30 +31,75 @@
   height 30em
   height 66vh
  
+.absoluteFullScreen
+ position absolute
+ top 0
+ bottom 0
+ left 0
+ right 0
 
 #index-banner
- height 95%
+ height 100%
+ width 100%
+ top 0
+ bottom 0
+ left 0
+ right 0
+ position absolute
+ padding 0
  background #330033
  background radial-gradient(ellipse at center, #ee00ee 1%,#330033 66%)
- animation strobeBG 60s linear 34s infinite forwards, throb 60s linear 0s infinite alternate;
+ animation strobeBG 60s linear 34s infinite forwards, throb 60s linear 0s infinite alternate
+ & *
+  z-index 9
 
- 
+#heroBG
+ height 100%
+ position absolute
+ width 100%
+ top 0
+ left 0
+ right 0
+ bottom 0
+ z-index 1
+
+#placeholderFullScreen
+ position relative
+ height 900px
+ height 95vh
+
 #typingHeader
  span.small
   font-size .33em
  span.underline
   text-decoration underline
+ #typing
+  margin auto  
+ 
 
 .hero-pop-out
  position absolute
  width 25%
  min-height 19em
+ z-index 99
+ background rgba(255,255,255,.75)
+ .card-title
+  color $gold !important
+ &.left .card-action
+  left 0
+ &.right .card-action
+  right 0
+ .card-action
+  position absolute
+  bottom 0
+  & *
+   color $red !important
  
 .top
- top 5%
+ top 0
  
 .bot
- bottom 5%
+ bottom 0
  
 .left
  left 0
@@ -86,3 +133,9 @@
   
 ::selection
  background #303
+ background rgba(30,0,30,.66)
+ color #dad4ae
+ 
+.navbar-fixed nav
+ background-color rgba(51,0,51,.5)
+ 
