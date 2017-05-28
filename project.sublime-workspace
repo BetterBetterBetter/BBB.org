@@ -1,0 +1,1471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"select",
+				"selectize"
+			],
+			[
+				"current",
+				"currentValue"
+			],
+			[
+				"ACT",
+				"ACTIVE_KEYWORDS.get"
+			],
+			[
+				"kw",
+				"kw_tier1"
+			],
+			[
+				"Reac",
+				"ReactiveVar"
+			],
+			[
+				"keyw",
+				"keyword"
+			],
+			[
+				"curre",
+				"currentKW"
+			],
+			[
+				"KEYW",
+				"KEYWORD_ASSOC"
+			],
+			[
+				"prec",
+				"preceding"
+			],
+			[
+				"Rea",
+				"ReactiveVar"
+			],
+			[
+				"currentK",
+				"currentKeyword"
+			],
+			[
+				"all",
+				"allKW"
+			],
+			[
+				"data",
+				"data-id"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"keywor",
+				"keyword"
+			],
+			[
+				"pre",
+				"Preceding"
+			],
+			[
+				"fin",
+				"findOne"
+			],
+			[
+				"key",
+				"keyword"
+			],
+			[
+				"keywords",
+				"keywordsManager"
+			],
+			[
+				"sele",
+				"selectize_all_KWs"
+			],
+			[
+				"kw_",
+				"kw_manager"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
+				"keywo",
+				"keywordsManager"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"t",
+				"transition"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"sort",
+				"sortSpecifier\tarkham_comments-ui.js"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"point",
+				"pointer-events"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"name",
+				"namesPrint3\tmain.js"
+			],
+			[
+				"names",
+				"namesPrint2\tmain.js"
+			],
+			[
+				"namesPr",
+				"namesPrint1\tmain.js"
+			],
+			[
+				"place",
+				"placeId\trouting.js"
+			],
+			[
+				"threeHidde",
+				"threeHidden\tmain.js"
+			],
+			[
+				"hasC",
+				"hasClass( selector )\tclasses.js"
+			],
+			[
+				"main",
+				"mainDisplayed()\tmain.js"
+			],
+			[
+				"tra",
+				"transition"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"ease-",
+				"ease-in-out"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"mainDis",
+				"mainDisplated\tmain.js"
+			],
+			[
+				"ease",
+				"ease-in-out"
+			],
+			[
+				"i",
+				"inline-table"
+			],
+			[
+				"initi",
+				"initialize()\tmap.js"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"map",
+				"map-canvas"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"k",
+				"kwordsArray\trouting.js"
+			],
+			[
+				"bizName",
+				"bizNameUrl\tmain.js"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"table",
+				"table-layout"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"bott",
+				"bottomButtonSubmit"
+			],
+			[
+				"bottom",
+				"bottomButtonRemove"
+			],
+			[
+				"getElement",
+				"getElementsByClassName('aSome')"
+			],
+			[
+				"this",
+				"thisListing\tmain.js"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"open",
+				"openInfoWindowMarker\tmap.js"
+			],
+			[
+				"getEle",
+				"getElementById('aSome')"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"background",
+				"background-repeat"
+			],
+			[
+				"hove",
+				"hover-lighten"
+			],
+			[
+				"userAg",
+				"userAgent"
+			],
+			[
+				"pro",
+				"proxy"
+			],
+			[
+				"rand",
+				"randomWait"
+			],
+			[
+				"us",
+				"userAgent"
+			],
+			[
+				"userAgent",
+				"userAgentList"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"query",
+				"queryDirty"
+			],
+			[
+				"logo",
+				"logo_colors"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"scale",
+				"scale()"
+			],
+			[
+				"registered",
+				"registered_agent_c"
+			],
+			[
+				"exe",
+				"execTime"
+			],
+			[
+				"guess",
+				"guessed_email_c"
+			],
+			[
+				"poss",
+				"possible_sites_arr_clean"
+			],
+			[
+				"site",
+				"sites_to_crawl"
+			],
+			[
+				"arr",
+				"arrayed_site"
+			],
+			[
+				"sites",
+				"sites_to_crawl"
+			],
+			[
+				"possi",
+				"possible_sites_arr_fetch"
+			],
+			[
+				"possib",
+				"possible_sites_arr_unique"
+			],
+			[
+				"find",
+				"find_page_anchors"
+			],
+			[
+				"add",
+				"additional_sites_to_crawl"
+			],
+			[
+				"arra",
+				"array_values"
+			],
+			[
+				"si",
+				"sites_to_crawl_add"
+			],
+			[
+				"phone_a",
+				"phone_arr_freq"
+			],
+			[
+				"array",
+				"array_keys"
+			],
+			[
+				"fe",
+				"fetched_email_list"
+			],
+			[
+				"possible_p",
+				"possible_phone_list"
+			],
+			[
+				"fetched_phon",
+				"fetched_phone_list"
+			],
+			[
+				"conta",
+				"contactScrapperOut"
+			],
+			[
+				"deb",
+				"debuggg"
+			],
+			[
+				"depth",
+				"depth_count"
+			],
+			[
+				"pos",
+				"possible_sites_arr_pre"
+			],
+			[
+				"possible_sites_arr_poss",
+				"possible_sites_arr_poss_poss"
+			],
+			[
+				"possibl",
+				"possible_sites_arr_imp"
+			],
+			[
+				"possible",
+				"possible_sites_arr_imp"
+			],
+			[
+				"links",
+				"linksReturned"
+			],
+			[
+				"craw",
+				"crawl_site"
+			],
+			[
+				"fet",
+				"fetched_phone_c"
+			],
+			[
+				"phone",
+				"fetched_phone_list"
+			],
+			[
+				"is",
+				"isValidPhone"
+			],
+			[
+				"pr",
+				"preg_match"
+			],
+			[
+				"guesse",
+				"guessed_email_c"
+			],
+			[
+				"webs",
+				"website_fetch_c"
+			],
+			[
+				"email",
+				"emailHasName"
+			],
+			[
+				"fetched",
+				"fetched_email_list"
+			],
+			[
+				"cURL",
+				"cURL_contents"
+			],
+			[
+				"clean",
+				"clean_site"
+			],
+			[
+				"entity",
+				"entity_name_c"
+			],
+			[
+				"website",
+				"website_c"
+			],
+			[
+				"websit",
+				"website_c"
+			],
+			[
+				"website_",
+				"website_fetch_c"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"q",
+				"queryDirty"
+			],
+			[
+				"agent",
+				"agent_first_name_c"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<template name=\"layout\">\n\t\t\n\t\t<main>\n\t\t{{> yield}}\n\t\t</main>\n\n</template>\n\n\n\n\n\n\n\n\n<template name=\"home\">\n\n\t<div class=\"middle\">\n\t\t<h1>There are infinite tactics.</h1>\n\t\t<h3>But if you're to succeed, you'll need a strategy.</h3>\n\t\t<p>This is an interactive web app to help you identify the marketing strategies that are time-tested in your industry, for your business.</p>\n\n\t\t<a href=\"{{pathFor 'two'}}\" class=\"waves-effect waves-light btn\">Let's Go!</a> \n\t</div>\t\n\n</template>\n\n\n\n\n\n<template name=\"two\">\n\n\n\n\n<div id=\"top\" class=\"scrollspy\">\n\n<!-- Pre Loader -->\n<div id=\"loader-wrapper\">\n    <div id=\"loader\"></div>\n \n    <div class=\"loader-section section-left\"></div>\n    <div class=\"loader-section section-right\"></div>\n \n</div>\n\n<!--Navigation-->\n <div class=\"navbar-fixed\">\n    <nav id=\"nav_f\" class=\"default_color\" role=\"navigation\">\n        <div class=\"container\">\n            <div class=\"nav-wrapper\">\n            <a href=\"#\" id=\"logo-container\" class=\"brand-logo\">MD Template</a>\n                <ul class=\"right hide-on-med-and-down\">\n                    <li><a href=\"#intro\">Service</a></li>\n                    <li><a href=\"#work\">Work</a></li>\n                    <li><a href=\"#team\">Team</a></li>\n                    <li><a href=\"#contact\">Contact</a></li>\n                    <li><a href=\"https://github.com/joashp/material-design-template\" target=\"_blank\">Download</a></li>\n                </ul>\n                <ul id=\"nav-mobile\" class=\"side-nav\">\n                    <li><a href=\"#intro\">Service</a></li>\n                    <li><a href=\"#work\">Work</a></li>\n                    <li><a href=\"#team\">Team</a></li>\n                    <li><a href=\"#contact\">Contact</a></li>\n                    <li><a href=\"https://github.com/joashp/material-design-template\" target=\"_blank\">Download</a></li>\n                </ul>\n            <a href=\"#\" data-activates=\"nav-mobile\" class=\"button-collapse\"><i class=\"mdi-navigation-menu\"></i></a>\n            </div>\n        </div>\n    </nav>\n</div>\n\n<!--Hero-->\n<div class=\"section no-pad-bot\" id=\"index-banner\">\n    <div class=\"container\">\n        <h1 class=\"text_h center header cd-headline letters type\">\n            <span>I Love</span> \n            <span class=\"cd-words-wrapper waiting\">\n                <b class=\"is-visible\">creating</b>\n                <b>designing</b>\n                <b>developing</b>\n            </span>\n        </h1>\n    </div>\n</div>\n\n<!--Intro and service-->\n<div id=\"intro\" class=\"section scrollspy\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div  class=\"col s12\">\n                <h2 class=\"center header text_h2\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class=\"span_h2\"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class=\"span_h2\"> laoreet quis.</span> </h2>\n            </div>\n\n            <div  class=\"col s12 m4 l4\">\n                <div class=\"center promo promo-example\">\n                    <i class=\"mdi-image-flash-on\"></i>\n                    <h5 class=\"promo-caption\">Speeds up development</h5>\n                    <p class=\"light center\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"center promo promo-example\">\n                    <i class=\"mdi-social-group\"></i>\n                    <h5 class=\"promo-caption\">User Experience Focused</h5>\n                    <p class=\"light center\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"center promo promo-example\">\n                    <i class=\"mdi-hardware-desktop-windows\"></i>\n                    <h5 class=\"promo-caption\">Fully responsive</h5>\n                    <p class=\"light center\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!--Work-->\n<div class=\"section scrollspy\" id=\"work\">\n    <div class=\"container\">\n        <h2 class=\"header text_b\">Work </h2>\n        <div class=\"row\">\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project1.jpg\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project2.jpeg\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project3.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project4.jpg\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project5.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project6.jpeg\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!--Parallax-->\n<div class=\"parallax-container\">\n    <div class=\"parallax\"><img src=\"img/parallax1.png\"></div>\n</div>\n\n<!--Team-->\n<div class=\"section scrollspy\" id=\"team\">\n    <div class=\"container\">\n        <h2 class=\"header text_b\"> Our Team </h2>\n        <div class=\"row\">\n            <div class=\"col s12 m3\">\n                <div class=\"card card-avatar\">\n                    <div class=\"waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/avatar1.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Flash <br/>\n                            <small><em><a class=\"red-text text-darken-1\" href=\"#\">CEO</a></em></small></span>\n                        <p>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.facebook.com/joash.c.pereira\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://twitter.com/im_joash\">\n                                <i class=\"fa fa-twitter-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://plus.google.com/u/0/+JoashPereira\">\n                                <i class=\"fa fa-google-plus-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.linkedin.com/in/joashp\">\n                                <i class=\"fa fa-linkedin-square\"></i>\n                            </a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m3\">\n                <div class=\"card card-avatar\">\n                    <div class=\"waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/avatar2.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Cat Woman<br/>\n                            <small><em><a class=\"red-text text-darken-1\" href=\"#\">Designer</a></em></small>\n                        </span>\n                        <p>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.facebook.com/joash.c.pereira\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://twitter.com/im_joash\">\n                                <i class=\"fa fa-twitter-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://plus.google.com/u/0/+JoashPereira\">\n                                <i class=\"fa fa-google-plus-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.linkedin.com/in/joashp\">\n                                <i class=\"fa fa-linkedin-square\"></i>\n                            </a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m3\">\n                <div class=\"card card-avatar\">\n                    <div class=\"waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/avatar3.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">\n                            Capt. America <br/>\n                            <small><em><a class=\"red-text text-darken-1\" href=\"#\">CMO</a></em></small></span>\n                        <p>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.facebook.com/joash.c.pereira\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://twitter.com/im_joash\">\n                                <i class=\"fa fa-twitter-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://plus.google.com/u/0/+JoashPereira\">\n                                <i class=\"fa fa-google-plus-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.linkedin.com/in/joashp\">\n                                <i class=\"fa fa-linkedin-square\"></i>\n                            </a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m3\">\n                <div class=\"card card-avatar\">\n                    <div class=\"waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/avatar4.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Robin<br/>\n                            <small><em><a class=\"red-text text-darken-1\" href=\"#\">Developer</a></em></small></span>\n                        <p>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.facebook.com/joash.c.pereira\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://twitter.com/im_joash\">\n                                <i class=\"fa fa-twitter-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://plus.google.com/u/0/+JoashPereira\">\n                                <i class=\"fa fa-google-plus-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.linkedin.com/in/joashp\">\n                                <i class=\"fa fa-linkedin-square\"></i>\n                            </a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!--Footer-->\n<footer id=\"contact\" class=\"page-footer default_color scrollspy\">\n    <div class=\"container\">  \n        <div class=\"row\">\n            <div class=\"col l6 s12\">\n                <form class=\"col s12\" action=\"contact.php\" method=\"post\">\n                    <div class=\"row\">\n                        <div class=\"input-field col s6\">\n                            <i class=\"mdi-action-account-circle prefix white-text\"></i>\n                            <input id=\"icon_prefix\" name=\"name\" type=\"text\" class=\"validate white-text\">\n                            <label for=\"icon_prefix\" class=\"white-text\">First Name</label>\n                        </div>\n                        <div class=\"input-field col s6\">\n                            <i class=\"mdi-communication-email prefix white-text\"></i>\n                            <input id=\"icon_email\" name=\"email\" type=\"email\" class=\"validate white-text\">\n                            <label for=\"icon_email\" class=\"white-text\">Email-id</label>\n                        </div>\n                        <div class=\"input-field col s12\">\n                            <i class=\"mdi-editor-mode-edit prefix white-text\"></i>\n                            <textarea id=\"icon_prefix2\" name=\"message\" class=\"materialize-textarea white-text\"></textarea>\n                            <label for=\"icon_prefix2\" class=\"white-text\">Message</label>\n                        </div>\n                        <div class=\"col offset-s7 s5\">\n                            <button class=\"btn waves-effect waves-light red darken-1\" type=\"submit\">Submit\n                                <i class=\"mdi-content-send right white-text\"></i>\n                            </button>\n                        </div>\n                    </div>\n                </form>\n            </div>\n            <div class=\"col l3 s12\">\n                <h5 class=\"white-text\">joashpereira.com</h5>\n                <ul>\n                    <li><a class=\"white-text\" href=\"http://www.joashpereira.com/\">Home</a></li>\n                    <li><a class=\"white-text\" href=\"http://www.joashpereira.com/blog\">Blog</a></li>\n                </ul>\n            </div>\n            <div class=\"col l3 s12\">\n                <h5 class=\"white-text\">Social</h5>\n                <ul>\n                    <li>\n                        <a class=\"white-text\" href=\"https://www.behance.net/joashp\">\n                            <i class=\"small fa fa-behance-square white-text\"></i> Behance\n                        </a>\n                    </li>\n                    <li>\n                        <a class=\"white-text\" href=\"https://www.facebook.com/joash.c.pereira\">\n                            <i class=\"small fa fa-facebook-square white-text\"></i> Facebook\n                        </a>\n                    </li>\n                    <li>\n                        <a class=\"white-text\" href=\"https://github.com/joashp\">\n                            <i class=\"small fa fa-github-square white-text\"></i> Github\n                        </a>\n                    </li>\n                    <li>\n                        <a class=\"white-text\" href=\"https://www.linkedin.com/in/joashp\">\n                            <i class=\"small fa fa-linkedin-square white-text\"></i> Linkedin\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n    <div class=\"footer-copyright default_color\">\n        <div class=\"container\">\n            Made by <a class=\"white-text\" href=\"http://joashpereira.com\">Joash Pereira</a>. Thanks to <a class=\"white-text\" href=\"http://materializecss.com/\">materializecss</a>\n        </div>\n    </div>\n</footer>\n\n\n</div>\n\n\n\n</template>",
+			"file": "client/main.html",
+			"file_size": 20312,
+			"file_write_time": 131399008266479754,
+			"settings":
+			{
+				"buffer_size": 19901,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "main.html"
+			}
+		},
+		{
+			"file": "client/header.html",
+			"settings":
+			{
+				"buffer_size": 529,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/main.styl",
+			"settings":
+			{
+				"buffer_size": 889,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/main.js",
+			"settings":
+			{
+				"buffer_size": 8924,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "main.js"
+			}
+		},
+		{
+			"file": "/C/Users/Jeremy/Downloads/full-video-carousel/full-video-carousel/index.html",
+			"settings":
+			{
+				"buffer_size": 12434,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/routing.js",
+			"settings":
+			{
+				"buffer_size": 979,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/common.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server/main.js",
+			"settings":
+			{
+				"buffer_size": 98,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "remo",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"r",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 289.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/lib",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/server"
+	],
+	"file_history":
+	[
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/demo.css",
+		"/C/Users/Jeremy/Downloads/full-video-carousel/full-video-carousel/js/tether.js",
+		"/C/Users/Jeremy/Downloads/full-video-carousel/full-video-carousel/js/mdb.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/header.html",
+		"/F/5_16_2017/node/meteor/Xpopulous/.meteor/.gitignore",
+		"/C/Windows/System32/drivers/etc/hosts.bakup",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Windows/WindowsUpdate.log",
+		"/C/node/meteor/Xpopulous/client/sortable.js",
+		"/C/node/meteor/Xpopulous/client/lib/vendor/html5sortable/sortable.js",
+		"/C/node/meteor/Xpopulous/client/lib/vendor/html5sortable/html.sortable.min.js",
+		"/C/node/meteor/Xpopulous/.meteor/local/.build226159.build/programs/.build105855.server/npm/node_modules/meteor/cfs_data-man/node_modules/request/node_modules/form-data/node_modules/async/lib/async.js",
+		"/C/node/meteor/Xpopulous/client/qtip.css",
+		"/C/node/meteor/Xpopulous/client/jquery.qtip.js",
+		"/C/node/meteor/Xpopulous/packages/meteor-selectize/package.js",
+		"/C/node/meteor/Xpopulous/packages/meteor-selectize/selectize/selectize.js/dist/js/selectize.js",
+		"/C/node/meteor/Xpopulous/packages/selectivize/selectivize.js",
+		"/C/node/meteor/Xpopulous/.meteor/local/build/programs/web.browser/packages/jeremy_selectize.js",
+		"/C/node/meteor/Xpopulous/packages/meteor-comments-ui/lib/server/publish.js",
+		"/C/node/meteor/Xpopulous/packages/meteor-comments-ui/lib/api.js",
+		"/C/node/meteor/Xpopulous/.meteor/packages",
+		"/C/node/meteor/Xpopulous/.meteor/local/build/programs/web.browser/packages/arkham_comments-ui.js",
+		"/C/node/meteor/Xpopulous/packages/meteor-comments-ui/package.js",
+		"/C/node/meteor/Xpopulous/client/templates/map.html",
+		"/C/node/meteor/Xpopulous/client/listings.js",
+		"/C/node/meteor/Xpopulous/client/profile.js",
+		"/C/node/meteor/Xpopulous/client/map.js",
+		"/C/node/meteor/Xpopulous/server/sitemaps.js",
+		"/C/node/meteor/Xpopulous/client/header.html",
+		"/C/node/meteor/Xpopulous/newServer.bash",
+		"/C/node/meteor/Xpopulous/client/templates/updateListing.html",
+		"/C/node/meteor/Xpopulous/client/templates/privacy.html",
+		"/C/Users/Jeremy/Desktop/Download/css-circle/css-circle/index.html",
+		"/C/node/meteor/Xpopulous/client/templates/home.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/listings.js",
+		"/C/wamp/www/jeremydavidevans.com/betterbetterbetter.org/public_html/.htaccess",
+		"/C/node/meteor/SocialMission/client/templates/loader.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/loader.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/allListings.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/saturn.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/profile.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/privacy.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/createListing.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/updateListing.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/head.html",
+		"/C/node/meteor/BetterBusinessDirectory/id_rsa",
+		"/C/node/meteor/BetterBusinessDirectory/New Text Document.txt",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/loading.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/map.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/map.js",
+		"/C/Users/Jeremy/Desktop/Download/email.svg",
+		"/C/node/meteor/BetterBusinessDirectory/client/profile.js",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/wizard.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/register.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/home.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/main.js",
+		"/C/node/meteor/BetterBusinessDirectory/bower_components/ev-emitter/bower.json",
+		"/C/node/meteor/BetterBusinessDirectory/bower_components/desandro-matches-selector/bower.json",
+		"/C/node/meteor/BetterBusinessDirectory/.bowerrc.txt",
+		"/C/node/meteor/BetterBusinessDirectory/client/lib/isotope.js",
+		"/C/node/meteor/BetterBusinessDirectory/client/lib/masonry.js",
+		"/C/node/meteor/BetterBusinessDirectory/client/main.html",
+		"/C/node/meteor/BetterBusinessDirectory/client/templates/layout.html",
+		"/C/node/meteor/socialMission/client/main.css",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/modules/Prospects/language/en_us.lang.php",
+		"/C/wamp/www/BetterBetterBetter.org/BetterBetterBetterCurrency.html",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/modules/Campaigns/WebToLeadFormBuilder.php",
+		"/C/wamp/www/jeremydavidevans.com/betterbetterbetter.org/public_html/contactforms/mailer/index.html",
+		"/C/wamp/www/jeremydavidevans.com/betterbetterbetter.org/public_html/next-steps/index.html",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/data/SugarBean.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/modules/Prospects/Ext/LogicHooks/websiteScrapper_hook.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/sugarfield_sites_to_crawl_c.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/sugarfield_crawl_depth_c.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/modules/Prospects/Ext/Language/en_us.lang.ext.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Language/en_us.scrape.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Language/en_us.massConversion.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/scrape.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/convertMass - Copy.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/convertMass.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/simple_dom.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/adminer/adminer.css",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/adminer/adminer-4.2.4-mysql-en.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/custom_import_index.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/sugarfield_scrape_enabled_c.php",
+		"/C/Users/Jeremy/Desktop/Download/simple_html_dom.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/modules/Prospects/websiteScraper_nophone.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/composer.json",
+		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/scraper/scraperTest.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/css/colourSelector.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/_headerModuleList.tpl",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/Home.tpl",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/_head.tpl",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/footer.tpl",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/header.tpl",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/login.tpl",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/MySugar.tpl",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/modules/Prospects/vardefs.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/BBB/themedef.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/themedef.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/suitecrm_04_05_16.log",
+		"/C/wamp/www/JoomlaServer/newServer.bash",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/suitecrm_9.log",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/ModernAqua/icon_info.csv",
+		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/css/main.css",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/layout_utils.php",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/css/footable.core.css",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/BBB/css/print.css",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/BBB/css/style.css",
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Suite7/themedef.php",
+		"/C/Users/Jeremy/Desktop/GraphicDesign/JeremyDavidEvans/who.is/memes/HistoricalSummary-master (1)/HistoricalSummary-master/Installer/README.txt",
+		"/C/Users/Jeremy/Desktop/GraphicDesign/JeremyDavidEvans/who.is/memes/SuiteCRM_Package_Builder-master/SuiteCRM_Package_Builder-master/README.md",
+		"/C/wamp/www/JoomlaServer/themedef.php",
+		"/C/wamp/www/jeremydavidevans.com/barefootbeasts.com/public_html/wp-content/themes/upfront/scripts/require.js",
+		"/C/Users/Jeremy/Desktop/labōrisAmor/New Text Document.txt",
+		"/C/wamp/www/KatesServer/var/www/medievalmadness.site/public_html/wp-config.php",
+		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/LondonLaw/main.js",
+		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/LondonLaw/index.html",
+		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/LondonLaw/main.css",
+		"/C/Users/Jeremy/Desktop/GraphicDesign/eartique/wp-config.php",
+		"/C/wamp/www/artistas.xyz/public_html/css/main.css",
+		"/C/wamp/www/artistas.xyz/public_html/index.max.html",
+		"/C/wamp/www/artistas.xyz/public_html/index.html",
+		"/C/Users/Jeremy/Desktop/CL_Ad.txt",
+		"/C/Users/Jeremy/Desktop/GraphicDesign/JeremyDavidEvans/who.is/memes/RAR Password unlocker full version/RAR Password unlocker full version/Instruction.txt",
+		"/C/Users/Jeremy/Desktop/GraphicDesign/JeremyDavidEvans/who.is/memes/Themeforest_56143254512/PASSWORD.txt",
+		"/C/Users/Jeremy/Desktop/Digital/ex machina/Adobe Universal Patcher 2014 v1.1/README.txt",
+		"/C/node/BetweenVisits/kulturedkitsch.info/public_html/reports-for/crystal-galleries/index.html",
+		"/C/node/BetweenVisits/kulturedkitsch.info/public_html/mibew/README.txt"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"66.11.122.60",
+			"upActArr[upActArr.length-1] ",
+			"ADDED_KW",
+			"CHANGED",
+			"ADDED_KW",
+			"bject.keys(",
+			"debugger",
+			"kw_tier1",
+			"onAdd",
+			"autorun",
+			"onCre",
+			"onCreat",
+			"kw_",
+			"kw1",
+			"autorun",
+			"layout",
+			"KEYWORDS",
+			"ACTIVE_KEYWORDS",
+			"KEYWORDS",
+			"layout",
+			"kw_tier",
+			"kw_1",
+			"kw_",
+			"Lines",
+			"lines",
+			"keywordsManager",
+			"currentKey",
+			"debugger",
+			"KEYWORD.set",
+			"confirm",
+			"events",
+			"debugger",
+			"KEYWORD",
+			"currentKeyword",
+			"KEYWORD_ASSOC",
+			"KEYWORD",
+			"KEYWORDS",
+			"KEYWORD",
+			"domCurrAssoc ",
+			"events",
+			"KEYWORD_ASSOC",
+			"keywordsMana",
+			"keywordMana",
+			"helpers",
+			"keywordsManager",
+			"isInPath",
+			"events",
+			"ignore",
+			"events",
+			"removeElremove",
+			"removeEl",
+			".remove",
+			"Keywords",
+			"events",
+			"keywordsManager",
+			"events",
+			"keywordsManager",
+			"keywordManager",
+			"LAST_ADDED_KW_ID",
+			"events",
+			"sortablejs",
+			"consol",
+			"remove",
+			"confirm",
+			".onCrea",
+			"create",
+			"created",
+			"Meteor.call",
+			"keywordsManager",
+			"Sortable",
+			"KEYWORD.set",
+			"events",
+			"keywords",
+			"onCre",
+			"events",
+			"keywordsManager",
+			"events",
+			"parseIn",
+			"KEYWORDS",
+			"idNum",
+			"kwChange",
+			"console.log",
+			"keywordsMana",
+			"keywordMana",
+			"keywordsManager",
+			"Router.go",
+			"keywordsManager",
+			"KW_ALL_SELECTIZE",
+			"keywordsManager",
+			"events",
+			"Keywords",
+			"events",
+			"KW_ALL_SELECTIZE",
+			"KW_",
+			"KW_manager_select",
+			"KW_manager",
+			"keywordsManager",
+			"key",
+			"urlFrame",
+			"url",
+			"urlFrame",
+			"url",
+			"NaN",
+			"preceding",
+			"keywordsManager",
+			"addKe",
+			"keywordsManager",
+			"Keywo",
+			"keyword",
+			"keywords",
+			"KEYWORDS",
+			"debugger",
+			"selectize",
+			"profile",
+			"helper",
+			"profile",
+			"Ren",
+			"keywor",
+			"onCreated",
+			"home",
+			"accoun",
+			"gm-style",
+			"footer",
+			"= ",
+			"scroll",
+			"#mapBG div > .gmnoprint:last-child",
+			"#top",
+			"nav"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"167.114.148.20",
+			"https://betterbetterbetter.org/wp-content/uploads/2017/04/light_",
+			"instance",
+			"gmapSaveButton",
+			"placeTemplate",
+			"kw_tier1",
+			"VIEW_HEIGHT",
+			"secret",
+			"",
+			"transition 666ms all ease-in-out",
+			"layout",
+			"https://",
+			"url('https://",
+			"",
+			"Open Sans",
+			"5%",
+			"3.5%",
+			"030003",
+			"F0F8FF",
+			"white",
+			"value=",
+			"value=.*",
+			"grid-item\" value",
+			"Business",
+			"",
+			"Business",
+			".svg",
+			"Business",
+			"",
+			"thisListing",
+			"Business",
+			"\n",
+			"Business",
+			"",
+			"mapPage",
+			"GoogleMaps.maps[mapName].instance",
+			"button",
+			"focusedKey",
+			"listingDictionary",
+			", ",
+			"bizName",
+			"url",
+			"currentSite",
+			"$arrayed_site",
+			"$u",
+			"curl_setopt($ch, CURLOPT_USERAGENT, \"{$userAgent}\");",
+			"none",
+			"$bean->guessed_website_c",
+			"$bean->",
+			"$this->$bean->",
+			"$this->possible_email_list",
+			"$GLOBALS['debuggg']",
+			"\"{$debuggg}",
+			"phone",
+			"LTD",
+			"CO",
+			"principal",
+			"; /* !important; */",
+			"overflow-x: hidden;\noverflow-y: auto;",
+			"Better",
+			"/* !impotent */",
+			" ",
+			"body",
+			"Better",
+			"our.betterbetterbetter.link",
+			"trekAnimation",
+			"3000px",
+			"url(\"../",
+			"",
+			" ",
+			"artistas.xyz",
+			"<a onclick=\"impress().next()\">&#xab;</a>",
+			"jQuery",
+			"250ms",
+			"150ms",
+			"",
+			".logo-container",
+			"triangle",
+			"square",
+			",",
+			"<a target=\"_blank\" href",
+			"li",
+			"$",
+			"li",
+			"\">&#x2714;</td>",
+			"\">&#x2713;</td>",
+			"<td class=\"tooltipableCell\" title=\"N/A\"></td>",
+			"</span><em>ffiliates  --  </em><span",
+			"class=\"fixed donor fourth\"><span class=\"D\">D:</span>",
+			"class=\"fixed community third\"><span class=\"C\">C:</span>",
+			"class=\"fixed beneficiaries second\"><span class=\"B\">B:</span>",
+			"class=\"fixed affiliates first\"><span class=\"A\">A:</span>",
+			"<a href=\"#trust\"",
+			"<a href=\"#community\"",
+			"<a href=\"#videos\"",
+			"<a href=\"#events\"",
+			"<a href=\"#offers\"",
+			"<a href=\"#forum\"",
+			"<a href=\"#ads\"",
+			"<a href=\"#social\"",
+			"<a href=\"#directories\"",
+			"<a href=\"#directory\"",
+			"<a href=\"#blog\"",
+			"<a href=\"#email\"",
+			"<a href=\"#website\"",
+			"<a href=\"#\" class=\"donor\">D</a>",
+			"<a href=\"#\" class=\"community\">C</a>",
+			"<a href=\"#\" class=\"beneficiaries\">B</a>",
+			"<a href=\"#\" class=\"affiliates\">A</a>",
+			"<a href=\"#\">D</a>",
+			"<a href=\"#\"></a>",
+			"<a href=\"#\">D</a>",
+			"<a href=\"#\">C</a>",
+			"<a href=\"#\">B</a>",
+			"<a href=\"#\">A</a>",
+			"<a href=\"\">A</a>",
+			"<a href=\"#\">A</a>",
+			"1px",
+			"fourth",
+			"third",
+			"second",
+			"first",
+			"betterbetterbetter",
+			"betterbetterbetter.me",
+			"\"hide\": 1000",
+			"data-toggle=\"tooltip\" data-html=\"true\"",
+			"data-delay='{ \"show\": 500, \"hide\": 1500 }'",
+			"data-delay='{ \"show\": 500, \"hide\": 1500 }"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19901,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"auto_name": "main.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/header.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 529,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								510,
+								510
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "client/main.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 889,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								889,
+								889
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 1,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "client/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6885,
+								6885
+							]
+						],
+						"settings":
+						{
+							"auto_name": "main.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4168.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Jeremy/Downloads/full-video-carousel/full-video-carousel/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12434,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11966,
+								1977
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 959.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/routing.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								979,
+								979
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 91.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "lib/common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "server/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			],
+			[
+				2,
+				0,
+				3,
+				1
+			],
+			[
+				3,
+				0,
+				4,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.29578313253,
+			0.450200803213,
+			0.75,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"client\\main.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 121.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 5
+	}
+}
