@@ -34,6 +34,11 @@ Router.route('/', {
     template: 'home'
 });
 
+Router.route('/find-your-service', {
+    name: 'findYourService',
+    template: 'findYourService'
+});
+
 
 
 

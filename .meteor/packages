@@ -21,3 +21,13 @@ accounts-password
 stolinski:stylus-multi
 iron:router
 modweb:vivus
+d3js:d3
+email
+aldeed:simple-schema
+aldeed:collection2@2.5.0
+ongoworks:security
+aldeed:autoform@5.8.0
+gildaspk:autoform-materialize
+msavin:mongol
+check
+session

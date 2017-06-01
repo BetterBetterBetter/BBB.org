@@ -1,0 +1,14 @@
+<template name="contactForm">
+  {{#autoForm collection="ContactForm" id="contactForm" class="input-field" type="method" meteormethod="sendEmail"}}
+    <fieldset>
+    <legend align="center">  Contact  </legend>
+
+      {{> afQuickField class="input-field" name="name" label=true icon='person'}}
+      {{> afQuickField class="input-field" name="email"  label=true icon='local_post_office'}}
+      {{> afQuickField class="input-field materialize-textarea" name="message" rows=10 label=true icon='chat'}}
+      <div>
+        <button type="submit" class="btn waves-effect waves-light right">Submit</button> <span class='contactForm__status'></span>
+      </div>
+    </fieldset>
+  {{/autoForm}}
+</template>

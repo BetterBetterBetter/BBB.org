@@ -1,0 +1,31 @@
+<template name="findYourService">
+
+ <canvas id="heroBG"></canvas>
+ <div id="placeholderFullScreen"></div>
+  <div class="section no-pad-bot" id="index-banner">
+   <div class=" absoluteFullScreen valign-wrapper center-align">
+   
+    <h1 id="typingHeader" class="text_h center header absoluteFullScreen valign-wrapper center-align cd-headline letters type transition-scale">
+     <span id="typingService" class=""></span>
+      
+      {{#autoForm collection="FindService" id="findServiceForm" class="" type="method" meteormethod="sendEmail"}}
+
+       {{> afFormGroup  class="one " name="serviceProduct" label=true}}
+       {{> afFormGroup  class="" name="email"  label=true}}
+       {{> afFormGroup  class="input-field materialize-textarea" name="message" rows=10 label=true}}
+       
+       <div>
+         <button type="submit" class="btn waves-effect waves-light right">Submit</button> <span class='contactForm__status'></span>
+       </div>
+      {{/autoForm}}
+
+    </h1> 
+    
+
+
+   </div>
+  </div>
+
+  <i id="back" class="app_nav material-icons">arrow_back</i>
+  <i id="forward" class="app_nav material-icons">arrow_forward</i>
+</template> 

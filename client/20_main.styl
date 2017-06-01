@@ -14,6 +14,15 @@ $gold = #b7b512
 @keyframes throb
  for i in 0..60
   transform scale(i+.6)
+  
+@keyframes fadeOutTo33{
+ from {
+  opacity 1
+ }
+ to {
+  opacity .33
+ }
+}
 
 #logoHeader
  width 30em
@@ -71,10 +80,13 @@ $gold = #b7b512
 #typingHeader
  span.small
   font-size .33em
+  line-height 0
  span.underline
   text-decoration underline
- #typing
-  margin auto  
+ #typing, #typingService
+  margin auto
+ #typingService
+  position absolute  
  
 
 .hero-pop-out
@@ -82,7 +94,12 @@ $gold = #b7b512
  width 25%
  min-height 19em
  z-index 99
- background rgba(255,255,255,.75)
+ background rgba(255,255,255,.15)
+ text-shadow #000 0px 1px 0, #000 0px -1px 0, #000 1px 1px 0, #000 -1px 1px 0, #000 1px -1px 0, #000 -1px -1px 0, #000 1px 0px 0, #000 -1px 0px 0
+ &:hover, &:active
+  background rgba(255,255,255,.25)
+ .card-reveal
+  text-shadow none
  .card-title
   color $gold !important
  &.left .card-action
@@ -90,6 +107,9 @@ $gold = #b7b512
  &.right .card-action
   right 0
  .card-action
+  font-weight 900
+  text-shadow none
+  background-color #fff
   position absolute
   bottom 0
   & *
@@ -119,7 +139,8 @@ $gold = #b7b512
 
 
 ::-webkit-scrollbar
- width 6px
+ width 4px
+ height 4px
  background-color transparent
 
 ::-webkit-scrollbar-thumb
@@ -139,3 +160,112 @@ $gold = #b7b512
 .navbar-fixed nav
  background-color rgba(51,0,51,.5)
  
+.parallax-container
+ max-height 800px
+ h1
+  z-index 9
+  position sticky
+  text-shadow #fff 0 0 3px, #fff -1px -1px 0, #eee -2px -2px 0, #ddd -3px -3px 0, #ccc -4px -4px 0, #bbb -5px -5px 0, #aaa -6px -6px 0, #000 -7px -7px 0
+  transition 333ms all ease-in
+  &:hover
+   text-shadow #fff 0 0 5px, #fff 0 0 5px, #fff 0 0 5px, #fff 0 0 5px, #fff 0 0 5px, #fff 0 0 5px, #fff 0 0 5px, #fff 0 0 5px
+ .carousel
+  z-index 9
+  .carousel-item
+   z-index 99
+   margin-top -100px
+   
+#contactForm
+ input, textarea
+  color #fff
+ label
+  position relative
+ .help-block
+  color #fff
+ legend
+  font-family 'Roboto'
+  font-weight 100
+  color #fff
+  font-size 2em
+  text-shadow #aaa -1px -1px, #999 -2px -2px
+  
+#stackChart
+ z-index 0
+ position absolute
+ top 0
+ 
+#stackChart *
+ animation 5.5s ease-in fadeOutTo33 forwards
+
+.toast
+ background #303
+ 
+#services
+ li
+  list-style-type circle
+ a
+  color $red
+ .card-content
+  i.material-icons
+   font-size 9em
+   color $purple
+ .waves-effect .waves-ripple
+  background-color rgba(60,0,60,.65)
+ .tabs 
+  .active
+   border-bottom $purple 2px solid
+  .indicator
+   background-color $gold 
+
+
+#typingService
+ transition 666ms top ease-in
+ margin auto
+ padding-left 20%
+ padding-right 20%
+ 
+.app_nav
+ position absolute
+ font-size 6em!important
+ color #fff
+ z-index 9
+ cursor pointer
+ &#back
+  bottom 0
+  left 0
+ &#forward
+  bottom 0
+  right 0
+  
+#findServiceForm
+ margin auto
+ .form-group
+  display none 
+ button
+  display none
+ input
+  width 80%
+ .af-checkbox-group
+  width 25vw
+  height 30vh
+  position relative
+  display flex
+  align-items center
+  justify-content space-around
+  font-size 0em
+  label
+   font-size 50px
+   padding-left 60px
+   padding-right 50px
+   padding-top 13px
+  p
+   display flex
+   position relative
+   align-items center
+  [type="checkbox"]+label:before
+   height 50px
+   width 50px
+  [type="checkbox"]:checked+label:before
+    height 50px
+    width 22px
+  
