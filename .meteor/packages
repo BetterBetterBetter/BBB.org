@@ -26,9 +26,13 @@ email@1.2.1
 aldeed:simple-schema
 aldeed:collection2@2.5.0
 ongoworks:security
-aldeed:autoform@5.8.0
-gildaspk:autoform-materialize
+aldeed:autoform
 msavin:mongol
 check@1.2.5
 session@1.1.7
 dynamic-import
+mozfet:autoform-materialize
+aldeed:collection2-core
+mozfet:autoform-materialize-nouislider
+mozfet:autoform-medium
+lawshe:full-page

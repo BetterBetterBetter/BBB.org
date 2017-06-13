@@ -4,8 +4,28 @@
 		"selected_items":
 		[
 			[
+				"find",
+				"findYourService"
+			],
+			[
+				"topR",
+				"topRangeDisplay"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
 				"font",
-				"font-weight"
+				"font-size"
 			],
 			[
 				"select",
@@ -90,10 +110,6 @@
 			[
 				"kw_",
 				"kw_manager"
-			],
-			[
-				"tex",
-				"textarea"
 			],
 			[
 				"keywo",
@@ -376,10 +392,6 @@
 				"possible_sites_arr_unique"
 			],
 			[
-				"find",
-				"find_page_anchors"
-			],
-			[
 				"add",
 				"additional_sites_to_crawl"
 			],
@@ -502,98 +514,88 @@
 			[
 				"website_",
 				"website_fetch_c"
-			],
-			[
-				"print",
-				"print_r"
-			],
-			[
-				"q",
-				"queryDirty"
-			],
-			[
-				"agent",
-				"agent_first_name_c"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "<template name=\"layout\">\n\t\t\n\t\t<main>\n\t\t{{> yield}}\n\t\t</main>\n\n</template>\n\n\n\n\n\n\n\n\n<template name=\"home\">\n\n\t<div class=\"middle\">\n\t\t<h1>There are infinite tactics.</h1>\n\t\t<h3>But if you're to succeed, you'll need a strategy.</h3>\n\t\t<p>This is an interactive web app to help you identify the marketing strategies that are time-tested in your industry, for your business.</p>\n\n\t\t<a href=\"{{pathFor 'two'}}\" class=\"waves-effect waves-light btn\">Let's Go!</a> \n\t</div>\t\n\n</template>\n\n\n\n\n\n<template name=\"two\">\n\n\n\n\n<div id=\"top\" class=\"scrollspy\">\n\n<!-- Pre Loader -->\n<div id=\"loader-wrapper\">\n    <div id=\"loader\"></div>\n \n    <div class=\"loader-section section-left\"></div>\n    <div class=\"loader-section section-right\"></div>\n \n</div>\n\n<!--Navigation-->\n <div class=\"navbar-fixed\">\n    <nav id=\"nav_f\" class=\"default_color\" role=\"navigation\">\n        <div class=\"container\">\n            <div class=\"nav-wrapper\">\n            <a href=\"#\" id=\"logo-container\" class=\"brand-logo\">MD Template</a>\n                <ul class=\"right hide-on-med-and-down\">\n                    <li><a href=\"#intro\">Service</a></li>\n                    <li><a href=\"#work\">Work</a></li>\n                    <li><a href=\"#team\">Team</a></li>\n                    <li><a href=\"#contact\">Contact</a></li>\n                    <li><a href=\"https://github.com/joashp/material-design-template\" target=\"_blank\">Download</a></li>\n                </ul>\n                <ul id=\"nav-mobile\" class=\"side-nav\">\n                    <li><a href=\"#intro\">Service</a></li>\n                    <li><a href=\"#work\">Work</a></li>\n                    <li><a href=\"#team\">Team</a></li>\n                    <li><a href=\"#contact\">Contact</a></li>\n                    <li><a href=\"https://github.com/joashp/material-design-template\" target=\"_blank\">Download</a></li>\n                </ul>\n            <a href=\"#\" data-activates=\"nav-mobile\" class=\"button-collapse\"><i class=\"mdi-navigation-menu\"></i></a>\n            </div>\n        </div>\n    </nav>\n</div>\n\n<!--Hero-->\n<div class=\"section no-pad-bot\" id=\"index-banner\">\n    <div class=\"container\">\n        <h1 class=\"text_h center header cd-headline letters type\">\n            <span>I Love</span> \n            <span class=\"cd-words-wrapper waiting\">\n                <b class=\"is-visible\">creating</b>\n                <b>designing</b>\n                <b>developing</b>\n            </span>\n        </h1>\n    </div>\n</div>\n\n<!--Intro and service-->\n<div id=\"intro\" class=\"section scrollspy\">\n    <div class=\"container\">\n        <div class=\"row\">\n            <div  class=\"col s12\">\n                <h2 class=\"center header text_h2\"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <span class=\"span_h2\"> Phasellus  </span>vestibulum lorem risus, nec suscipit lorem <span class=\"span_h2\"> laoreet quis.</span> </h2>\n            </div>\n\n            <div  class=\"col s12 m4 l4\">\n                <div class=\"center promo promo-example\">\n                    <i class=\"mdi-image-flash-on\"></i>\n                    <h5 class=\"promo-caption\">Speeds up development</h5>\n                    <p class=\"light center\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Cum sociis natoque penatibus et magnis dis parturient montes.</p>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"center promo promo-example\">\n                    <i class=\"mdi-social-group\"></i>\n                    <h5 class=\"promo-caption\">User Experience Focused</h5>\n                    <p class=\"light center\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"center promo promo-example\">\n                    <i class=\"mdi-hardware-desktop-windows\"></i>\n                    <h5 class=\"promo-caption\">Fully responsive</h5>\n                    <p class=\"light center\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!--Work-->\n<div class=\"section scrollspy\" id=\"work\">\n    <div class=\"container\">\n        <h2 class=\"header text_b\">Work </h2>\n        <div class=\"row\">\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project1.jpg\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project2.jpeg\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project3.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project4.jpg\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project5.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m4 l4\">\n                <div class=\"card\">\n                    <div class=\"card-image waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/project6.jpeg\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-more-vert right\"></i></span>\n                        <p><a href=\"#\">Project link</a></p>\n                    </div>\n                    <div class=\"card-reveal\">\n                        <span class=\"card-title grey-text text-darken-4\">Project Title <i class=\"mdi-navigation-close right\"></i></span>\n                        <p>Here is some more information about this project that is only revealed once clicked on.</p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!--Parallax-->\n<div class=\"parallax-container\">\n    <div class=\"parallax\"><img src=\"img/parallax1.png\"></div>\n</div>\n\n<!--Team-->\n<div class=\"section scrollspy\" id=\"team\">\n    <div class=\"container\">\n        <h2 class=\"header text_b\"> Our Team </h2>\n        <div class=\"row\">\n            <div class=\"col s12 m3\">\n                <div class=\"card card-avatar\">\n                    <div class=\"waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/avatar1.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Flash <br/>\n                            <small><em><a class=\"red-text text-darken-1\" href=\"#\">CEO</a></em></small></span>\n                        <p>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.facebook.com/joash.c.pereira\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://twitter.com/im_joash\">\n                                <i class=\"fa fa-twitter-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://plus.google.com/u/0/+JoashPereira\">\n                                <i class=\"fa fa-google-plus-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.linkedin.com/in/joashp\">\n                                <i class=\"fa fa-linkedin-square\"></i>\n                            </a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m3\">\n                <div class=\"card card-avatar\">\n                    <div class=\"waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/avatar2.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Cat Woman<br/>\n                            <small><em><a class=\"red-text text-darken-1\" href=\"#\">Designer</a></em></small>\n                        </span>\n                        <p>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.facebook.com/joash.c.pereira\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://twitter.com/im_joash\">\n                                <i class=\"fa fa-twitter-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://plus.google.com/u/0/+JoashPereira\">\n                                <i class=\"fa fa-google-plus-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.linkedin.com/in/joashp\">\n                                <i class=\"fa fa-linkedin-square\"></i>\n                            </a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m3\">\n                <div class=\"card card-avatar\">\n                    <div class=\"waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/avatar3.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">\n                            Capt. America <br/>\n                            <small><em><a class=\"red-text text-darken-1\" href=\"#\">CMO</a></em></small></span>\n                        <p>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.facebook.com/joash.c.pereira\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://twitter.com/im_joash\">\n                                <i class=\"fa fa-twitter-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://plus.google.com/u/0/+JoashPereira\">\n                                <i class=\"fa fa-google-plus-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.linkedin.com/in/joashp\">\n                                <i class=\"fa fa-linkedin-square\"></i>\n                            </a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col s12 m3\">\n                <div class=\"card card-avatar\">\n                    <div class=\"waves-effect waves-block waves-light\">\n                        <img class=\"activator\" src=\"img/avatar4.png\">\n                    </div>\n                    <div class=\"card-content\">\n                        <span class=\"card-title activator grey-text text-darken-4\">Robin<br/>\n                            <small><em><a class=\"red-text text-darken-1\" href=\"#\">Developer</a></em></small></span>\n                        <p>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.facebook.com/joash.c.pereira\">\n                                <i class=\"fa fa-facebook-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://twitter.com/im_joash\">\n                                <i class=\"fa fa-twitter-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://plus.google.com/u/0/+JoashPereira\">\n                                <i class=\"fa fa-google-plus-square\"></i>\n                            </a>\n                            <a class=\"blue-text text-lighten-2\" href=\"https://www.linkedin.com/in/joashp\">\n                                <i class=\"fa fa-linkedin-square\"></i>\n                            </a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>\n\n<!--Footer-->\n<footer id=\"contact\" class=\"page-footer default_color scrollspy\">\n    <div class=\"container\">  \n        <div class=\"row\">\n            <div class=\"col l6 s12\">\n                <form class=\"col s12\" action=\"contact.php\" method=\"post\">\n                    <div class=\"row\">\n                        <div class=\"input-field col s6\">\n                            <i class=\"mdi-action-account-circle prefix white-text\"></i>\n                            <input id=\"icon_prefix\" name=\"name\" type=\"text\" class=\"validate white-text\">\n                            <label for=\"icon_prefix\" class=\"white-text\">First Name</label>\n                        </div>\n                        <div class=\"input-field col s6\">\n                            <i class=\"mdi-communication-email prefix white-text\"></i>\n                            <input id=\"icon_email\" name=\"email\" type=\"email\" class=\"validate white-text\">\n                            <label for=\"icon_email\" class=\"white-text\">Email-id</label>\n                        </div>\n                        <div class=\"input-field col s12\">\n                            <i class=\"mdi-editor-mode-edit prefix white-text\"></i>\n                            <textarea id=\"icon_prefix2\" name=\"message\" class=\"materialize-textarea white-text\"></textarea>\n                            <label for=\"icon_prefix2\" class=\"white-text\">Message</label>\n                        </div>\n                        <div class=\"col offset-s7 s5\">\n                            <button class=\"btn waves-effect waves-light red darken-1\" type=\"submit\">Submit\n                                <i class=\"mdi-content-send right white-text\"></i>\n                            </button>\n                        </div>\n                    </div>\n                </form>\n            </div>\n            <div class=\"col l3 s12\">\n                <h5 class=\"white-text\">joashpereira.com</h5>\n                <ul>\n                    <li><a class=\"white-text\" href=\"http://www.joashpereira.com/\">Home</a></li>\n                    <li><a class=\"white-text\" href=\"http://www.joashpereira.com/blog\">Blog</a></li>\n                </ul>\n            </div>\n            <div class=\"col l3 s12\">\n                <h5 class=\"white-text\">Social</h5>\n                <ul>\n                    <li>\n                        <a class=\"white-text\" href=\"https://www.behance.net/joashp\">\n                            <i class=\"small fa fa-behance-square white-text\"></i> Behance\n                        </a>\n                    </li>\n                    <li>\n                        <a class=\"white-text\" href=\"https://www.facebook.com/joash.c.pereira\">\n                            <i class=\"small fa fa-facebook-square white-text\"></i> Facebook\n                        </a>\n                    </li>\n                    <li>\n                        <a class=\"white-text\" href=\"https://github.com/joashp\">\n                            <i class=\"small fa fa-github-square white-text\"></i> Github\n                        </a>\n                    </li>\n                    <li>\n                        <a class=\"white-text\" href=\"https://www.linkedin.com/in/joashp\">\n                            <i class=\"small fa fa-linkedin-square white-text\"></i> Linkedin\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n    <div class=\"footer-copyright default_color\">\n        <div class=\"container\">\n            Made by <a class=\"white-text\" href=\"http://joashpereira.com\">Joash Pereira</a>. Thanks to <a class=\"white-text\" href=\"http://materializecss.com/\">materializecss</a>\n        </div>\n    </div>\n</footer>\n\n\n</div>\n\n\n\n</template>",
-			"file": "client/main.html",
-			"file_size": 20312,
-			"file_write_time": 131399008266479754,
+			"file": "client/find-your-service.html",
 			"settings":
 			{
-				"buffer_size": 19901,
+				"buffer_size": 12845,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/20_main.styl",
+			"settings":
+			{
+				"buffer_size": 5812,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": " [type=\"checkbox\"]+label:before\n   height 25px!important\n   width 25px!important\n [type=\"checkbox\"]+label:before, [type=\"checkbox\"]:not(.filled-in)+label:after\n   top 11px!important\n   left 30px!important\n [type=\"checkbox\"]+label:before\n  height 25px!important\n  width 11px!important\n [type=\"checkbox\"]+label:before, [type=\"checkbox\"]:not(.filled-in)+label:after\n  top 11px!important\n  left 30px!important",
+			"settings":
+			{
+				"buffer_size": 405,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/20_init.js",
+			"settings":
+			{
+				"buffer_size": 14433,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/findYourService.js",
+			"settings":
+			{
+				"buffer_size": 15764,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/00_routing.js",
+			"settings":
+			{
+				"buffer_size": 1380,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "var checked = false;\n$('.af-checkbox-group').find('input').each(function(){if($(this).is(\":checked\")){\n\tchecked = true;\n}})",
+			"settings":
+			{
+				"buffer_size": 123,
 				"line_ending": "Windows",
-				"name": "main.html"
-			}
-		},
-		{
-			"file": "client/header.html",
-			"settings":
-			{
-				"buffer_size": 529,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/main.styl",
-			"settings":
-			{
-				"buffer_size": 889,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/main.js",
-			"settings":
-			{
-				"buffer_size": 8924,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "main.js"
-			}
-		},
-		{
-			"file": "/C/Users/Jeremy/Downloads/full-video-carousel/full-video-carousel/index.html",
-			"settings":
-			{
-				"buffer_size": 12434,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/routing.js",
-			"settings":
-			{
-				"buffer_size": 979,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lib/common.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"name": "var checked = false;"
 			}
 		},
 		{
 			"file": "server/main.js",
 			"settings":
 			{
-				"buffer_size": 98,
-				"encoding": "UTF-8",
+				"buffer_size": 1383,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "common/common.js",
+			"settings":
+			{
+				"buffer_size": 13863,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -674,15 +676,29 @@
 	"expanded_folders":
 	[
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/lib",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/common",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/public",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/server"
 	],
 	"file_history":
 	[
+		"/C/Users/Jeremy/Desktop/bankOfTheOzarks",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/index.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/01_materialize.min.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/manifest.json",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/z2000_materialize_noUiSlider.css",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/server/main.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/lib/common.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/main.html",
+		"/C/Users/Jeremy/Downloads/full-video-carousel/full-video-carousel/index.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/routing.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/header.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/main.styl",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/main.js",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/demo.css",
 		"/C/Users/Jeremy/Downloads/full-video-carousel/full-video-carousel/js/tether.js",
 		"/C/Users/Jeremy/Downloads/full-video-carousel/full-video-carousel/js/mdb.js",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/header.html",
 		"/F/5_16_2017/node/meteor/Xpopulous/.meteor/.gitignore",
 		"/C/Windows/System32/drivers/etc/hosts.bakup",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -794,19 +810,7 @@
 		"/C/wamp/www/jeremydavidevans.com/barefootbeasts.com/public_html/wp-content/themes/upfront/scripts/require.js",
 		"/C/Users/Jeremy/Desktop/labōrisAmor/New Text Document.txt",
 		"/C/wamp/www/KatesServer/var/www/medievalmadness.site/public_html/wp-config.php",
-		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/LondonLaw/main.js",
-		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/LondonLaw/index.html",
-		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/LondonLaw/main.css",
-		"/C/Users/Jeremy/Desktop/GraphicDesign/eartique/wp-config.php",
-		"/C/wamp/www/artistas.xyz/public_html/css/main.css",
-		"/C/wamp/www/artistas.xyz/public_html/index.max.html",
-		"/C/wamp/www/artistas.xyz/public_html/index.html",
-		"/C/Users/Jeremy/Desktop/CL_Ad.txt",
-		"/C/Users/Jeremy/Desktop/GraphicDesign/JeremyDavidEvans/who.is/memes/RAR Password unlocker full version/RAR Password unlocker full version/Instruction.txt",
-		"/C/Users/Jeremy/Desktop/GraphicDesign/JeremyDavidEvans/who.is/memes/Themeforest_56143254512/PASSWORD.txt",
-		"/C/Users/Jeremy/Desktop/Digital/ex machina/Adobe Universal Patcher 2014 v1.1/README.txt",
-		"/C/node/BetweenVisits/kulturedkitsch.info/public_html/reports-for/crystal-galleries/index.html",
-		"/C/node/BetweenVisits/kulturedkitsch.info/public_html/mibew/README.txt"
+		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/LondonLaw/main.js"
 	],
 	"find":
 	{
@@ -824,6 +828,9 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"display",
+			"default",
+			"typing",
 			"66.11.122.60",
 			"upActArr[upActArr.length-1] ",
 			"ADDED_KW",
@@ -948,10 +955,7 @@
 			"gm-style",
 			"footer",
 			"= ",
-			"scroll",
-			"#mapBG div > .gmnoprint:last-child",
-			"#top",
-			"nav"
+			"scroll"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1102,55 +1106,89 @@
 			[
 				{
 					"buffer": 0,
-					"file": "client/main.html",
+					"file": "client/find-your-service.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19901,
+						"buffer_size": 12845,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								81,
-								81
+								12295,
+								12295
 							]
 						],
 						"settings":
 						{
-							"auto_name": "main.html",
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 1,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6627.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
 				{
 					"buffer": 1,
-					"file": "client/header.html",
+					"file": "client/20_main.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 529,
+						"buffer_size": 5812,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								510,
-								510
+								3840,
+								3840
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 1,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4805.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								405,
+								405
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1162,100 +1200,61 @@
 			]
 		},
 		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 2,
-					"file": "client/main.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 889,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								889,
-								889
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 1,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 3,
-					"file": "client/main.js",
+					"file": "client/20_init.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8924,
+						"buffer_size": 14433,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6885,
-								6885
+								419,
+								419
 							]
 						],
 						"settings":
 						{
-							"auto_name": "main.js",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4168.0,
+						"translation.y": 195.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/C/Users/Jeremy/Downloads/full-video-carousel/full-video-carousel/index.html",
+					"file": "client/findYourService.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12434,
+						"buffer_size": 15764,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11966,
-								1977
+								15281,
+								15281
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 959.0,
+						"translation.y": 8963.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
@@ -1263,19 +1262,19 @@
 				},
 				{
 					"buffer": 5,
-					"file": "client/routing.js",
+					"file": "client/00_routing.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 979,
+						"buffer_size": 1380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								979,
-								979
+								1230,
+								1230
 							]
 						],
 						"settings":
@@ -1285,10 +1284,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 91.0,
+						"translation.y": 130.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 123,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var checked = false;",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1298,12 +1325,12 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
-					"file": "lib/common.js",
+					"buffer": 7,
+					"file": "server/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 1383,
 						"regions":
 						{
 						},
@@ -1317,44 +1344,43 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 793.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "server/main.js",
+					"buffer": 8,
+					"file": "common/common.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 98,
+						"buffer_size": 13863,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								12004,
+								12004
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 1,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8726.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1462,7 +1488,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 121.0,
+	"side_bar_width": 225.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

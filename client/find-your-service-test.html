@@ -1,144 +1,7 @@
-<template name="findYourService">
+<template name="findYourServiceTest">
 
- <canvas id="heroBG"></canvas>
- <div id="placeholderFullScreen"></div>
-  <div class="section no-pad-bot" id="index-banner">
-   <div class=" absoluteFullScreen valign-wrapper center-align">
-   
-    <h1 id="typingHeader" class=" center header absoluteFullScreen valign-wrapper center-align cd-headline letters type transition-scale">
-     <span id="typingService1" class="typingCont">Let's talk tactics.<br>
 
-     <span class="">Answer the following questions as best you can.</span><br>
-
-     <span class="">This should only take about 10 minutes.</span><br>
- 
-     <span class="">If you don't know an answer, make a quick guess.</span><br>
-
-     First, let's learn about your business.<br>
-
-     Do you sell products or services?
-
-    </span><!-- 0 --> 
-    <span  class="typingCont top">
-      Do you sell to businesses or consumers?
-    </span><!-- 1 -->
-    <span id="typingService2" class="typingCont top">
-      What industry are you in?
-    </span><!-- 2 -->
-    <span id="typingService3" class="typingCont top">
-      What geographic range do you serve?
-    </span><!-- 3 -->
-    <span id="typingService4" class="typingCont top">
-     What percent of revenue is from previous clients?
-    </span><!-- 4 -->
-    <span id="typingService5" class="typingCont top">
-     How much profit is generated per client in the average transaction?
-    </span><!-- 5 -->
-    <span id="typingService6" class="typingCont top">
-     How many sales are generated per month?
-    </span><!-- 6 -->
-    <span id="typingService7" class="typingCont top">
-     How many sales are generated per month?
-    </span><!-- 7 -->
-    <span id="typingService8" class="typingCont top">
-     Now, let's define your customers.<br>
-
-     How many new clients do you obtain monthly?
-    </span><!-- 8 -->
-    <span id="typingService9" class="typingCont top">
-      What age range contains 80% of your clients?
-    </span><!-- 9 -->
-    <span id="typingService10" class="typingCont top">
-      What age is your ideal customer?
-    </span><!-- 10 -->
-    <span id="typingService11" class="typingCont top">
-      What income range defines 80% of your clients?
-    </span><!-- 11 -->
-    <span id="typingService12" class="typingCont top">
-      What is the income of your ideal customer?
-    </span><!-- 12 -->
-    <span id="typingService13" class="typingCont top">
-      What percentage of your clients are female?
-    </span><!-- 13 -->      
-    <span id="typingService14" class="typingCont top">
-      What kinds of online assets do you already have in place?
-    </span><!-- 14 --> 
-    <span id="typingService15" class="typingCont top">
-      How much money have you spent on currently employed online assets?
-    </span><!-- 15 --> 
-    <span id="typingService16" class="typingCont top">
-      How secure do you consider your online assets?
-    </span><!-- 16 --> 
-    <span id="typingService17" class="typingCont top">
-      How much money have you spend on maintaining online assets over the last year?
-    </span><!-- 17 --> 
-    {{#if hasCustomerDb}}
-     <span class="typingCont top">
-      What kind of information do you have about clients in your email list / CRM?
-     </span>
-     <span class="typingCont top">
-      How many clients do you have emails for?
-     </span>
-     <span class="typingCont top">
-      What percent of targets convert in a typical remarketing campaigns?
-     </span>
-    {{/if}}
-    {{#if Website}}
-     <span class="typingCont top">
-      Do you use landing pages on your website?
-     </span>
-     <span class="typingCont top">
-      How many visitors does your website receive daily?
-     </span>
-     <span class="typingCont top">
-      If you know, how many of those visitors are organic? <span class="small">(Not from paid advertising.)</span>
-     </span>
-     <span class="typingCont top">
-      If you know, how many of those visitors are inorganic? <span class="small">(From paid advertising.)</span>
-     </span>     
-     <span class="typingCont top">
-      What is a typical conversion rate from your website?
-     </span>
-    {{/if}}
-    {{#if SocialMedia}}
-     <span class="typingCont top">
-      Which platforms do you have accounts on?
-     </span>
-     <span class="typingCont top">
-      What would estimate the total reach of your accounts?
-     </span>
-     <span class="typingCont top">
-      What is a typical conversion rate from your social media campaigns?
-     </span>
-    {{/if}}
-    <span class="typingCont top">
-     Which local directories do you have listings on?
-    </span>
-    <span class="typingCont top">
-     How many leads are generated monthly from your online assets?
-    </span>
-    <span class="typingCont top">
-     What are you ratings on Google Maps?<span class="small">(Leave at 0 if unknown)</span>
-    </span>
-    <span class="typingCont top">
-     What are you ratings on Facebook? <span class="small">(Leave at 0 if unknown)</span>
-    </span>
-    <span class="typingCont top">
-     What are you ratings on Yelp?<span class="small">(Leave at 0 if unknown)</span>
-    </span>
-    <span class="typingCont top">
-     What are you ratings on Bing Maps? <span class="small">(Leave at 0 if unknown)</span>
-    </span>
-    <span class="typingCont top">
-     Please enter any message you feel would help us understand your business's circumstance.
-    </span>
-    <span class="typingCont top">
-     Last Question!<br>
-     Please enter the email address for us to send your report to.
-    </span>
-
-      
-      {{#autoForm collection="FindService" id="findServiceForm" class=""}}
+      {{#autoForm collection="FindService" id="findServiceForm2" class="" }}
 
       <!-- 0 -->
        {{> afFormGroup  name="serviceProduct" label=true}}
@@ -240,7 +103,6 @@
          {{> afFieldInput class="numberInput" value="2500" name="totalMaintenance"}}
        </div>
        <!-- 1  -->
-       {{#if hasCustomerDb}}
         <!-- 15 -->
         {{> afFormGroup   class=" " name="clientListQuality" label=true}}
         <!-- 15 -->
@@ -257,8 +119,6 @@
          </div>
         </div>
         <!-- 17 -->
-       {{/if}}
-       {{#if Website}}
        <!-- 18 -->
         {{> afFormGroup   class=" " name="usingLandingPages" label=true}} 
        <!-- 18 -->
@@ -285,8 +145,6 @@
          </div>
         </div>
        <!-- 22 -->
-       {{/if}}
-       {{#if SocialMedia}}
        <!-- 23 -->
         {{> afFormGroup   class=" " name="socialMediaPlatforms" label=true}} 
        <!-- 23 -->
@@ -303,7 +161,6 @@
          </div>
         </div>
        <!-- 25 -->
-       {{/if}}
        {{> afFormGroup   class=" " name="localPlatforms" label=true}} 
        <div class="row">
         {{> afFieldInput class="numberInput" value="0" name="leadsGenerated"}}
@@ -338,18 +195,18 @@
        <div class="row">
         {{> afFieldInput id="email" name='email'}}
        </div>
+
+        <div class="row">
+         {{> afFieldInput type="noUiSlider" name="clientListConversion"}}
+         <div class="displayRange">
+          <span><input type="text" class="bottomRange"> % Conversion</span>
+         </div>
+        </div>
+
        <div class="row">
-         <button type="submit" class="btn waves-effect waves-light z-depth-5">Calculate!</button> <span class='contactForm__status'></span>
+         <button type="submit" class="submitButton btn waves-effect waves-light z-depth-5">Calculate!</button>
        </div>
       {{/autoForm}}
 
-    </h1> 
-    
 
-
-   </div>
-  </div>
-
-  <i id="back" class="app_nav waves-effect waves-light material-icons">arrow_back</i>
-  <i id="forward" class="app_nav waves-effect waves-light material-icons">arrow_forward</i>
-</template> 
+</template>

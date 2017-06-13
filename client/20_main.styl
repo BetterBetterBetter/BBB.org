@@ -24,6 +24,12 @@ $gold = #b7b512
  }
 }
 
+
+
+
+
+
+
 #logoHeader
  width 30em
  width 66vw
@@ -78,15 +84,23 @@ $gold = #b7b512
  height 95vh
 
 #typingHeader
+ font-family "Roboto"
+ font-weight 100
+ color #fff
  span.small
-  font-size .33em
+  font-size .66em
   line-height 0
  span.underline
   text-decoration underline
- #typing, #typingService
+ #typing, .typingCont
   margin auto
- #typingService
-  position absolute  
+ .typingCont
+  display none
+  position absolute
+  transition 666ms top ease-in
+  margin auto
+  padding-left 20%
+  padding-right 20% 
  
 
 .hero-pop-out
@@ -217,49 +231,42 @@ $gold = #b7b512
   .indicator
    background-color $gold 
 
-
-#typingService
- transition 666ms top ease-in
- margin auto
- padding-left 20%
- padding-right 20%
- 
-.app_nav
- position absolute
- font-size 6em!important
- color #fff
- z-index 9
- cursor pointer
- &#back
-  bottom 0
-  left 0
- &#forward
-  bottom 0
-  right 0
   
 #findServiceForm
  margin auto
- .form-group
-  display none 
- button
+ *
+  color #fff
+ .row
+  width 20em
+  width 80vw
+  opacity 0
+  transition 1s ease-in
+  &.currentSlide
+   opacity 1
+ .row
   display none
  input
   width 80%
+ textarea
+  position absolute
+  bottom 10%
+  left 10%
+  right 10%
+  width 80%
  .af-checkbox-group
-  width 25vw
-  height 30vh
   position relative
-  display flex
+  display inline-block
   align-items center
   justify-content space-around
   font-size 0em
   label
-   font-size 50px
+   font-size 2em
+   font-size 2rem
    padding-left 60px
    padding-right 50px
    padding-top 13px
   p
-   display flex
+   display inline-block
    position relative
    align-items center
   [type="checkbox"]+label:before
@@ -268,4 +275,95 @@ $gold = #b7b512
   [type="checkbox"]:checked+label:before
     height 50px
     width 22px
+ [type="submit"]
+  font-size 2em
+  height 2em
+  background $gold
+ #email
+  position absolute
+  bottom 0
+  left 10%
+  right 10%
+
+.app_nav
+ transition 1s all ease-in
+ position absolute
+ font-size 6em!important
+ color #fff
+ z-index 9
+ cursor not-allowed
+ opacity .33
+ bottom 0
+ &#back
+  left 0
+ &#forward
+  right 0 
+ &.ready
+  opacity 1
+  color $gold
+  text-shadow $gold 0 0 8px, #fff 1px 0 0, #fff -1px 0 0, #fff 1px 1px 0, #fff -1px 1px 0, #fff -1px 1px 0, #fff -1px -1px 0, #fff 0 1px 0, #fff 0 -1px 0
+  background $purple
+  border-radius 50%
+  border-color #fff 
+  border-width 2px 
+  border-style solid
+  cursor pointer
+  &#forward
+   right 5%
+   bottom 75%
+  &#back
+   left 5%
+   bottom 75%
+
+.noUi-tooltip span
+ width 100%
+ text-align center
+ color #fff
+ font-size 12px
+ opacity 0
+ position absolute
+ top -20px!important
+ left -1px
+ transition: opacity .25s cubic-bezier(0.215, 0.610, 0.355, 1.000)
+
+
+.noUi-horizontal .noUi-active .noUi-tooltip span, .noUi-vertical .noUi-active .noUi-tooltip span
+    opacity 1
+
+.numberInput
+ font-size 3em!important
+ font-size 5rem!important
+ height 3em!important
+ height 5rem!important
+ text-align center
+ bottom 10%
+ position absolute
+ left 10%
+
+.displayRange
+ position absolute
+ bottom 0
+ left 0
+ right 0
+ height 9em
+ height 10vh
+ font-size .3em
+ input
+  width 20%!important
+  text-align center
+  font-size 2em
   
+.af-radio-group
+ [type="radio"]:not(:checked)+label, [type="radio"]:checked+label
+  padding-left 20px
+ span
+  margin-left 1rem
+ p
+  text-align center
+  margin auto
+  label
+   font-size 2rem
+   
+[data-schema-key="localPlatforms"] 
+ label 
+  font-size 1rem!important

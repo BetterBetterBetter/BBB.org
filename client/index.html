@@ -6,6 +6,8 @@
 
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    
+    <link rel="manifest" href="manifest.json">
 
 
 </head>
@@ -63,12 +65,12 @@
   <div id="logoHeader" class="absoluteFullScreen scale-transition scale-out">
    {{>BBB_logo_svg}}
   </div> 
-   <h1 id="typingHeader" class="text_h center header absoluteFullScreen valign-wrapper center-align cd-headline letters type">
+   <h1 id="typingHeader" class=" center header absoluteFullScreen valign-wrapper center-align cd-headline letters type">
     <span id="typing" class=""></span>
    </h1>
 
 
-   <!--div id="botLeftPop" class="bot left waves-effect waves-light hero-pop-out hide-on-med-and-down card hoverable stcky-action scale-transition scale-out z-depth-5"> 
+   <div id="botLeftPop" class="bot left waves-effect waves-light hero-pop-out hide-on-med-and-down card hoverable stcky-action scale-transition scale-out z-depth-5"> 
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4"><i class="material-icons left pulse">more_vert</i>Free Marketing Strategy</span>
     </div>
@@ -94,7 +96,7 @@
     <div class="card-action">
      <a href="{{pathFor 'findYourService'}}">Invest in Tactics that WORK</a>
     </div>
-   </div-->
+   </div>
 
 
 
@@ -144,550 +146,53 @@
  <div class="container">
   <div class="row">
 
-   <div  class="col s12 m4 l4">
-    <div id="email" class="card waves-effect hoverable service">
-      <div class=" center-align card-content">        
-       <i class="material-icons">local_post_office</i>       
-       <h5>Email Marketing</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#a">Cons</a></li>
-          <li class="tab"><a class="active" href="#b">Description</a></li>
-          <li class="tab"><a href="#c">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="a">
-         <ul>
-          <li>Requires preexisting customers</li>
-          <li>Must have a database of emails</li>
-          <li>Email saavy customers only, not children or seniors</li>
-         </ul>
-        </div>
-        <div id="b">
-        Email is the best way to reach preexisting clients. Conversion is high, costs low. A great way to spark a promotional campaign!
-        </div>
-        <div id="c">
-         <ul>
-          <li>Very inexpensive</li>
-          <li>Easily tracked, provable RoI</li>
-          <li>Targets specific segments easily</li>
-         </ul>
-        </div>
-      </div>
-    </div>
-   </div>
+  {{>EmailMarketing}}
 
-   <div  class="col s12 m4 l4">
-     <div id="web" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">important_devices</i>
-       <h5>Website Design</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#aa">Cons</a></li>
-          <li class="tab"><a class="active" href="#bb">Description</a></li>
-          <li class="tab"><a href="#cc">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="aa">
-         <ul>
-          <li>Lifespan of several years</li>
-          <li>Medium cost initially, inexpensive when measured over the site's lifespan</li>
-          <li>Medium development time</li>
-         </ul>
-        </div>
-        <div id="bb">
-        Websites are the new business card, window display, and nice suit, all wrapped into one. Thousands of people will see your site and Google your business, so put your best image forward.
-        </div>
-        <div id="cc">
-         <ul>
-          <li>Essential for most businesses</li>
-          <li>Foundational for future marketing</li>
-          <li>Provides insights into consumer behavior</li>
-         </ul>
-        </div>
-      </div>
-    </div>
-  </div>
+  {{>WebsiteDesign}}
 
-   <div  class="col s12 m4 l4">
-     <div id="lead" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">monetization_on</i>
-       <h5>Pay Per Lead</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#aaa">Cons</a></li>
-          <li class="tab"><a class="active" href="#bbb">Description</a></li>
-          <li class="tab"><a href="#ccc">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="aaa">
-         <ul>
-          <li>Guaranteed, albeit at a premium price</li>
-          <li>Requires close partnership and communication</li>
-          <li>Necessitates an ongoing contract</li>
-         </ul>
-        </div>
-        <div id="bbb">
-        Pay only for the customers we bring to you. A great way to be certain you're investing efficiently in your marketing budget.
-        </div>
-        <div id="ccc">
-         <ul>
-          <li>Guaranteed to be profitable</li>
-          <li>Managed marketing services: no managerial overhead!</li>
-          <li>Specialized, expert service</li>
-         </ul>
-        </div>
-      </div>
-    </div>
-   </div>
-
-  </div><!-- end row-->
-
-
-  <div class="row">
-
-   <div  class="col s12 m4 l4">
-    <div id="social" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">share</i>       
-       <h5>Social Media</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#d">Cons</a></li>
-          <li class="tab"><a class="active" href="#e">Description</a></li>
-          <li class="tab"><a href="#f">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="d">
-         <ul>
-          <li>Low returns initially, aside from ads</li>
-          <li>Advertising has a slim margin</li>
-          <li>Requires partnership and contracting</li>
-         </ul>
-        </div>
-        <div id="e">
-        Social media dominates the attention of huge swaths of the population. It's advertising has better reach than television, better targetting than anything. Benefits accumulate; why not hop on board?
-        </div>
-        <div id="f">
-         <ul>
-          <li>Improves brand recognition better than anything</li>
-          <li>Long-term returns are incomparably high</li>
-          <li>Frontier of innovative publicity techniques</li>
-         </ul>
-        </div>
-      </div>
-    </div>
-   </div>
-
-   <div  class="col s12 m4 l4">
-     <div id="security" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">enhanced_encryption</i>
-       <h5>Security</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#dd">Cons</a></li>
-          <li class="tab"><a class="active" href="#ee">Description</a></li>
-          <li class="tab"><a href="#ff">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="dd">
-         <ul>
-          <li>Impossible to track returns</li>
-          <li>Only important for businesses with online assets</li>
-          <li>Very expensive once there is a problem</li>
-         </ul>
-        </div>
-        <div id="ee">
-        Security is an essential element tied to any online endeavor. Protecting your online assets means securing your reputation. A critical investment in long-term infrastructure yields immeasurable benefit.
-        </div>
-        <div id="ff">
-         <ul>
-          <li>Low costs when preventative</li>
-          <li>Early adoption can thoroughly protect your investments</li>
-          <li>Peace of mind</li>
-         </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-   <div  class="col s12 m4 l4">
-     <div id="seo" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">search</i>
-       <h5>Search Engine Optimization</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#ddd">Cons</a></li>
-          <li class="tab"><a class="active" href="#eee">Description</a></li>
-          <li class="tab"><a href="#fff">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="ddd">
-         <ul>
-          <li>Thin margins on advertising</li>
-          <li>Organic benefits only yield after several quarters</li>
-          <li>Constant balance of risk and reward</li>
-          <li>Loose partnership, but necessitates a contract</li>
-         </ul>
-        </div>
-        <div id="eee">
-        Search Engine marketing drives sales for local, digital, and global markets alike. Unlike baseball, even if you build it, they will not come (to your webpage) without the visibility that search generates. 
-        </div>
-        <div id="fff">
-         <ul>
-          <li>Long-term investment with huge long-term yields</li>
-          <li>Very high ROI with organic strategies</li>
-          <li>Incredible benefits to online businesses</li>
-         </ul>
-        </div>
-      </div>
-    </div>
-   </div>
-  </div><!-- end row-->
-
-
-  <div class="row">
-
-   <div  class="col s12 m4 l4">
-    <div id="local" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">add_location</i>       
-       <h5>Local Marketing</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#m">Cons</a></li>
-          <li class="tab"><a class="active" href="#n">Description</a></li>
-          <li class="tab"><a href="#o">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="m">
-         <ul>
-          <li>Medium costs over time</li>
-          <li>Requires tight partnering and coherent strategy</li>
-          <li>Necessitates an ongoing contract</li>
-         </ul>
-        </div> 
-        <div id="n">
-        Brick-and-mortar shops rely on unique aspects of the web: reviews, listings, social media, and offline-integration. We'll measure your competition and put you at #1! 
-        </div>
-        <div id="o">
-         <ul>
-          <li>Demonstrable, accruing benefits</li>
-          <li>Improves visibility and reputation</li>
-          <li>Critical in high-competition markets</li>
-         </ul>
-        </div>
-      </div>
-    </div>
-   </div>
-
-   <div  class="col s12 m4 l4">
-     <div id="drip" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">local_drink</i>
-       <h5>Drip Marketing</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#mm">Cons</a></li>
-          <li class="tab"><a class="active" href="#nn">Description</a></li>
-          <li class="tab"><a href="#oo">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="mm">
-        <ul>
-         <li>Medium development time (~1 month)</li>
-         <li>Requires voluminous industry-specific information</li>
-         <li>Only as effective as market segmentation</li>
-        </ul>
-        </div>
-        <div id="nn">
-        Drip marketing nurtures your leads. Like drip irrigation, this automated system provides bite-sized information for as long as it takes for their seedling of interest to blossom into a sale. 
-        </div>
-        <div id="oo">
-        <ul>
-         <li>Long-term, enduring asset</li>
-         <li>Requires no maintenance once set up</li>
-         <li>Best strategy for big-ticket sales</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
-   <div  class="col s12 m4 l4">
-     <div id="reputation" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">favorite_border</i>
-       <h5>Reputation Management</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#mmm">Cons</a></li>
-          <li class="tab"><a class="active" href="#nnn">Description</a></li>
-          <li class="tab"><a href="#ooo">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="mmm">
-        <ul>
-         <li>Impossible to measure returns</li>
-         <li>Best when preventative</li>
-         <li>Legally difficult to influence reviews</li>
-        </ul>
-        </div>
-        <div id="nnn">
-        You're only as good as your reputation. A lie travels the world twice before the truth gets out of bed. Preventatively, we will monitor every mention on the web of your company; proactively, we will manage PR events.
-        </div>
-        <div id="ooo">
-        <ul>
-         <li>Complete knowledge of public opinion</li>
-         <li>Improving ratings yields largely over time</li>
-         <li>Even PR disasters can be reversed</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-   </div>
-  </div><!-- end row-->
-
-  <div class="row">
-
-   <div  class="col s12 m4 l4">
-    <div id="maintenance" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">fitness_center</i>       
-       <h5>Tune Up and Maintenance</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#g">Cons</a></li>
-          <li class="tab"><a class="active" href="#h">Description</a></li>
-          <li class="tab"><a href="#i">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="g">
-        <ul>
-         <li>Difficult to ascertain yields</li>
-         <li>Only useful for revenue-generating assets</li>
-         <li>Some assets are not worth saving...</li>
-        </ul>
-        </div>
-        <div id="h">
-        Have some old web assets? It's often more cost-effective to repair and update old sites, funnels, and systems than to start anew. Just bought something shiny? We'll keep it fresh!
-        </div>
-        <div id="i">
-        <ul>
-         <li>An infrastructure investment for old and new assets alike</li>
-         <li>Extends the life of revenue-generators, improving yield</li>
-         <li>Necessary for websites and apps to keep running smoothly</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-   </div>
-
-   <div  class="col s12 m4 l4">
-     <div id="presentation" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">business_center</i>
-       <h5>Presentations</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#gg">Cons</a></li>
-          <li class="tab"><a class="active" href="#hh">Description</a></li>
-          <li class="tab"><a href="#ii">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="gg">
-        <ul>
-         <li>Presentations remain as good as your idea</li>
-         <li>Requires close collaboration to understand the pitch</li>
-         <li>Medium-length development time</li>
-        </ul>
-        </div>
-        <div id="hh">
-        Pitching? We know all about how to impress. Selling is psychology and psychology loves aesthetics. We will make your presentation beautiful and persuasive, using novelty, value, and intrique to make your proposal irresistible. 
-        </div>
-        <div id="ii">
-        <ul>
-         <li>Presentation accessible online</li>
-         <li>Any interactivity of the web available (such as iFrames)</li>
-         <li>Control access to the presentation</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-   </div>
-
-   <div  class="col s12 m4 l4">
-     <div id="crm" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">group</i>
-       <h5>CRM / ERP</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#ggg">Cons</a></li>
-          <li class="tab"><a class="active" href="#hhh">Description</a></li>
-          <li class="tab"><a href="#iii">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="ggg">
-        <ul>
-         <li>Expensive to implement, especially customizations</li>
-         <li>Difficult to implement adoption unless there is a genuine need</li>
-         <li>Long development time for custom solutions</li>
-        </ul>
-        </div>
-        <div id="hhh">
-        Client Relationship Management and Enterprise Resource Planning are digital infrastructure to automate common processes. Whether it's inventory mangement or tracking clients for your sales team, these solutions break going companies out of their labor-limited chokepoints.
-        </div>
-        <div id="iii">
-        <ul>
-         <li>Drastically reduces labor costs</li>
-         <li>Rapidly improves organization</li>
-         <li>Bedrock for complex marketing automation</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-   </div>
+  {{>PayPerLead}}
 
   </div><!-- end row-->
 
   <div class="row">
 
-   <div  class="col s12 m4 l4">
-    <div id="research" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">face</i>       
-       <h5>Market Research &amp; Segmentation</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#j">Cons</a></li>
-          <li class="tab"><a class="active" href="#k">Description</a></li>
-          <li class="tab"><a href="#l">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="j">
-        <ul>
-         <li>No direct return unless coupled with a revenue-generating campaign</li>
-         <li>Expensive if not implemented appropriately</li>
-         <li>Generally not cost-effective for small businesses</li>
-        </ul>
-        </div>
-        <div id="k">
-        Market research is the process of getting to know your clientele. B2B businesses can more easily assess their client base through interviews, while B2C generally requires focus groups.
-        </div>
-        <div id="l">
-        <ul>
-         <li>The canonical method of assessing new business opportunities</li>
-         <li>Beneficial to any other marketing effort</li>
-         <li>Segmenting the market allows you to find a niche to domainate</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-   </div>
+  {{>SocialMedia}}
 
-   <div  class="col s12 m4 l4">
-     <div id="apps" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">open_in_browser</i>
-       <h5>Web/Mobile Apps</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#jj">Cons</a></li>
-          <li class="tab"><a class="active" href="#kk">Description</a></li>
-          <li class="tab"><a href="#ll">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="jj">
-        <ul>
-         <li>Expensive and long to develop</li>
-         <li>Lifespan of applicability (several years)</li>
-         <li>Requires some maintenance to keep functional</li>
-        </ul>
-        </div>
-        <div id="kk">
-        A web app can be a service, a complex advert, or a powerful lead generator. By providing a valuable service to your clients, you build trust and credibility that results in increased sales.
-        </div>
-        <div id="ll">
-        <ul>
-         <li>Freemium models have a proven efficacy</li>
-         <li>Both a revenue-generating service and advertisement</li>
-         <li>Requires little to no ongoing labor to generate results</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-   </div>
+  {{>Security}}
 
-   <div  class="col s12 m4 l4">
-     <div id="eCommerce" class="service card waves-effect hoverable">
-      <div class=" center-align card-content">        
-       <i class="material-icons">shopping_cart</i>
-       <h5>eCommerce</h5>
-      </div>
-      <div class="card-tabs">
-        <ul class="tabs tabs-fixed-width waves-effect waves-light">
-          <li class="tab"><a href="#jjj">Cons</a></li>
-          <li class="tab"><a class="active" href="#kkk">Description</a></li>
-          <li class="tab"><a href="#lll">Pros</a></li>
-        </ul>
-      </div>
-      <div class="card-content">
-        <div id="jjj">
-        <ul>
-         <li>Generally not suited for services</li>
-         <li>Low-volume, high-ticket sales are difficult</li>
-         <li>Utilizing preexisting marketplaces comes at a premium</li>
-        </ul>
-        </div>
-        <div id="kkk">
-        eCommerce has redefined retail. Since the inception of eBay and Amazon, every major retailer has come to utilize the web for sales, for good reasons: minimal overhead, greater accessibility, and better analytics than the analog experience are just a few.
-        </div>
-        <div id="lll">
-        <ul>
-         <li>Perfect for products and high-volume sales</li>
-         <li>Preexisting marketplaces provide early exposure</li>
-         <li>Affordable to set up and maintain</li>
-        </ul>
-        </div>
-      </div>
-    </div>
-   </div>
+  {{>SEO}}
 
   </div><!-- end row-->
 
+  <div class="row">
+
+   {{>LocalMarketing}}
+
+   {{>DripMarketing}}
+
+   {{>ReputationManagement}}
+
+  </div><!-- end row-->
+
+  <div class="row">
+
+   {{>Maintenance}}
+
+   {{>Presentation}}
+
+   {{>CRM_ERP}}
+
+  </div><!-- end row-->
+
+  <div class="row">
+
+   {{>MarketResearch}}
+
+   {{>Apps}}
+
+   {{>eCommerce}}
+
+  </div><!-- end row-->
 
  </div>
 </div>

@@ -1,6 +1,10 @@
 
 Meteor.startup(function() {
 
+AutoForm.debug()
+
+
+
 AutoForm.setDefaultTemplate('materialize');
 
 Template.home.onRendered(function(){
@@ -197,7 +201,7 @@ function confetti (){
 
 		 
 			$('#typing').typeIt({
-		     speed: 25,
+		     speed: 15,
 		     autoStart: true,
 		     breakLines: true,
 		     html: true,
@@ -227,7 +231,7 @@ function confetti (){
 		     			$('#botLeftPop').removeClass('scale-out').addClass('scale-in');
 		     			setTimeout(function(){
 		     				$('#botRightPop').removeClass('scale-out').addClass('scale-in');
-		     			}, 8000);
+		     			}, 3000);
 		     		}, 3000);
 
 		     	},1500); 
@@ -311,7 +315,7 @@ Template.home.events({
 				var html = $("<span>Thanks for considering "+$(e.target).parents('.card').find('.card-content h5').html()+", it's one of our specialities.</span>");
 				Materialize.toast(html, 4500 );
 			}
-/*
+
 			if((servicesClickedArrUpdate.length>5)&&(servicesClickedArrUpdate.length%2)){
 				var html = $("<span>Thanks for your interest in "+$(e.target).parents('.card').find('.card-content h5').html()+"!</span>");
 				Materialize.toast(html, 1500 );
@@ -321,7 +325,7 @@ Template.home.events({
 				},1200)
 			}
 
-*/
+
 
 		}
 		 
@@ -349,9 +353,13 @@ Template.home.events({
 
 	Template.layout.onCreated(function(){
 
-		this.subscribe('contactForm')
+		this.subscribe('contactForm');
+		this.subscribe('findService');
+
 
 	});
+
+
 
 });//end Meteor.startup
 

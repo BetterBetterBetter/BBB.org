@@ -39,7 +39,32 @@ Router.route('/find-your-service', {
     template: 'findYourService'
 });
 
+Router.route('/tactics/:_id', {
+  name: 'tactics',
+  template: 'tactics',
+  waitOn: function () {
+  return Meteor.subscribe('findService');
+  },
+  data: function(){
+      var id = this.params._id;
+      return FindService.findOne({ _id: id });
+  }
+});
 
+Router.route('/find-your-service-test', {
+    name: 'findYourServiceTest',
+    template: 'findYourServiceTest'
+});
+
+
+Router.route('/find-your-service/1', {
+    name: 'findYourService1',
+    template: 'findYourService',
+    yieldTemplates: {
+      'typingTemp': {to: 'typing'},
+      'inputTemp': {to: 'inputTemp'},
+    }
+});
 
 
 
