@@ -57,16 +57,6 @@ Router.route('/find-your-service-test', {
 });
 
 
-Router.route('/find-your-service/1', {
-    name: 'findYourService1',
-    template: 'findYourService',
-    yieldTemplates: {
-      'typingTemp': {to: 'typing'},
-      'inputTemp': {to: 'inputTemp'},
-    }
-});
-
-
 
 
 Router.onBeforeAction('loading');

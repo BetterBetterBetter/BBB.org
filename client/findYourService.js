@@ -590,9 +590,3 @@ Template.findYourServiceTest.events({
 
 
 
-Template.tactics.rendered = function() {
- $('#fullpage').fullpage({
-   verticalCentered: false,
-   scrollOverflow: false
- });
-}

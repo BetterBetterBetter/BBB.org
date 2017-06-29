@@ -4,6 +4,174 @@
 		"selected_items":
 		[
 			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"sort",
+				"sortable"
+			],
+			[
+				"lea",
+				"leadsGenerated"
+			],
+			[
+				"web",
+				"websiteTraffic"
+			],
+			[
+				"we",
+				"websiteTraffic"
+			],
+			[
+				"current",
+				"currentAssets"
+			],
+			[
+				"se",
+				"sexFemale"
+			],
+			[
+				"Home",
+				"HomeGoods"
+			],
+			[
+				"incom",
+				"clientIncomeRange"
+			],
+			[
+				"client",
+				"clientTypes"
+			],
+			[
+				"Pr",
+				"Products"
+			],
+			[
+				"cur",
+				"currentAssets"
+			],
+			[
+				"has",
+				"hasWebsite"
+			],
+			[
+				"app",
+				"apps"
+			],
+			[
+				"clien",
+				"clientListQuality"
+			],
+			[
+				"tot",
+				"totalInvestment"
+			],
+			[
+				"re",
+				"research"
+			],
+			[
+				"id",
+				"idealIncome"
+			],
+			[
+				"inc",
+				"includes"
+			],
+			[
+				"cli",
+				"newClients"
+			],
+			[
+				"c",
+				"currentAssets"
+			],
+			[
+				"lo",
+				"localPlatforms"
+			],
+			[
+				"idea",
+				"idealAge"
+			],
+			[
+				"loc",
+				"local"
+			],
+			[
+				"webs",
+				"websiteConversion"
+			],
+			[
+				"usi",
+				"usingLandingPages"
+			],
+			[
+				"Re",
+				"Retail"
+			],
+			[
+				"ma",
+				"marginPerCustomer"
+			],
+			[
+				"new",
+				"newClients"
+			],
+			[
+				"Ins",
+				"Insurance"
+			],
+			[
+				"Busin",
+				"BusinessServices"
+			],
+			[
+				"margin",
+				"marginPerCustomer"
+			],
+			[
+				"pre",
+				"preexistingBudget"
+			],
+			[
+				"pa",
+				"payPerLead"
+			],
+			[
+				"clie",
+				"clientTypes"
+			],
+			[
+				"ser",
+				"serviceProduct"
+			],
+			[
+				"hasE",
+				"hasEmailList"
+			],
+			[
+				"ide",
+				"idealAge"
+			],
+			[
+				"age",
+				"ageDemographicArr"
+			],
+			[
+				"email",
+				"emailReg"
+			],
+			[
+				"gra",
+				"granimGradient"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
 				"find",
 				"findYourService"
 			],
@@ -30,10 +198,6 @@
 			[
 				"select",
 				"selectize"
-			],
-			[
-				"current",
-				"currentValue"
 			],
 			[
 				"ACT",
@@ -88,10 +252,6 @@
 				"keyword"
 			],
 			[
-				"pre",
-				"Preceding"
-			],
-			[
 				"fin",
 				"findOne"
 			],
@@ -130,14 +290,6 @@
 			[
 				"font-",
 				"font-size"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"sort",
-				"sortSpecifier\tarkham_comments-ui.js"
 			],
 			[
 				"max",
@@ -218,10 +370,6 @@
 			[
 				"initi",
 				"initialize()\tmap.js"
-			],
-			[
-				"pa",
-				"padding"
 			],
 			[
 				"map",
@@ -366,173 +514,25 @@
 			[
 				"guess",
 				"guessed_email_c"
-			],
-			[
-				"poss",
-				"possible_sites_arr_clean"
-			],
-			[
-				"site",
-				"sites_to_crawl"
-			],
-			[
-				"arr",
-				"arrayed_site"
-			],
-			[
-				"sites",
-				"sites_to_crawl"
-			],
-			[
-				"possi",
-				"possible_sites_arr_fetch"
-			],
-			[
-				"possib",
-				"possible_sites_arr_unique"
-			],
-			[
-				"add",
-				"additional_sites_to_crawl"
-			],
-			[
-				"arra",
-				"array_values"
-			],
-			[
-				"si",
-				"sites_to_crawl_add"
-			],
-			[
-				"phone_a",
-				"phone_arr_freq"
-			],
-			[
-				"array",
-				"array_keys"
-			],
-			[
-				"fe",
-				"fetched_email_list"
-			],
-			[
-				"possible_p",
-				"possible_phone_list"
-			],
-			[
-				"fetched_phon",
-				"fetched_phone_list"
-			],
-			[
-				"conta",
-				"contactScrapperOut"
-			],
-			[
-				"deb",
-				"debuggg"
-			],
-			[
-				"depth",
-				"depth_count"
-			],
-			[
-				"pos",
-				"possible_sites_arr_pre"
-			],
-			[
-				"possible_sites_arr_poss",
-				"possible_sites_arr_poss_poss"
-			],
-			[
-				"possibl",
-				"possible_sites_arr_imp"
-			],
-			[
-				"possible",
-				"possible_sites_arr_imp"
-			],
-			[
-				"links",
-				"linksReturned"
-			],
-			[
-				"craw",
-				"crawl_site"
-			],
-			[
-				"fet",
-				"fetched_phone_c"
-			],
-			[
-				"phone",
-				"fetched_phone_list"
-			],
-			[
-				"is",
-				"isValidPhone"
-			],
-			[
-				"pr",
-				"preg_match"
-			],
-			[
-				"guesse",
-				"guessed_email_c"
-			],
-			[
-				"webs",
-				"website_fetch_c"
-			],
-			[
-				"email",
-				"emailHasName"
-			],
-			[
-				"fetched",
-				"fetched_email_list"
-			],
-			[
-				"cURL",
-				"cURL_contents"
-			],
-			[
-				"clean",
-				"clean_site"
-			],
-			[
-				"entity",
-				"entity_name_c"
-			],
-			[
-				"website",
-				"website_c"
-			],
-			[
-				"websit",
-				"website_c"
-			],
-			[
-				"website_",
-				"website_fetch_c"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "client/find-your-service.html",
+			"file": "client/tactics.html",
 			"settings":
 			{
-				"buffer_size": 12845,
+				"buffer_size": 3088,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "client/20_main.styl",
+			"file": "client/index.html",
 			"settings":
 			{
-				"buffer_size": 5812,
+				"buffer_size": 9053,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -546,10 +546,10 @@
 			}
 		},
 		{
-			"file": "client/20_init.js",
+			"file": "client/20_main.styl",
 			"settings":
 			{
-				"buffer_size": 14433,
+				"buffer_size": 6046,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -558,7 +558,7 @@
 			"file": "client/findYourService.js",
 			"settings":
 			{
-				"buffer_size": 15764,
+				"buffer_size": 19636,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -567,25 +567,45 @@
 			"file": "client/00_routing.js",
 			"settings":
 			{
-				"buffer_size": 1380,
+				"buffer_size": 1750,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "var checked = false;\n$('.af-checkbox-group').find('input').each(function(){if($(this).is(\":checked\")){\n\tchecked = true;\n}})",
+			"file": "client/contactForm.js",
 			"settings":
 			{
-				"buffer_size": 123,
+				"buffer_size": 6154,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/20_init.js",
+			"settings":
+			{
+				"buffer_size": 14482,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/tactics.js",
+			"settings":
+			{
+				"buffer_size": 25750,
+				"encoding": "UTF-8",
 				"line_ending": "Windows",
-				"name": "var checked = false;"
+				"name": "Template.tactics.onCreated(function(){"
 			}
 		},
 		{
 			"file": "server/main.js",
 			"settings":
 			{
-				"buffer_size": 1383,
+				"buffer_size": 3994,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -593,8 +613,16 @@
 			"file": "common/common.js",
 			"settings":
 			{
-				"buffer_size": 13863,
+				"buffer_size": 14668,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "serviceProduct\ndistribution\nreturnBusiness\nmarginPerCustomer\npreexistingBudget\navgVolume\nnewClients\nageDemographic\nidealAge\nclientIncomeRange\nidealIncome\nindustry\nsexFemale\ncurrentAssets\ntotalInvestment\nhowSecure\ntotalMaintenance\nclientListQuality\nclientListQuantity\nclientListConversion\nusingLandingPages\nwebsiteTraffic\norganicTraffic\ninorganicTraffic\nwebsiteConversion\nsocialMediaPlatforms\nsocialMediaReach\nsocialMediaConversion\nlocalPlatforms\nleadsGenerated\nreputationGoogle\nreputationFacebook\nreputationYelp\nreputationBing\nmessage\nemail\n*createdAt\n\nMeteor.call('insertFindService','1','1',1,1,1,1,1,[{'1':1}],1,[{'1':1}],10000,1,1,true,1,1,1,true,1,1,true,1,1,1,1,true,1,1,true,1,1,1,1,1,'j@d.c')\n\n\n\n\nFood\nHospitality\nBusinessServices\nAgriculture\nRecreation\nApparel\nArts\nBroadcasting\nConstruction\nManufacturing\nInformationTechnology\nEducation\nFinance\nHomeGoods\nInsurance\nExtraction\nLegal\nCharity\nRetail\nHealthcare\nScience\nHomeServices\nRealEstate\nMaintenance\nUtilities",
+			"settings":
+			{
+				"buffer_size": 971,
 				"line_ending": "Windows"
 			}
 		}
@@ -683,6 +711,11 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/services.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service-test.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service.html",
+		"/C/Users/Jeremy/Desktop/idea.txt",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/20_main.styl",
 		"/C/Users/Jeremy/Desktop/bankOfTheOzarks",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/index.html",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/01_materialize.min.js",
@@ -805,12 +838,7 @@
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/BBB/css/style.css",
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Suite7/themedef.php",
 		"/C/Users/Jeremy/Desktop/GraphicDesign/JeremyDavidEvans/who.is/memes/HistoricalSummary-master (1)/HistoricalSummary-master/Installer/README.txt",
-		"/C/Users/Jeremy/Desktop/GraphicDesign/JeremyDavidEvans/who.is/memes/SuiteCRM_Package_Builder-master/SuiteCRM_Package_Builder-master/README.md",
-		"/C/wamp/www/JoomlaServer/themedef.php",
-		"/C/wamp/www/jeremydavidevans.com/barefootbeasts.com/public_html/wp-content/themes/upfront/scripts/require.js",
-		"/C/Users/Jeremy/Desktop/labōrisAmor/New Text Document.txt",
-		"/C/wamp/www/KatesServer/var/www/medievalmadness.site/public_html/wp-config.php",
-		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/LondonLaw/main.js"
+		"/C/Users/Jeremy/Desktop/GraphicDesign/JeremyDavidEvans/who.is/memes/SuiteCRM_Package_Builder-master/SuiteCRM_Package_Builder-master/README.md"
 	],
 	"find":
 	{
@@ -828,6 +856,31 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"fullpage",
+			"email",
+			"onRend",
+			"eCommerce",
+			"firstTemplate",
+			"scores.socialPlatforms",
+			"socialPlatforms",
+			"lead",
+			"Leads",
+			"leads",
+			"marginPerCustomer",
+			"Service",
+			"client",
+			"returnBusines",
+			"fadeOutTo33",
+			"start",
+			"income",
+			"security",
+			"reputation",
+			"locality",
+			"B2C",
+			"clientType",
+			"\n",
+			"contactForm",
+			"color[0-50]",
 			"display",
 			"default",
 			"typing",
@@ -930,39 +983,19 @@
 			"keywordsManager",
 			"key",
 			"urlFrame",
-			"url",
-			"urlFrame",
-			"url",
-			"NaN",
-			"preceding",
-			"keywordsManager",
-			"addKe",
-			"keywordsManager",
-			"Keywo",
-			"keyword",
-			"keywords",
-			"KEYWORDS",
-			"debugger",
-			"selectize",
-			"profile",
-			"helper",
-			"profile",
-			"Ren",
-			"keywor",
-			"onCreated",
-			"home",
-			"accoun",
-			"gm-style",
-			"footer",
-			"= ",
-			"scroll"
+			"url"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"clientEmail",
+			"ecommerce",
+			"socialPlatforms",
+			",",
+			"color[..]",
 			"167.114.148.20",
 			"https://betterbetterbetter.org/wp-content/uploads/2017/04/light_",
 			"instance",
@@ -1085,12 +1118,7 @@
 			"third",
 			"second",
 			"first",
-			"betterbetterbetter",
-			"betterbetterbetter.me",
-			"\"hide\": 1000",
-			"data-toggle=\"tooltip\" data-html=\"true\"",
-			"data-delay='{ \"show\": 500, \"hide\": 1500 }'",
-			"data-delay='{ \"show\": 500, \"hide\": 1500 }"
+			"betterbetterbetter"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1106,70 +1134,69 @@
 			[
 				{
 					"buffer": 0,
-					"file": "client/find-your-service.html",
+					"file": "client/tactics.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12845,
+						"buffer_size": 3088,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12295,
-								12295
+								302,
+								302
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 1,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6627.0,
+						"translation.y": 52.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 1,
-					"file": "client/20_main.styl",
+					"file": "client/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5812,
+						"buffer_size": 9053,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3840,
-								3840
+								5682,
+								5682
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 1,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4805.0,
+						"translation.y": 1673.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
 				{
 					"buffer": 2,
 					"semi_transient": false,
@@ -1182,8 +1209,8 @@
 						"selection":
 						[
 							[
-								405,
-								405
+								329,
+								329
 							]
 						],
 						"settings":
@@ -1194,70 +1221,73 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 11,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 3,
-					"file": "client/20_init.js",
+					"file": "client/20_main.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14433,
+						"buffer_size": 6046,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								419,
-								419
+								6046,
+								6046
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 1,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 195.0,
+						"translation.y": 7594.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 0,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
 				{
 					"buffer": 4,
 					"file": "client/findYourService.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15764,
+						"buffer_size": 19636,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								15281,
-								15281
+								19636,
+								19636
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8963.0,
+						"translation.y": 12514.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1266,15 +1296,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1380,
+						"buffer_size": 1750,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1230,
-								1230
+								758,
+								758
 							]
 						],
 						"settings":
@@ -1284,7 +1314,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 130.0,
+						"translation.y": 377.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
@@ -1292,30 +1322,91 @@
 				},
 				{
 					"buffer": 6,
+					"file": "client/contactForm.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 123,
+						"buffer_size": 6154,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123,
-								123
+								3941,
+								3941
 							]
 						],
 						"settings":
 						{
-							"auto_name": "var checked = false;",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "client/20_init.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								433,
+								433
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "client/tactics.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25085,
+								25085
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Template.tactics.onCreated(function(){",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15621.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1325,20 +1416,20 @@
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "server/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1383,
+						"buffer_size": 3994,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1978,
+								1978
 							]
 						],
 						"settings":
@@ -1347,40 +1438,67 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 793.0,
+						"translation.y": 1310.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "common/common.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13863,
+						"buffer_size": 14668,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12004,
-								12004
+								820,
+								820
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 1,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 8726.0,
+						"translation.y": 68.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 971,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								751,
+								761
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1446,7 +1564,7 @@
 	"project": "project.sublime-project",
 	"replace":
 	{
-		"height": 38.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1480,7 +1598,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 2,
 	"settings":
 	{
 	},

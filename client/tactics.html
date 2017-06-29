@@ -2,71 +2,130 @@
 
 
 
-<div id="fullpage">
+<div id="tactics">
 
 	<div class="section">
-		<div class="slide"> Slide 1 </div>
-		<div class="slide"> Slide 2 </div>
-		<div class="slide"> Slide 3 </div>
-		<div class="slide"> Slide 4 </div>
+		{{#with fourth}}
+			
+			<div class="slide"> 
+				<h1 class="name">{{name}}</h1>
+				{{> Template.dynamic template=fourthTemplate}}
+				<div class="description">
+					{{{description}}}
+				</div>
+			</div> 
+			<div class="slide">
+				<div class="firstSteps">
+					{{{firstSteps}}}
+				</div>
+				<div class="continued">
+					{{{continued}}}
+				</div>
+			</div>
+			<div class="slide">
+				<div class="why">
+					{{{why}}}
+				</div>
+			</div>
+
+		{{/with}}
 	</div>
 
 
 	<div class="section">
-		<div class="slide"> Slide 1 </div>
+		<div class="slide"> 
+						  {{> Template.dynamic template=thirdTemplate}}
+		</div>
 		<div class="slide"> Slide 2 </div>
-		<div class="slide"> Slide 3 </div>
-		<div class="slide"> Slide 4 </div>
 	</div>
+
+	<div class="section"> 
+		<div class="slide"> 
+
+						  {{> Template.dynamic template=secondTemplate}}
+
+		</div>
+		<div class="slide"> Slide 2 </div>
+	</div>
+
+<div class="section">
+		<div class="slide"> 
+
+						  {{> Template.dynamic template=firstTemplate}}
+
+		</div>
+		<div class="slide"> Slide 2 </div>
+	</div>
+
+
 
 	<div class="section">
-		<div class="slide"> Slide 1 </div>
-		<div class="slide"> Slide 2 </div>
-		<div class="slide"> Slide 3 </div>
-		<div class="slide"> Slide 4 </div>
+		<div class="slide"> 
+			<h1>{{fourth.name}}</h1>
+			<h1>{{third.name}}</h1>
+			<h1>{{second.name}}</h1>
+			<h1>{{first.name}}</h1>
+		</div>
+		<div class="slide"> 
+			<p>{{serviceProduct}}</p>
+			<p>{{distribution}}</p>
+			<p>{{returnBusiness}}</p>
+			<p>{{marginPerCustomer}}</p>
+			<p>{{preexistingBudget}}</p>
+			<p>{{avgVolume}}</p>
+			<p>{{newClients}}</p>
+			<p>{{ageDemographic}}</p>
+			<p>{{idealAge}}</p>
+		</div>
+		<div class="slide">
+			<p>{{clientIncomeRange}}</p>
+			<p>{{idealIncome}}</p>
+			<p>{{industry}}</p>
+			<p>{{sexFemale}}</p>
+			<p>{{currentAssets}}</p>
+			<p>{{totalInvestment}}</p>
+			<p>{{howSecure}}</p>
+			<p>{{totalMaintenance}}</p>
+			<p>{{clientListQuality}}</p>
+			<p>{{clientListQuantity}}</p>
+		</div>
+		<div class="slide">
+			<p>{{clientListConversion}}</p>
+			<p>{{usingLandingPages}}</p>
+			<p>{{websiteTraffic}}</p>
+			<p>{{organicTraffic}}</p>
+			<p>{{inorganicTraffic}}</p>
+			<p>{{websiteConversion}}</p>
+			<p>{{socialMediaPlatforms}}</p>
+			<p>{{socialMediaReach}}</p>
+		</div>
+		<div class="slide">
+			<p>{{socialMediaConversion}}</p>
+			<p>{{localPlatforms}}</p>
+			<p>{{leadsGenerated}}</p>
+			<p>{{reputationGoogle}}</p>
+			<p>{{reputationFacebook}}</p>
+			<p>{{reputationYelp}}</p>
+			<p>{{reputationBing}}</p>
+			<p>{{message}}</p>
+			<p>{{clientEmail}}</p>
+		</div>
 	</div>
 
 
-
-
-
-
-	<p>{{serviceProduct}}</p>
-	<p>{{distribution}}</p>
-	<p>{{returnBusiness}}</p>
-	<p>{{marginPerCustomer}}</p>
-	<p>{{preexistingBudget}}</p>
-	<p>{{avgVolume}}</p>
-	<p>{{newClients}}</p>
-	<p>{{ageDemographic}}</p>
-	<p>{{idealAge}}</p>
-	<p>{{clientIncomeRange}}</p>
-	<p>{{idealIncome}}</p>
-	<p>{{industry}}</p>
-	<p>{{sexFemale}}</p>
-	<p>{{currentAssets}}</p>
-	<p>{{totalInvestment}}</p>
-	<p>{{howSecure}}</p>
-	<p>{{totalMaintenance}}</p>
-	<p>{{clientListQuality}}</p>
-	<p>{{clientListQuantity}}</p>
-	<p>{{clientListConversion}}</p>
-	<p>{{usingLandingPages}}</p>
-	<p>{{websiteTraffic}}</p>
-	<p>{{organicTraffic}}</p>
-	<p>{{inorganicTraffic}}</p>
-	<p>{{websiteConversion}}</p>
-	<p>{{socialMediaPlatforms}}</p>
-	<p>{{socialMediaReach}}</p>
-	<p>{{socialMediaConversion}}</p>
-	<p>{{localPlatforms}}</p>
-	<p>{{leadsGenerated}}</p>
-	<p>{{reputationGoogle}}</p>
-	<p>{{reputationFacebook}}</p>
-	<p>{{reputationYelp}}</p>
-	<p>{{reputationBing}}</p>
-	<p>{{message}}</p>
-	<p>{{email}}</p>
 </div>
 
+
+</template>
+
+<template name="ecommerce">
+	<h1 class="title">eCommerce</h1>
+	<div class="service">
+		{{>eCommerce}}
+	</div>
+	<div class="description">
+		<h3>Your (Fourth) is...</h3>
+		<p>this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. </p>
+		<h5>this is a sentence it really is. </h5>
+	</div>
 </template>

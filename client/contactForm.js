@@ -28,6 +28,7 @@ AutoForm.hooks({
       //Schemas.FindService.clean(doc);
 
       var serviceProduct = doc.serviceProduct;
+      var clientTypes = doc.clientTypes;
       var distribution = doc.distribution;
       var returnBusiness = doc.returnBusiness;
       var marginPerCustomer = doc.marginPerCustomer;
@@ -66,7 +67,7 @@ AutoForm.hooks({
       var message = doc.message;
       var email = doc.email;
 
-      Meteor.call('insertFindService', serviceProduct,distribution,returnBusiness,marginPerCustomer,preexistingBudget,avgVolume,newClients,ageDemographic,idealAge,clientIncomeRange,idealIncome,industry,sexFemale,currentAssets,totalInvestment,howSecure,totalMaintenance,clientListQuality,clientListQuantity,clientListConversion,usingLandingPages,websiteTraffic,organicTraffic,inorganicTraffic,websiteConversion,socialMediaPlatforms,socialMediaReach,socialMediaConversion,localPlatforms,leadsGenerated,reputationGoogle,reputationFacebook,reputationYelp,reputationBing,message,email,function(error, result){
+      Meteor.call('insertFindService', serviceProduct,clientTypes,distribution,returnBusiness,marginPerCustomer,preexistingBudget,avgVolume,newClients,ageDemographic,idealAge,clientIncomeRange,idealIncome,industry,sexFemale,currentAssets,totalInvestment,howSecure,totalMaintenance,clientListQuality,clientListQuantity,clientListConversion,usingLandingPages,websiteTraffic,organicTraffic,inorganicTraffic,websiteConversion,socialMediaPlatforms,socialMediaReach,socialMediaConversion,localPlatforms,leadsGenerated,reputationGoogle,reputationFacebook,reputationYelp,reputationBing,message,email,function(error, result){
 
           Router.go('tactics', {_id: result});
         });
@@ -81,6 +82,7 @@ AutoForm.hooks({
       //Schemas.FindService.clean(doc);
 
       var serviceProduct = doc.serviceProduct;
+      var clientTypes = doc.clientTypes;
       var distribution = doc.distribution;
       var returnBusiness = doc.returnBusiness;
       var marginPerCustomer = doc.marginPerCustomer;
@@ -119,7 +121,7 @@ AutoForm.hooks({
       var message = doc.message;
       var email = doc.email;
 
-      Meteor.call('insertFindService', serviceProduct,distribution,returnBusiness,marginPerCustomer,preexistingBudget,avgVolume,newClients,ageDemographic,idealAge,clientIncomeRange,idealIncome,industry,sexFemale,currentAssets,totalInvestment,howSecure,totalMaintenance,clientListQuality,clientListQuantity,clientListConversion,usingLandingPages,websiteTraffic,organicTraffic,inorganicTraffic,websiteConversion,socialMediaPlatforms,socialMediaReach,socialMediaConversion,localPlatforms,leadsGenerated,reputationGoogle,reputationFacebook,reputationYelp,reputationBing,message,email,function(error, result){
+      Meteor.call('insertFindService', serviceProduct,clientTypes,distribution,returnBusiness,marginPerCustomer,preexistingBudget,avgVolume,newClients,ageDemographic,idealAge,clientIncomeRange,idealIncome,industry,sexFemale,currentAssets,totalInvestment,howSecure,totalMaintenance,clientListQuality,clientListQuantity,clientListConversion,usingLandingPages,websiteTraffic,organicTraffic,inorganicTraffic,websiteConversion,socialMediaPlatforms,socialMediaReach,socialMediaConversion,localPlatforms,leadsGenerated,reputationGoogle,reputationFacebook,reputationYelp,reputationBing,message,email,function(error, result){
           Router.go('tactics', {_id: result});
         });
       this.done();

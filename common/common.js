@@ -56,7 +56,9 @@ Schemas.ContactForm =new SimpleSchema({
   },
   message: {
     type: String,
-    label: "Message"  }
+    label: "Message",
+    max: 64000
+    }
   });
 
 ContactForm.attachSchema(Schemas.ContactForm)
@@ -119,7 +121,7 @@ Schemas.FindService = new SimpleSchema({
      noUiSliderOptions: {
       type: "noUiSlider",
       step: 1,
-      start: 50,
+      start: 0,
       tooltips: [{to: function(value) {
        return "<span>"+Math.round(parseInt(value))+"%</span>";}
       }]
@@ -133,21 +135,33 @@ Schemas.FindService = new SimpleSchema({
   },
   marginPerCustomer: {
     type: Number,
-    max: 100000,
-    min: 0,
-    autoform: {
-     type: 'number'
-    }
-  }, 
-  preexistingBudget: {
-    type: Number,
-    max: 10000,
+    max: 100,
     min: 0,
     autoform: {
      noUiSliderOptions: {
       type: "noUiSlider",
       step: 1,
-      start: 3000,
+      start: 0,
+      tooltips: [{to: function(value) {
+       return "<span>"+Math.round(parseInt(value))+"%</span>";}
+      }]
+     },    
+      noUiSlider_pipsOptions: {
+       mode: 'values',
+       values: [0,25,50,75,100],
+       density: 5
+      }
+    }
+  },
+  preexistingBudget: {
+    type: Number,
+    max: 100000,
+    min: 0,
+    autoform: {
+     noUiSliderOptions: {
+      type: "noUiSlider",
+      step: 1,
+      start: 0,
       tooltips: [{to: function(value) {
        return "<span>$"+Math.round(parseInt(value))+"</span>";}
       }]
@@ -206,7 +220,7 @@ Schemas.FindService = new SimpleSchema({
      noUiSliderOptions: {
       type: "noUiSlider",
       step: 1,
-      start: 50,
+      start: 0,
       tooltips: [{to: function(value) {
        return "<span>"+Math.round(parseInt(value))+"</span>";}
       }]
@@ -220,13 +234,13 @@ Schemas.FindService = new SimpleSchema({
   },
   clientIncomeRange: {
     type: Schemas.RangeSchema,
-    max: 150000,
+    max: 100000000,
     min: 10000,
     autoform: {
       type: "noUiSlider",
       noUiSliderOptions: {
         step: 1000,
-        start: [30000, 60000],
+        start: [30000, 75000],
         connect: true,
         tooltips: [{to: function(value) {
           return "<span>$"+Math.round(parseInt(value))/1000+"k</span>";
@@ -236,27 +250,27 @@ Schemas.FindService = new SimpleSchema({
       },    
       noUiSlider_pipsOptions: {
        mode: 'values',
-       values: [10000,60000,100000,150000],
+       values: [10000,75000,100000,100000000],
        density: 5
       }
     }
   },
   idealIncome: {
     type: Number,
-    max: 150000,
+    max: 100000000,
     min: 10000,
     autoform: {
      noUiSliderOptions: {
       type: "noUiSlider",
       step: 1000,
-      start: 75000,
+      start: 10000,
       tooltips: [{to: function(value) {
        return "<span>$"+Math.round(parseInt(value))/1000+"k</span>";}
       }]
      },    
       noUiSlider_pipsOptions: {
        mode: 'values',
-       values: [10000,60000,100000,150000],
+       values: [10000,75000,100000,100000000],
        density: 5
       }
     }
@@ -374,7 +388,7 @@ Schemas.FindService = new SimpleSchema({
   clientListQuantity: {
     type: Number,
     optional: true,
-    max: 100000,
+    max: 10000000,
     min: 0,
     autoform: {
      type: 'number'
@@ -389,7 +403,7 @@ Schemas.FindService = new SimpleSchema({
       type: "noUiSlider",
       noUiSliderOptions: {
         step: 1,
-        start: 5,
+        start: 0,
         tooltips: [{to: function(value) {
           return "<span>"+Math.round(parseInt(value))+"%</span>";
           }}]
@@ -414,7 +428,7 @@ Schemas.FindService = new SimpleSchema({
   websiteTraffic: {
     type: Number,
     optional: true,
-    max: 100000,
+    max: 1000000000000,
     min: 0,
     autoform: {
      type: 'number'
@@ -447,7 +461,7 @@ Schemas.FindService = new SimpleSchema({
       type: "noUiSlider",
       noUiSliderOptions: {
         step: 1,
-        start: 5,
+        start: 0,
         tooltips: [{to: function(value) {
           return "<span>"+Math.round(parseInt(value))+"%</span>";
           }}]
@@ -487,7 +501,7 @@ Schemas.FindService = new SimpleSchema({
       type: "noUiSlider",
       noUiSliderOptions: {
         step: 1,
-        start: 5,
+        start: 0,
         tooltips: [{to: function(value) {
           return "<span>"+Math.round(parseInt(value))+"%</span>";
           }}]
@@ -512,7 +526,7 @@ Schemas.FindService = new SimpleSchema({
   leadsGenerated: {
     type: Number,
     optional: true,
-    max: 10000,
+    max: 100000,
     min: 0,
     autoform: {
      type: 'number'
