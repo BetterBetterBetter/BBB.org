@@ -47,10 +47,14 @@ AutoForm.hooks({
       var totalInvestment = doc.totalInvestment;
       var howSecure = doc.howSecure;
       var totalMaintenance = doc.totalMaintenance;
-      var clientListQuality = doc.clientListQuality;
+      var clientListQuality = "None";
+      if(doc.clientListQuality&&clientListQuality!=="None"){
+        clientListQuality = doc.clientListQuality;
+      }
       var clientListQuantity = doc.clientListQuantity;
       var clientListConversion = doc.clientListConversion;
-      var usingLandingPages = doc.usingLandingPages;
+      var usingLandingPages = false;
+      usingLandingPages = doc.usingLandingPages;
       var websiteTraffic = doc.websiteTraffic;
       var organicTraffic = doc.organicTraffic;
       var inorganicTraffic = doc.inorganicTraffic;
@@ -66,11 +70,19 @@ AutoForm.hooks({
       var reputationBing = doc.reputationBing;
       var message = doc.message;
       var email = doc.email;
-
+/*
       Meteor.call('insertFindService', serviceProduct,clientTypes,distribution,returnBusiness,marginPerCustomer,preexistingBudget,avgVolume,newClients,ageDemographic,idealAge,clientIncomeRange,idealIncome,industry,sexFemale,currentAssets,totalInvestment,howSecure,totalMaintenance,clientListQuality,clientListQuantity,clientListConversion,usingLandingPages,websiteTraffic,organicTraffic,inorganicTraffic,websiteConversion,socialMediaPlatforms,socialMediaReach,socialMediaConversion,localPlatforms,leadsGenerated,reputationGoogle,reputationFacebook,reputationYelp,reputationBing,message,email,function(error, result){
 
           Router.go('tactics', {_id: result});
         });
+
+*/
+    
+     FindService.insert({serviceProduct,clientTypes,distribution,returnBusiness,marginPerCustomer,preexistingBudget,avgVolume,newClients,ageDemographic,idealAge,clientIncomeRange,idealIncome,industry,sexFemale,currentAssets,totalInvestment,howSecure,totalMaintenance,clientListQuality,clientListQuantity,clientListConversion,usingLandingPages,websiteTraffic,organicTraffic,inorganicTraffic,websiteConversion,socialMediaPlatforms,socialMediaReach,socialMediaConversion,localPlatforms,leadsGenerated,reputationGoogle,reputationFacebook,reputationYelp,reputationBing,message,email},function(error, result){
+
+          Router.go('tactics', {_id: result});
+        });
+
       this.done();
       return false;
     }

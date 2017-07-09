@@ -482,6 +482,8 @@ AutoForm.setDefaultTemplate('materialize');
 });
 
 
+
+
 Template.findYourService.events({
 
  'click .af-checkbox-group': function(e,t){

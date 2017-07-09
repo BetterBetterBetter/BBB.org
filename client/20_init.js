@@ -359,6 +359,12 @@ Template.home.events({
 
 	});
 
+	Template.layout.events({
+	 'click #menu': function(e,t){
+		 $('.tap-target').tapTarget('open');
+		}
+	});
+
 
 
 });//end Meteor.startup

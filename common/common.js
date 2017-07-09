@@ -168,7 +168,7 @@ Schemas.FindService = new SimpleSchema({
      },    
       noUiSlider_pipsOptions: {
        mode: 'values',
-       values: [0,2500,5000,7500,10000],
+       values: [0,25000,50000,75000,100000],
        density: 5
       }
     }
@@ -234,24 +234,20 @@ Schemas.FindService = new SimpleSchema({
   },
   clientIncomeRange: {
     type: Schemas.RangeSchema,
-    max: 100000000,
+    max: 10000000,
     min: 10000,
     autoform: {
       type: "noUiSlider",
       noUiSliderOptions: {
         step: 1000,
         start: [30000, 75000],
+        range: {'min': [10000],'50%':[150000],'max':[10000000]},
         connect: true,
         tooltips: [{to: function(value) {
           return "<span>$"+Math.round(parseInt(value))/1000+"k</span>";
           }},{to: function(value) {
           return "<span>$"+Math.round(parseInt(value))/1000+"k</span>";
         }}]
-      },    
-      noUiSlider_pipsOptions: {
-       mode: 'values',
-       values: [10000,75000,100000,100000000],
-       density: 5
       }
     }
   },
@@ -264,15 +260,11 @@ Schemas.FindService = new SimpleSchema({
       type: "noUiSlider",
       step: 1000,
       start: 10000,
+      range: {'min': [10000],'50%':[150000],'max':[10000000]},
       tooltips: [{to: function(value) {
        return "<span>$"+Math.round(parseInt(value))/1000+"k</span>";}
       }]
-     },    
-      noUiSlider_pipsOptions: {
-       mode: 'values',
-       values: [10000,75000,100000,100000000],
-       density: 5
-      }
+     }
     }
   },
   industry: {

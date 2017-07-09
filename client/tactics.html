@@ -1,60 +1,244 @@
 <template name="tactics">
 
 
-
 <div id="tactics">
+
 
 	<div class="section">
 		{{#with fourth}}
 			
-			<div class="slide"> 
+			<div class="slide container"> 
+				<h5 class="ranking">
+					Your fourth best tactic is:
+				</h5>
 				<h1 class="name">{{name}}</h1>
-				{{> Template.dynamic template=fourthTemplate}}
-				<div class="description">
-					{{{description}}}
+				<div class="row">
+						{{> Template.dynamic template=fourthTemplate}}
+					<div class="col s0 m8 l8 hide-on-small-only">
+						<div class="description longText">
+							{{{description}}}
+						</div>
+					</div>
 				</div>
 			</div> 
-			<div class="slide">
-				<div class="firstSteps">
-					{{{firstSteps}}}
-				</div>
-				<div class="continued">
-					{{{continued}}}
+			
+			<div class="slide hide-on-med-and-up">
+				<h3>Description</h3>
+				<div class="description longText">
+					{{{description}}}
 				</div>
 			</div>
+			
 			<div class="slide">
-				<div class="why">
+				<h3>Why am I seeing this?</h3>
+				<div class="why longText">
 					{{{why}}}
 				</div>
 			</div>
 
-		{{/with}}
-	</div>
+			<div class="slide">
+				<div class="row">
+					<div class="col s12 m6 l6">
+						<h3>First Steps</h3>
+						<div class="firstSteps longText">
+							{{{firstSteps}}}
+						</div>
+					</div>
+					<div class="col s0 m6 l6 hide-on-small-only">
+						<h3>Continued Implementation</h3>
+						<div class="continued longText">
+							{{{continued}}}
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="slide hide-on-med-and-up">
+				<h3>Continued Implementation</h3>
+				<div class="continued longText">
+					{{{continued}}}
+				</div>
+			</div>
+						
+			{{/with}}
+		</div>
 
 
 	<div class="section">
-		<div class="slide"> 
-						  {{> Template.dynamic template=thirdTemplate}}
-		</div>
-		<div class="slide"> Slide 2 </div>
+		{{#with third}}
+			
+			<div class="slide container"> 
+				<h5 class="ranking">
+					Your third best tactic is:
+				</h5>
+				<h1 class="name">{{name}}</h1>
+				<div class="row">
+						{{> Template.dynamic template=thirdTemplate}}
+					<div class="col s0 m8 l8 hide-on-small-only">
+						<div class="description longText">
+							{{{description}}}
+						</div>
+					</div>
+				</div>
+			</div> 
+			
+			<div class="slide hide-on-med-and-up">
+				<h3>Description</h3>
+				<div class="description longText">
+					{{{description}}}
+				</div>
+			</div>
+			
+			<div class="slide">
+				<h3>Why am I seeing this?</h3>
+				<div class="why longText">
+					{{{why}}}
+				</div>
+			</div>
+
+			<div class="slide">
+				<div class="row">
+					<div class="col s12 m6 l6">
+						<h3>First Steps</h3>
+						<div class="firstSteps longText">
+							{{{firstSteps}}}
+						</div>
+					</div>
+					<div class="col s0 m6 l6 hide-on-small-only">
+						<h3>Continued Implementation</h3>
+						<div class="continued longText">
+							{{{continued}}}
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="slide hide-on-med-and-up">
+				<h3>Continued Implementation</h3>
+				<div class="continued longText">
+					{{{continued}}}
+				</div>
+			</div>
+						
+			{{/with}}
+	</div>
+	<div class="section">
+		{{#with second}}
+			
+			<div class="slide container"> 
+				<h5 class="ranking">
+					Your second best tactic is:
+				</h5>
+				<h1 class="name">{{name}}</h1>
+				<div class="row">
+						{{> Template.dynamic template=secondTemplate}}
+					<div class="col s0 m8 l8 hide-on-small-only">
+						<div class="description longText">
+							{{{description}}}
+						</div>
+					</div>
+				</div>
+			</div> 
+			
+			<div class="slide hide-on-med-and-up">
+				<h3>Description</h3>
+				<div class="description longText">
+					{{{description}}}
+				</div>
+			</div>
+			
+			<div class="slide">
+				<h3>Why am I seeing this?</h3>
+				<div class="why longText">
+					{{{why}}}
+				</div>
+			</div>
+
+			<div class="slide">
+				<div class="row">
+					<div class="col s12 m6 l6">
+						<h3>First Steps</h3>
+						<div class="firstSteps longText">
+							{{{firstSteps}}}
+						</div>
+					</div>
+					<div class="col s0 m6 l6 hide-on-small-only">
+						<h3>Continued Implementation</h3>
+						<div class="continued longText">
+							{{{continued}}}
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="slide hide-on-med-and-up">
+				<h3>Continued Implementation</h3>
+				<div class="continued longText">
+					{{{continued}}}
+				</div>
+			</div>
+						
+			{{/with}}
 	</div>
 
-	<div class="section"> 
-		<div class="slide"> 
+		<div class="section">
+			<canvas id="finalSection"></canvas>
+		{{#with first}}
+			
+			<div class="slide container"> 
+				<h5 class="ranking">
+					Your BEST tactic is:
+				</h5>
+				<h1 class="name">{{name}}</h1>
+				<div class="row">
+						{{> Template.dynamic template=firstTemplate}}
+					<div class="col s0 m8 l8 hide-on-small-only">
+						<div class="description longText">
+							{{{description}}}
+						</div>
+					</div>
+				</div>
+			</div> 
+			
+			<div class="slide hide-on-med-and-up">
+				<h3>Description</h3>
+				<div class="description longText">
+					{{{description}}}
+				</div>
+			</div>
+			
+			<div class="slide">
+				<h3>Why am I seeing this?</h3>
+				<div class="why longText">
+					{{{why}}}
+				</div>
+			</div>
 
-						  {{> Template.dynamic template=secondTemplate}}
+			<div class="slide">
+				<div class="row">
+					<div class="col s12 m6 l6">
+						<h3>First Steps</h3>
+						<div class="firstSteps longText">
+							{{{firstSteps}}}
+						</div>
+					</div>
+					<div class="col s0 m6 l6 hide-on-small-only">
+						<h3>Continued Implementation</h3>
+						<div class="continued longText">
+							{{{continued}}}
+						</div>	
+					</div>
+				</div>
+			</div>
 
-		</div>
-		<div class="slide"> Slide 2 </div>
-	</div>
-
-<div class="section">
-		<div class="slide"> 
-
-						  {{> Template.dynamic template=firstTemplate}}
-
-		</div>
-		<div class="slide"> Slide 2 </div>
+			<div class="slide hide-on-med-and-up">
+				<h3>Continued Implementation</h3>
+				<div class="continued longText">
+					{{{continued}}}
+				</div>
+			</div>
+						
+			{{/with}}
 	</div>
 
 
@@ -113,19 +297,12 @@
 	</div>
 
 
+
+
+
+
 </div>
 
 
-</template>
 
-<template name="ecommerce">
-	<h1 class="title">eCommerce</h1>
-	<div class="service">
-		{{>eCommerce}}
-	</div>
-	<div class="description">
-		<h3>Your (Fourth) is...</h3>
-		<p>this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. this is a sentence it really is. </p>
-		<h5>this is a sentence it really is. </h5>
-	</div>
 </template>

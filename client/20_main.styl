@@ -24,7 +24,7 @@ $gold = #b7b512
  }
 }
 
-
+rupture.scale = 0 600px 992px 1200px
 
 
 
@@ -101,7 +101,18 @@ $gold = #b7b512
   margin auto
   padding-left 20%
   padding-right 20% 
+  
+.findYourService
+ .typingCont
+  +at(1)
+   font-size 2.75rem
+   line-height 2.75rem
+   padding-left 0!important
+   padding-right 0!important
  
+
+
+
 
 .hero-pop-out
  position absolute
@@ -253,28 +264,50 @@ $gold = #b7b512
   left 10%
   right 10%
   width 80%
+ .smallerCheck
+  +at(1)
+   position absolute
+   bottom 15%
+   left 0
+   right 0
+  +above(2)
+   label
+    font-size 2em
+    font-size 2rem
+    height 3.5rem
+    padding-left 60px
+    padding-right 50px
+    padding-top 13px
+   [type="checkbox"]+label:before
+    height 50px
+    width 50px
+   [type="checkbox"]:checked+label:before
+    height 50px
+    width 22px
  .af-checkbox-group
   position relative
-  display inline-block
   align-items center
   justify-content space-around
   font-size 0em
   label
    font-size 2em
    font-size 2rem
+   height 3.5rem
    padding-left 60px
    padding-right 50px
    padding-top 13px
-  p
-   display inline-block
-   position relative
-   align-items center
+   +at(1)
+    display inline-grid
   [type="checkbox"]+label:before
    height 50px
    width 50px
   [type="checkbox"]:checked+label:before
-    height 50px
-    width 22px
+   height 50px
+   width 22px
+  p
+   display inline-block
+   position relative
+   align-items center
  [type="submit"]
   font-size 2em
   height 2em
@@ -311,9 +344,13 @@ $gold = #b7b512
   &#forward
    right 5%
    bottom 75%
+   +at(1)
+    bottom 3%
   &#back
    left 5%
    bottom 75%
+   +at(1)
+    bottom 3%
 
 .noUi-tooltip span
  width 100%
@@ -322,9 +359,8 @@ $gold = #b7b512
  font-size 12px
  opacity 0
  position absolute
- top -20px!important
  left -1px
- transition: opacity .25s cubic-bezier(0.215, 0.610, 0.355, 1.000)
+ transition opacity .25s cubic-bezier(0.215, 0.610, 0.355, 1.000)
 
 
 .noUi-horizontal .noUi-active .noUi-tooltip span, .noUi-vertical .noUi-active .noUi-tooltip span
@@ -347,11 +383,15 @@ $gold = #b7b512
  right 0
  height 9em
  height 10vh
- font-size .3em
+ font-size 1em
+ +at(1)
+  bottom 15%
  input
   width 20%!important
   text-align center
-  font-size 2em
+  font-size 1rem
+  +at(1)
+   font-size 1rem
   
 .af-radio-group
  [type="radio"]:not(:checked)+label, [type="radio"]:checked+label
@@ -369,3 +409,108 @@ $gold = #b7b512
   font-size 1rem!important
 
 
+#tactics
+ h1,h2,h3,h4,h5
+  text-align center
+  color #fff
+ .fp-controlArrow.fp-prev
+  display none
+ .slide
+  .row
+   width 100%
+   text-align center
+ .longText
+  color #fff
+  background rgba(51, 0, 51,.77)
+  overflow-y auto
+  padding-left .3rem
+  padding-right .3rem
+  border-radius .5rem
+  width 93%
+  box-shadow #303 0 0 3px
+  border #fff 1px solid
+  display inline-block
+ .description
+  height 31rem
+  height 85vh
+  .hide-on-med-and-up
+   height 42rem
+   height 80vh
+ .ranking
+  margin 0!important
+  color #fff
+  font-size 3rem
+  box-shadow #303 0 0 3px
+ .name
+  margin 0!important
+  font-size 5rem
+  border-bottom 2px #fff solid
+  text-align center
+  color #fff
+ .section
+  background #330033
+  background radial-gradient(ellipse at center, #ee00ee 1%,#330033 66%)
+ .section:nth-child(1)
+  background #330033
+  background radial-gradient(ellipse at center, #ff0000 1%,#770000 66%)
+  .longText
+   background rgba(192,0,0,.7)
+ .section:nth-child(2)
+  background #330033
+  background radial-gradient(ellipse at center, #ee00ee 1%,#330033 66%)
+ .section:nth-child(3)
+  background #330033
+  background radial-gradient(ellipse at center, #b7b512 1%,#424100 66%)
+  .longText
+   background rgba(66,65,0,.7)
+ .section:nth-child(4)
+  background #330033
+  background radial-gradient(ellipse at center, #ee00ee 1%,#330033 66%)
+ .service 
+  text-align center
+  h5
+   color #000
+ #finalSection
+  position absolute
+  height 100%
+  width 100%
+  top 0
+ +at(1)
+  .name
+   font-size 2.5rem
+  .ranking
+   font-size 1rem
+ +at(2)
+  .name
+   font-size 3rem
+  .ranking
+   font-size 2rem
+    
+
+#menu
+ position fixed
+ bottom 2%
+ right 2%
+ z-index 9999
+ .btn-floating
+  background #fff
+ i
+  background $purple
+
+.tap-target
+ background $gold!important
+ background-color $gold 
+
+.tap-target-content 
+ a
+  color $red
+ *
+  text-align right!important
+ +at(1)
+  h5
+   font-size 1.15rem
+  h2
+   font-size 2.5rem
+  h3 a
+   font-size 2rem
+   
