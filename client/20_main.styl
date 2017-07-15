@@ -167,6 +167,12 @@ rupture.scale = 0 600px 992px 1200px
  width 4px
  height 4px
  background-color transparent
+ 
+.modal-content
+ overflow-x hidden
+ &::-webkit-scrollbar 
+  width: 2.5%
+
 
 ::-webkit-scrollbar-thumb
  border-radius 10px
@@ -264,46 +270,45 @@ rupture.scale = 0 600px 992px 1200px
   left 10%
   right 10%
   width 80%
- .smallerCheck
-  +at(1)
-   position absolute
-   bottom 15%
-   left 0
-   right 0
-  +above(2)
-   label
-    font-size 2em
-    font-size 2rem
-    height 3.5rem
-    padding-left 60px
-    padding-right 50px
-    padding-top 13px
-   [type="checkbox"]+label:before
-    height 50px
-    width 50px
-   [type="checkbox"]:checked+label:before
-    height 50px
-    width 22px
  .af-checkbox-group
+  padding-left 18px
+  padding-right 10px
   position relative
   align-items center
   justify-content space-around
   font-size 0em
   label
-   font-size 2em
-   font-size 2rem
-   height 3.5rem
-   padding-left 60px
-   padding-right 50px
-   padding-top 13px
-   +at(1)
-    display inline-grid
-  [type="checkbox"]+label:before
-   height 50px
-   width 50px
-  [type="checkbox"]:checked+label:before
-   height 50px
-   width 22px
+   padding-right 30px
+   padding-left 25px
+  input:not(.smallerCheck)
+   &+label
+     font-size 2em
+     font-size 2rem
+     height 3.5rem
+     padding-left 60px
+     padding-right 50px
+     padding-top 13px
+    &[type="checkbox"]+label:before
+     height 50px
+     width 50px
+    &[type="checkbox"]:checked+label:before
+     height 50px
+     width 22px
+  +above(2)
+   .smallerCheck
+    &+label
+     font-size 2em
+     font-size 2rem
+     height 3.5rem
+     padding-left 60px
+     padding-right 50px
+     padding-top 13px
+    &[type="checkbox"]+label:before
+     height 50px
+     width 50px
+    &[type="checkbox"]:checked+label:before
+     height 50px
+     width 22px
   p
    display inline-block
    position relative
@@ -317,6 +322,8 @@ rupture.scale = 0 600px 992px 1200px
   bottom 0
   left 10%
   right 10%
+  +at(1)
+   bottom 25%
 
 .app_nav
  transition 1s all ease-in
@@ -375,6 +382,8 @@ rupture.scale = 0 600px 992px 1200px
  bottom 10%
  position absolute
  left 10%
+ +at(1)
+  bottom 25%
 
 .displayRange
  position absolute
@@ -385,7 +394,7 @@ rupture.scale = 0 600px 992px 1200px
  height 10vh
  font-size 1em
  +at(1)
-  bottom 15%
+  bottom 25%
  input
   width 20%!important
   text-align center
@@ -413,29 +422,37 @@ rupture.scale = 0 600px 992px 1200px
  h1,h2,h3,h4,h5
   text-align center
   color #fff
- .fp-controlArrow.fp-prev
-  display none
+  h3
+   +at(1)
+    font-size 1.5rem
+ .fp-controlArrow
+  border-color transparent transparent transparent rgba(255,255,255,.5)
+  .fp-prev
+   display none
  .slide
   .row
    width 100%
    text-align center
  .longText
+  cursor -webkit-zoom-in
   color #fff
   background rgba(51, 0, 51,.77)
   overflow-y auto
   padding-left .3rem
   padding-right .3rem
+  margin-left 3%
   border-radius .5rem
   width 93%
+  height 72vh
   box-shadow #303 0 0 3px
-  border #fff 1px solid
+  border-color #fff
+  border-width 1px 
+  border-style solid
   display inline-block
- .description
-  height 31rem
-  height 85vh
-  .hide-on-med-and-up
-   height 42rem
-   height 80vh
+  &.why
+   display block
+   margin auto
+   text-align center
  .ranking
   margin 0!important
   color #fff
@@ -468,6 +485,7 @@ rupture.scale = 0 600px 992px 1200px
   background radial-gradient(ellipse at center, #ee00ee 1%,#330033 66%)
  .service 
   text-align center
+  margin-left .5rem
   h5
    color #000
  #finalSection
@@ -485,6 +503,8 @@ rupture.scale = 0 600px 992px 1200px
    font-size 3rem
   .ranking
    font-size 2rem
+ #email
+  bottom 25%
     
 
 #menu
@@ -501,10 +521,14 @@ rupture.scale = 0 600px 992px 1200px
  background $gold!important
  background-color $gold 
 
+.tap-target-wave::before, .tap-target-wave::after
+ background-color $red
+
 .tap-target-content 
  a
   color $red
  *
+  color #fff
   text-align right!important
  +at(1)
   h5
@@ -514,3 +538,8 @@ rupture.scale = 0 600px 992px 1200px
   h3 a
    font-size 2rem
    
+.bonus
+ h3
+  padding-left 3rem
+  padding-right 3rem
+  font-size 1.4rem

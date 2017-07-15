@@ -340,7 +340,16 @@ Template.home.events({
 
 
 
-
+Template.layout.helpers({
+	contactVisible: function(){
+		var pathname = window.location.pathname;
+		if(!pathname.includes('find-your-service')){
+			return true;
+		}else{
+			return false;
+		}
+	}
+})
 
 
 
