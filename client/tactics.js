@@ -520,14 +520,14 @@ scores.seo+=returnBusiness*.3
 //
 //  locality
 	if(distribution.includes('Town')||distribution.includes('City')){
-		scores.reputation+=30
+		scores.reputation+=20
 	}
 //  geriatric
 	if(idealAge>64){
 		scores.reputation-=10
 	}
 //  industry
-	if(industry==="Food"||industry==="Hospitality"||industry==="Recreation"||industry==="Arts"||industry==="Agriculture"||industry==="HomeGoods"||industry==="Legal"||industry==="Charity"||industry==="Retail"||industry==="HomeServices"||industry==="RealEstate"||industry==="Maintenance"){
+	if(industry==="Food"||industry==="Hospitality"||industry==="Recreation"||industry==="Arts"||industry==="Agriculture"||industry==="HomeGoods"||industry==="Legal"||industry==="Charity"||industry==="Retail"||industry==="HomeServices"||industry==="RealEstate"||industry==="Maintenance"||industry==="Education"||industry==="Extraction"||industry==="Manufacturing"){
 			scores.reputation+=20
 	}
 //  low traffic
@@ -569,11 +569,11 @@ scores.seo+=returnBusiness*.3
 	}
 	//  preexisting presentation
 		if(currentAssets.includes("Presentation")){
-			scores.presentation-=30
+			scores.presentation-=10
 		}
 //  high margin
 	if(marginPerCustomer>50){
-		scores.presentation+=10
+		scores.presentation+=20
 	}
 	//  high income
 	if(idealIncome>100000){
@@ -1061,3 +1061,5 @@ Template.tactics.helpers({
 	}
 
 });
+
+

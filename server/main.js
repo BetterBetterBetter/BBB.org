@@ -17,7 +17,7 @@ Meteor.startup(function(){
 
   process.env.MAIL_URL = 'smtp://' + encodeURIComponent(smtp.username) + ':' + encodeURIComponent(smtp.password) + '@' + encodeURIComponent(smtp.server) + ':' + smtp.port;
 
-
+  console.log(process.env.MAIL_URL);
 
 			FindService.allow({
     insert: function (userId, doc) {
@@ -59,7 +59,7 @@ Meteor.startup(function(){
 	    });
 
 
-		    var created = new Date();
+		  var created = new Date();
 
 		  ContactForm.insert({
 		   name: data.name,

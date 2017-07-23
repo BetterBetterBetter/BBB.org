@@ -9,6 +9,33 @@ AutoForm.setDefaultTemplate('materialize');
 
 Template.home.onRendered(function(){
 
+	// resize event
+	$(window).resize(function(){
+		resize()
+	});// end resize
+
+	function resize(){
+		var vw = $(window).width();
+		$('#stackChart').find('svg').attr('width', vw)
+		var maxH = 0;
+		$('.card.service').each(function(e){
+			var currH = $(this).height()
+			if(currH > maxH){
+				maxH = currH
+			}
+		})
+		$('.card.service').each(function(e){
+			$(this).height(maxH)	
+		})
+	}
+
+	resize()
+
+
+
+
+
+
 		var granimInstance = new Granim({
 		 element: '#heroBG',
 		 name: 'radial-gradient',

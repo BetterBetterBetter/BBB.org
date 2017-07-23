@@ -4,6 +4,78 @@
 		"selected_items":
 		[
 			[
+				"tra",
+				"transparent"
+			],
+			[
+				"ser",
+				"service"
+			],
+			[
+				"find",
+				"find-your-service"
+			],
+			[
+				"path",
+				"pathname"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"padin",
+				"padding-right"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"soci",
+				"socialMedia"
+			],
+			[
+				"pla",
+				"platformList"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"bord",
+				"border-width"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"pay",
+				"payPerLead"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"socialMed",
+				"socialMediaPlatforms"
+			],
+			[
+				"cl",
+				"clientListQuality"
+			],
+			[
 				"di",
 				"div\tTag"
 			],
@@ -68,10 +140,6 @@
 				"totalInvestment"
 			],
 			[
-				"re",
-				"research"
-			],
-			[
 				"id",
 				"idealIncome"
 			],
@@ -128,24 +196,12 @@
 				"BusinessServices"
 			],
 			[
-				"margin",
-				"marginPerCustomer"
-			],
-			[
 				"pre",
 				"preexistingBudget"
 			],
 			[
-				"pa",
-				"payPerLead"
-			],
-			[
 				"clie",
 				"clientTypes"
-			],
-			[
-				"ser",
-				"serviceProduct"
 			],
 			[
 				"hasE",
@@ -170,10 +226,6 @@
 			[
 				"bot",
 				"bottom"
-			],
-			[
-				"find",
-				"findYourService"
 			],
 			[
 				"topR",
@@ -336,10 +388,6 @@
 				"mainDisplayed()\tmain.js"
 			],
 			[
-				"tra",
-				"transition"
-			],
-			[
 				"import",
 				"important"
 			],
@@ -350,10 +398,6 @@
 			[
 				"tran",
 				"transition"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"mainDis",
@@ -376,10 +420,6 @@
 				"map-canvas"
 			],
 			[
-				"mar",
-				"margin"
-			],
-			[
 				"ab",
 				"absolute"
 			],
@@ -390,10 +430,6 @@
 			[
 				"bizName",
 				"bizNameUrl\tmain.js"
-			],
-			[
-				"bord",
-				"border-radius"
 			],
 			[
 				"back",
@@ -478,42 +514,6 @@
 			[
 				"us",
 				"userAgent"
-			],
-			[
-				"userAgent",
-				"userAgentList"
-			],
-			[
-				"qu",
-				"query"
-			],
-			[
-				"query",
-				"queryDirty"
-			],
-			[
-				"logo",
-				"logo_colors"
-			],
-			[
-				"font-s",
-				"font-size"
-			],
-			[
-				"scale",
-				"scale()"
-			],
-			[
-				"registered",
-				"registered_agent_c"
-			],
-			[
-				"exe",
-				"execTime"
-			],
-			[
-				"guess",
-				"guessed_email_c"
 			]
 		]
 	},
@@ -523,16 +523,26 @@
 			"file": "client/find-your-service.html",
 			"settings":
 			{
-				"buffer_size": 13096,
+				"buffer_size": 13164,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "client/find-your-service-test.html",
+			"file": "client/index.html",
 			"settings":
 			{
-				"buffer_size": 7547,
+				"buffer_size": 9413,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/makeYourStrategy.html",
+			"settings":
+			{
+				"buffer_size": 564,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -548,7 +558,7 @@
 			"file": "client/20_main.styl",
 			"settings":
 			{
-				"buffer_size": 6016,
+				"buffer_size": 9237,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -557,7 +567,24 @@
 			"file": "client/00_routing.js",
 			"settings":
 			{
-				"buffer_size": 1540,
+				"buffer_size": 1645,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/findYourService.js",
+			"settings":
+			{
+				"buffer_size": 19638,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/20_init.js",
+			"settings":
+			{
+				"buffer_size": 15185,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -566,16 +593,7 @@
 			"file": "client/contactForm.js",
 			"settings":
 			{
-				"buffer_size": 6221,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/20_init.js",
-			"settings":
-			{
-				"buffer_size": 14482,
+				"buffer_size": 6968,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -584,7 +602,7 @@
 			"file": "client/tactics.js",
 			"settings":
 			{
-				"buffer_size": 25750,
+				"buffer_size": 49883,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "Template.tactics.onCreated(function(){"
@@ -594,7 +612,7 @@
 			"file": "server/main.js",
 			"settings":
 			{
-				"buffer_size": 3994,
+				"buffer_size": 4028,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -603,7 +621,7 @@
 			"file": "common/common.js",
 			"settings":
 			{
-				"buffer_size": 14668,
+				"buffer_size": 14533,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -701,11 +719,18 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/findYourService.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/makeYourStrategy.html",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tactics.html",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/index.html",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/services.html",
+		"/V/info.txt",
+		"/C/Users/Jeremy/Downloads/forps821/log.txt",
+		"/C/Users/Jeremy/Downloads/forps821/README.html",
+		"/C/Users/Jeremy/Downloads/P Masher.ahk",
+		"/C/Users/Jeremy/Documents/AutoHotkey.ahk",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/.meteor/local/.build714994.build/programs/web.browser/merged-stylesheets.css",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service-test.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/findYourService.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/index.html",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service.html",
 		"/C/Users/Jeremy/Desktop/idea.txt",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/20_main.styl",
@@ -821,14 +846,7 @@
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/themedef.php",
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/suitecrm_04_05_16.log",
 		"/C/wamp/www/JoomlaServer/newServer.bash",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/suitecrm_9.log",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/ModernAqua/icon_info.csv",
-		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/public_html/css/main.css",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/layout_utils.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/css/footable.core.css",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/BBB/css/print.css",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/BBB/css/style.css",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Suite7/themedef.php"
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/suitecrm_9.log"
 	],
 	"find":
 	{
@@ -846,6 +864,48 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".card",
+			"service",
+			"m4",
+			"render",
+			"container",
+			"traffic",
+			"total",
+			"service",
+			"afFormGroup",
+			"platformList",
+			"twitter",
+			"youtube",
+			"linkedin",
+			"reddit",
+			"instagram",
+			"facebook",
+			"pinterest",
+			"scoresSortable",
+			"::-web",
+			"gran",
+			"long",
+			"longText",
+			"why",
+			"A/B",
+			"version",
+			"af-checkbox-group",
+			"input",
+			"af-checkbox-group",
+			"findY",
+			"check",
+			"checkbox",
+			"top",
+			"bottom",
+			"layout",
+			"even",
+			"events",
+			"heigh",
+			"debugger;",
+			"ecommer",
+			"eCommer",
+			"ecommerce",
+			"usingLandingPages",
 			"landing",
 			"h1",
 			"autoForm",
@@ -931,49 +991,7 @@
 			"keywordsManager",
 			"isInPath",
 			"events",
-			"ignore",
-			"events",
-			"removeElremove",
-			"removeEl",
-			".remove",
-			"Keywords",
-			"events",
-			"keywordsManager",
-			"events",
-			"keywordsManager",
-			"keywordManager",
-			"LAST_ADDED_KW_ID",
-			"events",
-			"sortablejs",
-			"consol",
-			"remove",
-			"confirm",
-			".onCrea",
-			"create",
-			"created",
-			"Meteor.call",
-			"keywordsManager",
-			"Sortable",
-			"KEYWORD.set",
-			"events",
-			"keywords",
-			"onCre",
-			"events",
-			"keywordsManager",
-			"events",
-			"parseIn",
-			"KEYWORDS",
-			"idNum",
-			"kwChange",
-			"console.log",
-			"keywordsMana",
-			"keywordMana",
-			"keywordsManager",
-			"Router.go",
-			"keywordsManager",
-			"KW_ALL_SELECTIZE",
-			"keywordsManager",
-			"events"
+			"ignore"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -981,6 +999,17 @@
 		"regex": true,
 		"replace_history":
 		[
+			"m6",
+			"Twitter",
+			"YouTube",
+			"LinkedIn",
+			"Reddit",
+			"Instagram",
+			"Facebook",
+			"Pinterest",
+			"platformsSortable",
+			"longText truncate",
+			"",
 			"clientEmail",
 			"ecommerce",
 			"socialPlatforms",
@@ -1097,18 +1126,7 @@
 			"<a href=\"#\" class=\"affiliates\">A</a>",
 			"<a href=\"#\">D</a>",
 			"<a href=\"#\"></a>",
-			"<a href=\"#\">D</a>",
-			"<a href=\"#\">C</a>",
-			"<a href=\"#\">B</a>",
-			"<a href=\"#\">A</a>",
-			"<a href=\"\">A</a>",
-			"<a href=\"#\">A</a>",
-			"1px",
-			"fourth",
-			"third",
-			"second",
-			"first",
-			"betterbetterbetter"
+			"<a href=\"#\">D</a>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1119,7 +1137,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1128,15 +1146,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13096,
+						"buffer_size": 13164,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9993,
-								9993
+								34,
+								5507
 							]
 						],
 						"settings":
@@ -1146,27 +1164,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5208.0,
+						"translation.y": 2613.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "client/find-your-service-test.html",
+					"file": "client/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7547,
+						"buffer_size": 9413,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								49,
-								57
+								3262,
+								3262
 							]
 						],
 						"settings":
@@ -1174,12 +1192,40 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1703.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/makeYourStrategy.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 564,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								551,
+								551
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1189,7 +1235,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1200,8 +1246,8 @@
 						"selection":
 						[
 							[
-								329,
-								329
+								168,
+								168
 							]
 						],
 						"settings":
@@ -1212,24 +1258,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "client/20_main.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6016,
+						"buffer_size": 9237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5623,
-								5623
+								1670,
+								1670
 							]
 						],
 						"settings":
@@ -1239,33 +1285,33 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6981.0,
+						"translation.y": 1737.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "client/00_routing.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1540,
+						"buffer_size": 1645,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1392,
-								1392
+								1496,
+								1496
 							]
 						],
 						"settings":
@@ -1275,57 +1321,57 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 512.0,
+						"translation.y": 577.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "client/contactForm.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1669,
-								1669
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 798.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "client/20_init.js",
+					"file": "client/findYourService.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14482,
+						"buffer_size": 19638,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7620,
-								7623
+								1412,
+								1412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 34.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "client/20_init.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								238
 							]
 						],
 						"settings":
@@ -1334,27 +1380,57 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3323.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "client/tactics.js",
+					"buffer": 8,
+					"file": "client/contactForm.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25750,
+						"buffer_size": 6968,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								24922,
-								24928
+								523,
+								523
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "client/tactics.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49536,
+								49536
 							]
 						],
 						"settings":
@@ -1364,7 +1440,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 15621.0,
+						"translation.y": 25506.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
@@ -1373,24 +1449,24 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 8,
+					"buffer": 10,
 					"file": "server/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3994,
+						"buffer_size": 4028,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1978,
-								1978
+								542,
+								542
 							]
 						],
 						"settings":
@@ -1399,27 +1475,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1310.0,
+						"translation.y": 140.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 11,
 					"file": "common/common.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14668,
+						"buffer_size": 14533,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2478,
-								2478
+								1666,
+								1666
 							]
 						],
 						"settings":
@@ -1429,14 +1505,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2010.0,
+						"translation.y": 1451.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 12,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1447,8 +1523,8 @@
 						"selection":
 						[
 							[
-								751,
-								761
+								78,
+								78
 							]
 						],
 						"settings":
@@ -1456,7 +1532,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 26.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 9,
@@ -1559,7 +1635,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 2,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1567,7 +1643,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 225.0,
+	"side_bar_width": 165.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

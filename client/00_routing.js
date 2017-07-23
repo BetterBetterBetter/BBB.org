@@ -56,6 +56,10 @@ Router.route('/find-your-service-test', {
     template: 'findYourServiceTest'
 });
 
+Router.route('/craft-your-strategy', {
+    name: 'craftYourStrategy',
+    template: 'craftYourStrategy'
+});
 
 
 
