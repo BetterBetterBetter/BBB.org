@@ -447,7 +447,7 @@ AutoForm.setDefaultTemplate('materialize');
 
  
   $('#typingService1').fadeIn(250).typeIt({
-   speed: 5,
+   speed: 75,
    breakLines: false,
    deleteDelay: 5,
    callback: function() {
