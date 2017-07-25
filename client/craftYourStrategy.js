@@ -1,6 +1,6 @@
 
 
-Template.findYourService.onRendered(function(){
+Template.craftYourStrategy.onRendered(function(){
 
  $('.material-tooltip').remove()
 
@@ -38,7 +38,7 @@ Template.findYourService.onRendered(function(){
 
 
 
-	findYourServiceGranim = new Granim({
+	craftYourStrategyGranim = new Granim({
 		 element: '#heroBG',
 		 name: 'radial-gradient',
 		 direction: 'top-bottom',
