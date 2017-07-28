@@ -1,11 +1,95 @@
 
 Meteor.startup(function() {
 
-AutoForm.debug()
-
+ Session.set('welcomed', false)
 
 
 AutoForm.setDefaultTemplate('materialize');
+
+
+
+Template.home.events({
+
+	'click .service' : function(e, template){
+		var clickedId = $(e.target).parents('.card').attr('id');
+		var servicesClickedArr = Session.get('servicesClickedArr');
+		if(servicesClickedArr===undefined){
+			servicesClickedArr = [];
+		}
+		if(!servicesClickedArr.includes(clickedId)){
+			//this is a new service that has been clicked
+
+			var servicesClickedArrUpdate = servicesClickedArr.concat([clickedId]);
+			Session.set('servicesClickedArr',servicesClickedArrUpdate);	
+
+			if(servicesClickedArrUpdate.length===2){
+				var html = $("<span>Thanks for considering "+$(e.target).parents('.card').find('.card-content h5').html()+", it's one of our specialities.</span>");
+				Materialize.toast(html, 4500 );
+			}
+
+			if((servicesClickedArrUpdate.length>5)&&(servicesClickedArrUpdate.length%2)){
+				var html = $("<span>Thanks for your interest in "+$(e.target).parents('.card').find('.card-content h5').html()+"!</span>");
+				Materialize.toast(html, 1500 );
+				setTimeout(function(){
+					var link = $("<span>Why not <a href='/find-your-service'>try our app</a> to find the service best for you?</span>")
+					Materialize.toast(link, 4500 );
+				},1200)
+			}
+
+
+
+		}
+		 
+	}//end service clicked
+
+});
+
+
+
+
+
+
+
+
+Template.layout.helpers({
+	contactVisible: function(){
+		var pathname = window.location.pathname;
+		if(!pathname.includes('find-your-service')){
+			return true;
+		}else{
+			return false;
+		}
+	}
+})
+
+
+
+
+
+
+
+
+
+
+	Template.layout.onCreated(function(){
+
+		this.subscribe('contactForm');
+		this.subscribe('findService');
+
+
+	});
+
+	Template.layout.events({
+	 'click #menu': function(e,t){
+		 $('.tap-target').tapTarget('open');
+		}
+	});
+
+
+
+});//end Meteor.startup
+
+
 
 Template.home.onRendered(function(){
 
@@ -29,7 +113,6 @@ Template.home.onRendered(function(){
 		})
 	}
 
-	resize()
 
 
 
@@ -93,6 +176,111 @@ Template.home.onRendered(function(){
 		  }
 		 }
 		});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		 
+			$('#typing').typeIt({
+		     speed: 15,
+		     autoStart: true,
+		     breakLines: true,
+		     html: true,
+		     callback: function() {
+		     	$('#typingHeader').fadeOut(1500);
+		     	setTimeout(function(){
+		     		$('#logoHeader').removeClass('scale-out').fadeIn(250).addClass('scale-in');
+		     		$('#BBB_logo').removeClass('scale-out').addClass('scale-in');
+
+
+		     		var logoDraw = new Vivus('BBB_logo', {
+		    				type: 'delayed',
+		    				duration: 300,
+		    				delay: 250,
+		    				start:'autostart',
+		    				animTimingFunction: Vivus.EASE,
+		    				function() {
+										    var x = document.querySelectorAll("svg path"); 
+										  x = [].slice.call(x);
+										    x.forEach(function(a) {
+										      //a.style.fill = "#fff"; 
+										    });
+										}
+		     	});
+		     		
+		     		setTimeout(function(){
+		     			$('#botLeftPop').removeClass('scale-out').addClass('scale-in');
+		     			setTimeout(function(){
+		     				$('#botRightPop').removeClass('scale-out').addClass('scale-in');
+		     			}, 3000);
+		     		}, 3000);
+
+		     	},1500); 
+			 			}
+			})
+			.tiType('Better Marketing')
+			.tiPause(500)
+			.tiBreak()
+			.tiType('<span class="small">is the foundation of growth.</span>')
+			.tiPause(2000)
+			.tiDelete()
+			.tiType('Better Business')
+			.tiPause(500)
+			.tiBreak()
+			.tiType('<span class="small">is what consumers demand.</span>')
+			.tiPause(2000)
+			.tiDelete()
+			.tiType('A Better World')
+			.tiPause(500)
+			.tiBreak()
+			.tiType('<span class="small">is what we\'re building.</span>')
+			.tiPause(2000)
+			.tiDelete()
+			.tiType('<span class="small">We are in it for the </span><span class="small underline">triple win</span><span class="small">.</span>')
+			.tiBreak()
+			.tiPause(1000)
+			.tiSettings({speed: 250})
+			.tiType('Are you?')
+			.tiPause(1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -218,98 +406,25 @@ function confetti (){
 
 
 
-
-
-
-
-
-
-
-
-		 
-			$('#typing').typeIt({
-		     speed: 15,
-		     autoStart: true,
-		     breakLines: true,
-		     html: true,
-		     callback: function() {
-		     	$('#typingHeader').fadeOut(1500);
-		     	setTimeout(function(){
-		     		$('#logoHeader').removeClass('scale-out').fadeIn(250).addClass('scale-in');
-		     		$('#BBB_logo').removeClass('scale-out').addClass('scale-in');
-
-
-		     		var logoDraw = new Vivus('BBB_logo', {
-		    				type: 'delayed',
-		    				duration: 300,
-		    				delay: 250,
-		    				start:'autostart',
-		    				animTimingFunction: Vivus.EASE,
-		    				function() {
-										    var x = document.querySelectorAll("svg path"); 
-										  x = [].slice.call(x);
-										    x.forEach(function(a) {
-										      //a.style.fill = "#fff"; 
-										    });
-										}
-		     	});
-		     		
-		     		setTimeout(function(){
-		     			$('#botLeftPop').removeClass('scale-out').addClass('scale-in');
-		     			setTimeout(function(){
-		     				$('#botRightPop').removeClass('scale-out').addClass('scale-in');
-		     			}, 3000);
-		     		}, 3000);
-
-		     	},1500); 
-			 			}
-			})
-			.tiType('Better Marketing')
-			.tiPause(500)
-			.tiBreak()
-			.tiType('<span class="small">is the foundation of growth.</span>')
-			.tiPause(2000)
-			.tiDelete()
-			.tiType('Better Business')
-			.tiPause(500)
-			.tiBreak()
-			.tiType('<span class="small">is what consumers demand.</span>')
-			.tiPause(2000)
-			.tiDelete()
-			.tiType('A Better World')
-			.tiPause(500)
-			.tiBreak()
-			.tiType('<span class="small">is what we\'re building.</span>')
-			.tiPause(2000)
-			.tiDelete()
-			.tiType('<span class="small">We are in it for the </span><span class="small underline">triple win</span><span class="small">.</span>')
-			.tiBreak()
-			.tiPause(1000)
-			.tiSettings({speed: 250})
-			.tiType('Are you?')
-			.tiPause(1000);
-
-
-
-
-
-
-
-
-
-
-
- 
-		 //Materialize init
+ $(document).ready(function(){
+		 //Materialize init  
+   $('ul.tabs').tabs();
 		 $('.carousel').carousel();
-		 //Scrollfire
+   $('.scrollspy').scrollSpy();
+
+
 		 var options = [
       {selector: '#index-banner', offset: 50, callback: function(el) {
+      	$('#menu').css('opacity', 0);
+      	if(!Session.get('welcomed')){
         Materialize.toast("Welcome!", 2500 );
+        Session.set('welcomed', true)
+      	}
       } },
       {selector: '#intro', offset: 250, callback: function(el) {
         
-      	 Materialize.toast("It's great to have you here!", 4500 );
+        $('#menu').css('opacity', 1);
+      	 Materialize.toast("It's great to have you here!", 555 );
 
       	 confetti();
 
@@ -317,92 +432,15 @@ function confetti (){
     ];
     Materialize.scrollFire(options);
 
+		 setInterval(function(){
+    Materialize.scrollFire(options);
+		 },2222);
 
-
-
+			resize()
+	});
 
 });//end onRender home
 
-
-Template.home.events({
-
-	'click .service' : function(e, template){
-		var clickedId = $(e.target).parents('.card').attr('id');
-		var servicesClickedArr = Session.get('servicesClickedArr');
-		if(servicesClickedArr===undefined){
-			servicesClickedArr = [];
-		}
-		if(!servicesClickedArr.includes(clickedId)){
-			//this is a new service that has been clicked
-
-			var servicesClickedArrUpdate = servicesClickedArr.concat([clickedId]);
-			Session.set('servicesClickedArr',servicesClickedArrUpdate);	
-
-			if(servicesClickedArrUpdate.length===2){
-				var html = $("<span>Thanks for considering "+$(e.target).parents('.card').find('.card-content h5').html()+", it's one of our specialities.</span>");
-				Materialize.toast(html, 4500 );
-			}
-
-			if((servicesClickedArrUpdate.length>5)&&(servicesClickedArrUpdate.length%2)){
-				var html = $("<span>Thanks for your interest in "+$(e.target).parents('.card').find('.card-content h5').html()+"!</span>");
-				Materialize.toast(html, 1500 );
-				setTimeout(function(){
-					var link = $("<span>Why not <a href='/find-your-service'>try our app</a> to find the service best for you?</span>")
-					Materialize.toast(link, 4500 );
-				},1200)
-			}
-
-
-
-		}
-		 
-	}//end service clicked
-
+Template.contactFormPage.onRendered(function(){
+	 $('.material-tooltip').remove()
 });
-
-
-
-
-
-
-
-
-Template.layout.helpers({
-	contactVisible: function(){
-		var pathname = window.location.pathname;
-		if(!pathname.includes('find-your-service')){
-			return true;
-		}else{
-			return false;
-		}
-	}
-})
-
-
-
-
-
-
-
-
-
-
-	Template.layout.onCreated(function(){
-
-		this.subscribe('contactForm');
-		this.subscribe('findService');
-
-
-	});
-
-	Template.layout.events({
-	 'click #menu': function(e,t){
-		 $('.tap-target').tapTarget('open');
-		}
-	});
-
-
-
-});//end Meteor.startup
-
-

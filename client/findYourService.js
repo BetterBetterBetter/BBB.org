@@ -449,7 +449,7 @@ AutoForm.setDefaultTemplate('materialize');
   $('#typingService1').fadeIn(250).typeIt({
    speed: 75,
    breakLines: false,
-   deleteDelay: 5,
+   deleteDelay: 500,
    callback: function() {
     $('#typingService1').addClass('top');
     $('#findServiceForm .row:nth-child(1)').fadeIn(1500).addClass('currentSlide'); 

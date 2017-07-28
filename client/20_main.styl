@@ -53,7 +53,7 @@ rupture.scale = 0 600px 992px 1200px
  left 0
  right 0
 
-#index-banner
+#index-banner, #contactFormPage
  height 100%
  width 100%
  top 0
@@ -64,9 +64,10 @@ rupture.scale = 0 600px 992px 1200px
  padding 0
  background #330033
  background radial-gradient(ellipse at center, #ee00ee 1%,#330033 66%)
- animation strobeBG 60s linear 34s infinite forwards, throb 60s linear 0s infinite alternate
+ animation strobeBG 60s linear 50s infinite forwards, throb 60s linear 0s infinite alternate
  & *
   z-index 9
+ 
 
 #heroBG
  height 100%
@@ -554,3 +555,22 @@ rupture.scale = 0 600px 992px 1200px
   padding-right 3rem
   +at(1)
    font-size 1.4rem
+
+.contactCont  
+ display flex
+ justify-content center
+ #contactForm
+  width 67%
+  .phone
+   margin auto
+   margin-left 35%
+   a
+    color $red
+    transition all 333ms ease
+    &:hover
+     color $gold
+
+#contactFormPage
+ #contactForm
+  top 7%
+  height 75vh

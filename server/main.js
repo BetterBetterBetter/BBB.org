@@ -8,14 +8,18 @@ import { Meteor } from 'meteor/meteor';
 Meteor.startup(function(){
 
 
+	Houston.add_collection(Meteor.users);
+	Houston.add_collection(Houston._admins);
+
+
   smtp = {
     username: 'jeremy@betterbetterbetter.org',   // eg: server@gentlenode.com
     password: 'Qazsxdrewazx1',   // eg: 3eeP1gtizk5eziohfervU
-    server:   'smtp.gmail.com',  // eg: mail.gandi.net
-    port: 25
+    server:   'smtp.zoho.com',  // eg: mail.gandi.net
+    port: 465
   }
 
-  process.env.MAIL_URL = 'smtp://' + encodeURIComponent(smtp.username) + ':' + encodeURIComponent(smtp.password) + '@' + encodeURIComponent(smtp.server) + ':' + smtp.port;
+  process.env.MAIL_URL = 'smtps://' + encodeURIComponent(smtp.username) + ':' + encodeURIComponent(smtp.password) + '@' + encodeURIComponent(smtp.server) + ':' + smtp.port;
 
   console.log(process.env.MAIL_URL);
 
@@ -43,18 +47,21 @@ Meteor.startup(function(){
 
 	Meteor.methods({
 	  sendEmail: function(data) {
-	    check(data, ContactForm.simpleSchema());
-
+	    //check(data, Schemas.ContactForm());
+ 
 	    var text = data.name + " - "
 	    + data.email + "\n\n\n"
 	    + data.message;
 
 	    this.unblock();
+	    console.log(data);
+
+	    var subject = data.name + ' via BBB.org contact form';
 
 	    Email.send({
-	      to: Meteor.settings.contactForm.emailTo,
-	      from: data.email,
-	      subject: Meteor.settings.contactForm.emailSubject(data),
+	      to: 'jeremy@betterbetterbetter.org',
+	      from: 'jeremy@betterbetterbetter.org',
+	      subject: subject,
 	      text: text
 	    });
 

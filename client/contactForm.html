@@ -1,5 +1,5 @@
 <template name="contactForm">
-  {{#autoForm collection="ContactForm" id="contactForm" class="input-field" type="method" meteormethod="sendEmail"}}
+  {{#autoForm collection="ContactForm" id="contactForm" class="input-field" type="normal"}}
     <fieldset>
     <legend align="center">  Contact  </legend>
 
@@ -9,6 +9,14 @@
       <div>
         <button type="submit" class="btn waves-effect waves-light right">Submit</button> <span class='contactForm__status'></span>
       </div>
+      <h3 class="phone"><a href="tel:17049669026">(704) 966-9026</a></h3> 
     </fieldset>
-  {{/autoForm}}
+  {{/autoForm}} 
+</template>
+
+<template name="contactFormPage">
+  {{>nav}}
+  <div id="contactFormPage" class="contactCont">
+    {{>contactForm}}
+  </div>
 </template>

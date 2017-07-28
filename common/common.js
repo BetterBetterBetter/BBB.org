@@ -43,7 +43,7 @@ ContactForm.allow({
 
 
 
-Schemas.ContactForm =new SimpleSchema({
+Schemas.ContactForm = new SimpleSchema({
   name: {
     type: String,
     label: 'Name',

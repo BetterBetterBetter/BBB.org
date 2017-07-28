@@ -17,14 +17,14 @@
  {{>yield}}
 
  {{#if contactVisible}}
-  <a id="menu" class="waves-effect waves-light btn btn-floating" ><i class="material-icons">live_help</i></a>
+  <a id="menu" class="waves-effect  btn btn-floating" ><i class="material-icons">live_help</i></a>
 
   <!-- Tap Target Structure -->
   <div class="tap-target" data-activates="menu">
     <div class="tap-target-content">
       <h2>Want more?</h2>
       <h5>Better Better Better wants to help you take the next step.</h5>
-      <p><a href="/#contact" target="_blank">Contact us today!</a></p>
+      <p><a href="{{pathFor 'contactFormPage'}}" target="_blank">Contact us today!</a></p>
       <h3><a href="tel:17049669026">(704) 966-9026</a></h3>
     </div>
   </div>
@@ -32,7 +32,27 @@
 
 </template>
 
-
+<template name="nav">
+  <!--Navigation-->
+  <div class="navbar-fixed">
+   <nav id="nav_f" class="default_color waves-effect" role="navigation"> 
+   <div class="container">
+    <div class="nav-wrapper">
+     <a href="#" id="logo-container" class="brand-logo">BBB</a>
+     <ul class="right hide-on-med-and-down">
+      <li><a href="{{pathFor 'home'}}">Services</a></li>
+      <li><a href="{{pathFor 'contactFormPage'}}">Contact</a></li>
+     </ul>
+     <ul id="nav-mobile" class="side-nav">
+      <li><a href="{{pathFor 'home'}}">Services</a></li>
+      <li><a href="{{pathFor 'contactFormPage'}}">Contact</a></li>
+     </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+     </div>
+    </div>
+   </nav>
+  </div>
+</template>
 
 
 
@@ -43,34 +63,17 @@
 
  <div id="top" class="scrollspy">
 
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
- 
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
- 
-</div>
-
-<!--Navigation-->
-<div class="navbar-fixed">
- <nav id="nav_f" class="default_color waves-effect waves-light" role="navigation"> 
- <div class="container">
-  <div class="nav-wrapper">
-   <a href="#" id="logo-container" class="brand-logo">BBB</a>
-   <ul class="right hide-on-med-and-down">
-    <li><a href="#intro">Services</a></li>
-    <li><a href="#contact">Contact</a></li>
-   </ul>
-   <ul id="nav-mobile" class="side-nav">
-    <li><a href="#intro">Services</a></li>
-    <li><a href="#contact">Contact</a></li>
-   </ul>
-    <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-   </div>
+  <!-- Pre Loader -->
+  <div id="loader-wrapper">
+      <div id="loader"></div>
+   
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+   
   </div>
- </nav>
-</div>
+
+
+{{>nav}}
  
 <!--Hero-->
 <div id="placeholderFullScreen"></div>
@@ -226,11 +229,11 @@
 <footer id="contact" class="page-footer default_color scrollspy">
  <div class="container">  
   <div class="row">
-   <div class="col l12 s12">
+   <div class="col l12 s12 contactCont">
    {{> contactForm }}
    </div> 
    <div class="footer-copyright default_color right">
-      Copyright <a class="white-text" href="https://betterbetterbetter.org">Better Better Better</a> 2017.
+      Copyright <a class="white-text" href="https://betterbetterbetter.org"> Better Better Better </a> 2017.
    </div>
   </div>
  </div>

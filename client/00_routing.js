@@ -29,6 +29,8 @@ Router.plugin('seo',
 	);
 */
 
+
+
 Router.route('/', {
     name: 'home',
     template: 'home'
@@ -37,6 +39,11 @@ Router.route('/', {
 Router.route('/find-your-service', {
     name: 'findYourService',
     template: 'findYourService'
+});
+
+Router.route('/contact', {
+    name: 'contactFormPage',
+    template: 'contactFormPage'
 });
 
 Router.route('/tactics/:_id', {

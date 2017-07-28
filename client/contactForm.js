@@ -7,18 +7,22 @@ Template.contactForm.helpers({
 
 AutoForm.hooks({
   contactForm: {
-    after: {
-      sendEmail: function(error, result, template) {
-        status = $('.contactForm__status')
+    onSubmit: function(doc){
+
+      this.event.preventDefault(); 
+ 
+      Meteor.call('sendEmail',doc,function(error, result) {
+
 
         if (error) {
           console.log(error);
-          status.html("Error – please try again.");
+          Materialize.toast("Error – please try again.",4500)
         } else {
-          
-          status.text("Success! We'll be in touch.");
+          Materialize.toast("Success! We'll be in touch.", 4500 );
+
         }
-      }
+      });
+      return false;
     }
   },
   findServiceForm: {
