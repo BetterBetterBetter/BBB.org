@@ -21,7 +21,6 @@ Meteor.startup(function(){
 
   process.env.MAIL_URL = 'smtps://' + encodeURIComponent(smtp.username) + ':' + encodeURIComponent(smtp.password) + '@' + encodeURIComponent(smtp.server) + ':' + smtp.port;
 
-  console.log(process.env.MAIL_URL);
 
 			FindService.allow({
     insert: function (userId, doc) {

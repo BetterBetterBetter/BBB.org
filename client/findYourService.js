@@ -73,9 +73,9 @@ function checkAssets (){
 				$('.typingCont:nth-child('+num+')').fadeIn(500);
 
 				$('.typingCont:nth-child('+num+')').typeIt({
-		   speed: 5,
+		   speed: 33,
 		   breakLines: false,
-		   deleteDelay: 5,
+		   deleteDelay: 2000,
 		   callback: function() {
 		   }
 		  });
@@ -447,9 +447,9 @@ AutoForm.setDefaultTemplate('materialize');
 
  
   $('#typingService1').fadeIn(250).typeIt({
-   speed: 75,
+   speed: 33,
    breakLines: false,
-   deleteDelay: 500,
+   deleteDelay: 2000,
    callback: function() {
     $('#typingService1').addClass('top');
     $('#findServiceForm .row:nth-child(1)').fadeIn(1500).addClass('currentSlide'); 

@@ -46,6 +46,11 @@ Router.route('/contact', {
     template: 'contactFormPage'
 });
 
+Router.route('/sales', {
+    name: 'sales',
+    template: 'sales'
+});
+
 Router.route('/tactics/:_id', {
   name: 'tactics',
   template: 'tactics',

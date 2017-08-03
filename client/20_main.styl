@@ -26,8 +26,18 @@ $gold = #b7b512
 
 rupture.scale = 0 600px 992px 1200px
 
+html
+ +at(1)
+  font-size 8px
+ +at(2)
+  font-size 12px
+ +at(3)
+  font-size 15px
+ +at(4)
+  font-size 18px
 
-
+body
+ overflow auto!important
 
 
 #logoHeader
@@ -53,7 +63,7 @@ rupture.scale = 0 600px 992px 1200px
  left 0
  right 0
 
-#index-banner, #contactFormPage
+#index-banner, #contactFormPage, .fullPageBG
  height 100%
  width 100%
  top 0
@@ -380,6 +390,17 @@ rupture.scale = 0 600px 992px 1200px
  left -1px
  transition opacity .25s cubic-bezier(0.215, 0.610, 0.355, 1.000)
 
+.findYourService
+ .row
+  transition 500ms all ease
+
+.currentSlide
+ display block
+ position absolute
+ bottom 5%
+ left 0
+ margin auto
+ right 0
 
 .noUi-horizontal .noUi-active .noUi-tooltip span, .noUi-vertical .noUi-active .noUi-tooltip span
     opacity 1
@@ -562,9 +583,10 @@ rupture.scale = 0 600px 992px 1200px
  #contactForm
   width 67%
   .phone
+   font-size 2rem
    margin auto
-   margin-left 35%
    a
+    text-shadow #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px
     color $red
     transition all 333ms ease
     &:hover
@@ -574,3 +596,16 @@ rupture.scale = 0 600px 992px 1200px
  #contactForm
   top 7%
   height 75vh
+  
+#salesPage
+ color #fff
+ padding 10%
+ text-align center
+ .noSales
+  color $red
+  
+#sidenav-overlay
+ display none
+
+.button-collapse i
+ padding-left 1em

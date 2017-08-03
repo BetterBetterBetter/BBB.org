@@ -82,6 +82,7 @@ Template.layout.helpers({
 	Template.layout.events({
 	 'click #menu': function(e,t){
 		 $('.tap-target').tapTarget('open');
+
 		}
 	});
 
@@ -443,4 +444,41 @@ function confetti (){
 
 Template.contactFormPage.onRendered(function(){
 	 $('.material-tooltip').remove()
+});
+
+Template.sales.events({
+
+	'click #notificationButton':function(e,t){
+
+			Push.create("Thanks!", {
+    body: "You'll be the first to know if we have a sale.",
+    icon: '/favicon.ico',
+    timeout: 4000,
+    onClick: function () {
+        window.focus();
+        this.close();
+    }
+			});
+
+			$(e.target).addClass('scale-out');
+			$('#salesPage').append('<h5 class="noSales">No sales at this time.</h5>');
+
+	}
+});
+
+Template.nav.onRendered(function(){
+		$(document).ready(function(){
+			$(".button-collapse").sideNav();
+		});
+});
+Template.nav.events({
+
+	'click i, click a': function(){
+
+		$('#sidenav-overlay').each(function(){
+
+			$(this).remove();
+
+		});
+	}
 });
