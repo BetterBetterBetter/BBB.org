@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"slide",
+				"slideInRight"
+			],
+			[
+				"slideIn",
+				"slideInLeft"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"scale",
+				"scale-out"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"gen",
+				"generateData"
+			],
+			[
 				"text",
 				"text-shadow"
 			],
@@ -54,10 +82,6 @@
 			[
 				"pla",
 				"platformList"
-			],
-			[
-				"margin",
-				"margin-left"
 			],
 			[
 				"bord",
@@ -448,10 +472,6 @@
 				"bizNameUrl\tmain.js"
 			],
 			[
-				"back",
-				"background"
-			],
-			[
 				"padding",
 				"padding-left"
 			],
@@ -488,78 +508,22 @@
 				"thisListing\tmain.js"
 			],
 			[
-				"bac",
-				"background"
-			],
-			[
 				"margin-",
 				"margin-bottom"
 			],
 			[
 				"open",
 				"openInfoWindowMarker\tmap.js"
-			],
-			[
-				"getEle",
-				"getElementById('aSome')"
-			],
-			[
-				"text-",
-				"text-align"
-			],
-			[
-				"background",
-				"background-repeat"
-			],
-			[
-				"hove",
-				"hover-lighten"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "client/find-your-service.html",
-			"settings":
-			{
-				"buffer_size": 13164,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "client/index.html",
 			"settings":
 			{
-				"buffer_size": 9593,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/contactForm.html",
-			"settings":
-			{
-				"buffer_size": 887,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/makeYourStrategy.html",
-			"settings":
-			{
-				"buffer_size": 592,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/tactics.html",
-			"settings":
-			{
-				"buffer_size": 6206,
+				"buffer_size": 10066,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -568,10 +532,36 @@
 			"file": "client/sales.html",
 			"settings":
 			{
-				"buffer_size": 37,
+				"buffer_size": 558,
 				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "<template name=\"sales\">"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/bundles.html",
+			"settings":
+			{
+				"buffer_size": 9178,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/tactics.html",
+			"settings":
+			{
+				"buffer_size": 5952,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/contactForm.html",
+			"settings":
+			{
+				"buffer_size": 877,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
 			}
 		},
 		{
@@ -586,7 +576,7 @@
 			"file": "client/20_main.styl",
 			"settings":
 			{
-				"buffer_size": 9609,
+				"buffer_size": 10828,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -595,37 +585,35 @@
 			"file": "client/00_routing.js",
 			"settings":
 			{
-				"buffer_size": 1814,
+				"buffer_size": 1896,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "\nMeteor.startup(function() {\n\n Session.set('welcomed', false)\n\n\nAutoForm.setDefaultTemplate('materialize');\n\n\n\nTemplate.home.events({\n\n\t'click .service' : function(e, template){\n\t\tvar clickedId = $(e.target).parents('.card').attr('id');\n\t\tvar servicesClickedArr = Session.get('servicesClickedArr');\n\t\tif(servicesClickedArr===undefined){\n\t\t\tservicesClickedArr = [];\n\t\t}\n\t\tif(!servicesClickedArr.includes(clickedId)){\n\t\t\t//this is a new service that has been clicked\n\n\t\t\tvar servicesClickedArrUpdate = servicesClickedArr.concat([clickedId]);\n\t\t\tSession.set('servicesClickedArr',servicesClickedArrUpdate);\t\n\n\t\t\tif(servicesClickedArrUpdate.length===2){\n\t\t\t\tvar html = $(\"<span>Thanks for considering \"+$(e.target).parents('.card').find('.card-content h5').html()+\", it's one of our specialities.</span>\");\n\t\t\t\tMaterialize.toast(html, 4500 );\n\t\t\t}\n\n\t\t\tif((servicesClickedArrUpdate.length>5)&&(servicesClickedArrUpdate.length%2)){\n\t\t\t\tvar html = $(\"<span>Thanks for your interest in \"+$(e.target).parents('.card').find('.card-content h5').html()+\"!</span>\");\n\t\t\t\tMaterialize.toast(html, 1500 );\n\t\t\t\tsetTimeout(function(){\n\t\t\t\t\tvar link = $(\"<span>Why not <a href='/find-your-service'>try our app</a> to find the service best for you?</span>\")\n\t\t\t\t\tMaterialize.toast(link, 4500 );\n\t\t\t\t},1200)\n\t\t\t}\n\n\n\n\t\t}\n\t\t \n\t}//end service clicked\n\n});\n\n\n\n\n\n\n\n\nTemplate.layout.helpers({\n\tcontactVisible: function(){\n\t\tvar pathname = window.location.pathname;\n\t\tif(!pathname.includes('find-your-service')){\n\t\t\treturn true;\n\t\t}else{\n\t\t\treturn false;\n\t\t}\n\t}\n})\n\n\n\n\n\n\n\n\n\n\n\tTemplate.layout.onCreated(function(){\n\n\t\tthis.subscribe('contactForm');\n\t\tthis.subscribe('findService');\n\n\n\t});\n\n\tTemplate.layout.events({\n\t 'click #menu': function(e,t){\n\t\t $('.tap-target').tapTarget('open');\n\n\t\t Push.create(\"qllo world!\", {\n    body: \"How's it hangin'?\",\n    icon: '/favicon.ico',\n    timeout: 4000,\n    onClick: function () {\n        window.focus();\n        this.close();\n    }\n\t\t\t});\n\n\t\t}\n\t});\n\n\n\n});//end Meteor.startup\n\n\n\nTemplate.home.onRendered(function(){\n\n\t// resize event\n\t$(window).resize(function(){\n\t\tresize()\n\t});// end resize\n\n\tfunction resize(){\n\t\tvar vw = $(window).width();\n\t\t$('#stackChart').find('svg').attr('width', vw)\n\t\tvar maxH = 0;\n\t\t$('.card.service').each(function(e){\n\t\t\tvar currH = $(this).height()\n\t\t\tif(currH > maxH){\n\t\t\t\tmaxH = currH\n\t\t\t}\n\t\t})\n\t\t$('.card.service').each(function(e){\n\t\t\t$(this).height(maxH)\t\n\t\t})\n\t}\n\n\n\n\n\n\n\n\t\tvar granimInstance = new Granim({\n\t\t element: '#heroBG',\n\t\t name: 'radial-gradient',\n\t\t direction: 'radial',\n\t\t opacity: [.5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5],\n\t\t isPausedWhenNotInView: true,\n\t\t onGradientChange: function(colorDetails) {\n\t\t  //console.log('Granim: change');\n\t\t  //console.log(colorDetails);\n\t\t  if(colorDetails.activeState===\"default-state\"&&colorDetails.isLooping===true){\n\t\t  \t granimInstance.changeState('spiral');\n\t\t  }\n\t\t },\n\t\t onStart: function() {\n\t\t    // console.log('Granim: onStart');\n\t\t },\n\t\t onEnd: function() {\n\t\t    // console.log('Granim: onEnd');\n\t\t },\n\t\t states : {\n\t\t  \"spiral\": {\n\t\t   gradients: [\n\t\t    ['#aa0000','#330033','#b7b512', '#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000'],  \n\t\t    ['#330033','#b7b512','#aa0000', '#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033'],  \n\t\t    ['#b7b512','#aa0000','#330033', '#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512']\n\t\t   ],\n\t\t   transitionSpeed: 3000,\n\t\t   loop: true\n\t\t  },\n\t\t  \"default-state\": {\n\t\t   gradients: [\n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#aa0000'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#aa0000','#330033'],\n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#aa0000', '#330033','#b7b512'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#aa0000', '#330033', '#b7b512','#aa0000'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#aa0000','#330033', '#b7b512', '#aa0000','#330033'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#330033','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#330033', '#aa0000','#330033', '#330033', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#330033', '#aa0000', '#330033','#330033', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#330033','#aa0000', '#330033', '#330033','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#330033', '#aa0000','#330033', '#330033', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033'],  \n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#330033','#330033', '#aa0000', '#330033','#330033', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512'],  \n\t\t    ['#330033','#330033','#330033', '#aa0000', '#330033', '#330033','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000'],\n\t\t    ['#330033','#330033','#330033', '#330033', '#330033', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033', '#b7b512', '#aa0000','#330033'],\n\t\t    ['#330033','#330033','#330033', '#330033', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512', '#aa0000', '#330033','#b7b512'],\n\t\t    ['#330033','#330033','#330033', '#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000', '#330033', '#b7b512','#aa0000']\n\t\t   ],\n\t\t   transitionSpeed: 3000,\n\t\t   loop: true\n\t\t  }\n\t\t }\n\t\t});\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t \n\t\t\t$('#typing').typeIt({\n\t\t     speed: 15,\n\t\t     autoStart: true,\n\t\t     breakLines: true,\n\t\t     html: true,\n\t\t     callback: function() {\n\t\t     \t$('#typingHeader').fadeOut(1500);\n\t\t     \tsetTimeout(function(){\n\t\t     \t\t$('#logoHeader').removeClass('scale-out').fadeIn(250).addClass('scale-in');\n\t\t     \t\t$('#BBB_logo').removeClass('scale-out').addClass('scale-in');\n\n\n\t\t     \t\tvar logoDraw = new Vivus('BBB_logo', {\n\t\t    \t\t\t\ttype: 'delayed',\n\t\t    \t\t\t\tduration: 300,\n\t\t    \t\t\t\tdelay: 250,\n\t\t    \t\t\t\tstart:'autostart',\n\t\t    \t\t\t\tanimTimingFunction: Vivus.EASE,\n\t\t    \t\t\t\tfunction() {\n\t\t\t\t\t\t\t\t\t\t    var x = document.querySelectorAll(\"svg path\"); \n\t\t\t\t\t\t\t\t\t\t  x = [].slice.call(x);\n\t\t\t\t\t\t\t\t\t\t    x.forEach(function(a) {\n\t\t\t\t\t\t\t\t\t\t      //a.style.fill = \"#fff\"; \n\t\t\t\t\t\t\t\t\t\t    });\n\t\t\t\t\t\t\t\t\t\t}\n\t\t     \t});\n\t\t     \t\t\n\t\t     \t\tsetTimeout(function(){\n\t\t     \t\t\t$('#botLeftPop').removeClass('scale-out').addClass('scale-in');\n\t\t     \t\t\tsetTimeout(function(){\n\t\t     \t\t\t\t$('#botRightPop').removeClass('scale-out').addClass('scale-in');\n\t\t     \t\t\t}, 3000);\n\t\t     \t\t}, 3000);\n\n\t\t     \t},1500); \n\t\t\t \t\t\t}\n\t\t\t})\n\t\t\t.tiType('Better Marketing')\n\t\t\t.tiPause(500)\n\t\t\t.tiBreak()\n\t\t\t.tiType('<span class=\"small\">is the foundation of growth.</span>')\n\t\t\t.tiPause(2000)\n\t\t\t.tiDelete()\n\t\t\t.tiType('Better Business')\n\t\t\t.tiPause(500)\n\t\t\t.tiBreak()\n\t\t\t.tiType('<span class=\"small\">is what consumers demand.</span>')\n\t\t\t.tiPause(2000)\n\t\t\t.tiDelete()\n\t\t\t.tiType('A Better World')\n\t\t\t.tiPause(500)\n\t\t\t.tiBreak()\n\t\t\t.tiType('<span class=\"small\">is what we\\'re building.</span>')\n\t\t\t.tiPause(2000)\n\t\t\t.tiDelete()\n\t\t\t.tiType('<span class=\"small\">We are in it for the </span><span class=\"small underline\">triple win</span><span class=\"small\">.</span>')\n\t\t\t.tiBreak()\n\t\t\t.tiPause(1000)\n\t\t\t.tiSettings({speed: 250})\n\t\t\t.tiType('Are you?')\n\t\t\t.tiPause(1000);\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction confetti (){\n\t\tvar windowWidth = $(window).width();\n\t\tvar documentHeight = $(document).height();\n\n\t\tvar width = windowWidth,\n\t\t    height = documentHeight,\n\t\t    padding = 1.5, // separation between same-color nodes\n\t\t    clusterPadding = 6, // separation between different-color nodes\n\t\t    maxRadius = 120;\n\n\t\tvar n = 560, // total number of nodes\n\t\t    m = 96; // number of distinct clusters\n\n\t\tvar color = d3.scale.ordinal()\n      .domain(d3.range(m))\n      .range([\"#aa0000\", \"#330033\" , \"#b7b512\"]);\n\n\t\t//var color = d3.scale.category20b().domain(d3.range(m));\n\n\t\t// The largest node for each cluster.\n\t\tvar clusters = new Array(m);\n\n\t\tvar nodes = d3.range(n).map(function() {\n\t\t  var i = Math.floor(Math.random() * m),\n\t\t      r = Math.sqrt((i + 1) / m * -Math.log(Math.random())) * maxRadius,\n\t\t      d = {\n\t\t        cluster: i,\n\t\t        radius: r,\n\t\t        x: Math.cos(i / m * 2 * Math.PI) * 200 + width / 2 + Math.random(),\n\t\t        y: Math.sin(i / m * 2 * Math.PI) * 200 + height / 2 + Math.random()\n\t\t      };\n\t\t  if (!clusters[i] || (r > clusters[i].radius)) clusters[i] = d;\n\t\t  return d;\n\t\t});\n\n\t\tvar force = d3.layout.force()\n\t\t    .nodes(nodes)\n\t\t    .size([width, height])\n\t\t    .gravity(.005)\n\t\t    .charge(1)\n\t\t    .on(\"tick\", tick)\n\t\t    .start();\n\n\t\tvar svg = d3.select(\"#stackChart\").append(\"svg\")\n\t\t    .attr(\"width\", width)\n\t\t    .attr(\"height\", height);\n\n\t\tvar node = svg.selectAll(\"circle\")\n\t\t    .data(nodes)\n\t\t  .enter().append(\"circle\")\n\t\t    .style(\"fill\", function(d) { return color(d.cluster); })\n\t\t    .call(force.drag);\n\n\t\tnode.transition()\n\t\t    .duration(750)\n\t\t    .delay(function(d, i) { return i * 5; })\n\t\t    .attrTween(\"r\", function(d) {\n\t\t      var i = d3.interpolate(0, d.radius);\n\t\t      return function(t) { return d.radius = i(t); };\n\t\t    });\n\n\t\tfunction tick(e) {\n\t\t  node\n\t\t      .each(cluster(10 * e.alpha * e.alpha))\n\t\t      .each(collide(.5))\n\t\t      .attr(\"cx\", function(d) { return d.x; })\n\t\t      .attr(\"cy\", function(d) { return d.y; });\n\t\t}\n\n\t\t// Move d to be adjacent to the cluster node.\n\t\tfunction cluster(alpha) {\n\t\t  return function(d) {\n\t\t    var cluster = clusters[d.cluster];\n\t\t    if (cluster === d) return;\n\t\t    var x = d.x - cluster.x,\n\t\t        y = d.y - cluster.y,\n\t\t        l = Math.sqrt(x * x + y * y),\n\t\t        r = d.radius + cluster.radius;\n\t\t    if (l != r) {\n\t\t      l = (l - r) / l * alpha;\n\t\t      d.x -= x *= l;\n\t\t      d.y -= y *= l;\n\t\t      cluster.x += x;\n\t\t      cluster.y += y;\n\t\t    }\n\t\t  };\n\t\t}\n\n\t\t// Resolves collisions between d and all other circles.\n\t\tfunction collide(alpha) {\n\t\t  var quadtree = d3.geom.quadtree(nodes);\n\t\t  return function(d) {\n\t\t    var r = d.radius + maxRadius + Math.max(padding, clusterPadding),\n\t\t        nx1 = d.x - r,\n\t\t        nx2 = d.x + r,\n\t\t        ny1 = d.y - r,\n\t\t        ny2 = d.y + r;\n\t\t    quadtree.visit(function(quad, x1, y1, x2, y2) {\n\t\t      if (quad.point && (quad.point !== d)) {\n\t\t        var x = d.x - quad.point.x,\n\t\t            y = d.y - quad.point.y,\n\t\t            l = Math.sqrt(x * x + y * y),\n\t\t            r = d.radius + quad.point.radius + (d.cluster === quad.point.cluster ? padding : clusterPadding);\n\t\t        if (l < r) {\n\t\t          l = (l - r) / l * alpha;\n\t\t          d.x -= x *= l;\n\t\t          d.y -= y *= l;\n\t\t          quad.point.x += x;\n\t\t          quad.point.y += y;\n\t\t        }\n\t\t      }\n\t\t      return x1 > nx2 || x2 < nx1 || y1 > ny2 || y2 < ny1;\n\t\t    });\n\t\t  };\n\t\t}\n}\n\n\n\n $(document).ready(function(){\n\t\t //Materialize init  \n   $('ul.tabs').tabs();\n\t\t $('.carousel').carousel();\n   $('.scrollspy').scrollSpy();\n\n\n\t\t var options = [\n      {selector: '#index-banner', offset: 50, callback: function(el) {\n      \t$('#menu').css('opacity', 0);\n      \tif(!Session.get('welcomed')){\n        Materialize.toast(\"Welcome!\", 2500 );\n        Session.set('welcomed', true)\n      \t}\n      } },\n      {selector: '#intro', offset: 250, callback: function(el) {\n        \n        $('#menu').css('opacity', 1);\n      \t Materialize.toast(\"It's great to have you here!\", 555 );\n\n      \t confetti();\n\n      } }\n    ];\n    Materialize.scrollFire(options);\n\n\t\t setInterval(function(){\n    Materialize.scrollFire(options);\n\t\t },2222);\n\n\t\t\tresize()\n\t});\n\n});//end onRender home\n\nTemplate.contactFormPage.onRendered(function(){\n\t $('.material-tooltip').remove()\n});",
 			"file": "client/20_init.js",
-			"file_size": 16275,
-			"file_write_time": 131462532791180611,
 			"settings":
 			{
-				"buffer_size": 15818,
+				"buffer_size": 16451,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "client/contactForm.js",
+			"file": "client/bundles.js",
 			"settings":
 			{
-				"buffer_size": 7023,
+				"buffer_size": 2912,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Windows",
+				"name": "bundle.js"
 			}
 		},
 		{
-			"file": "client/findYourService.js",
+			"file": "client/tactics.js",
 			"settings":
 			{
-				"buffer_size": 19641,
+				"buffer_size": 118999,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -634,7 +622,7 @@
 			"file": "server/main.js",
 			"settings":
 			{
-				"buffer_size": 4173,
+				"buffer_size": 4136,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -643,7 +631,7 @@
 			"file": "common/common.js",
 			"settings":
 			{
-				"buffer_size": 14534,
+				"buffer_size": 14596,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -729,21 +717,36 @@
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/common",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/public",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/public/font",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/public/img",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/server"
 	],
 	"file_history":
 	[
+		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Adobe Flash Professional CC 13.1/README.txt",
+		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Adobe Bridge CC 6.0.1/readme.txt",
+		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[ALL CRACKS]/Keygen/Instructions.txt",
+		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Adobe Acrobat XI Pro 11.0.05/CRACK/Cracked dll by PainteR/README.txt",
+		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Adobe Photoshop Lightroom 5.3/Serials.txt",
+		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Adobe Illustrator CC 17.0.1/CRACK/Instructions.txt",
+		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Torrent downloaded from Hollytorrents.com.txt",
+		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Torrent downloaded from AhaShare.com.txt",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/findYourService.js",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tactics.js",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/craftYourStrategy.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/sales.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/makeYourStrategy.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/public/stocks.csv",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/contactForm.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/contactForm.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service-test.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tactics.html",
 		"/C/Users/Jeremy/Downloads/BM030/renpy/config.pyo",
 		"/C/Users/Jeremy/Downloads/BM030/log.txt",
 		"/C/Users/Jeremy/Downloads/BM030/ReadMe.txt",
 		"/C/Users/Jeremy/Downloads/SuperPowered 0.12.30/game/scripts.rpa",
 		"/C/Users/Jeremy/Downloads/SuperPowered 0.12.30/game/saves/auto-1-LT1.save",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/makeYourStrategy.html",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tactics.html",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/services.html",
 		"/V/info.txt",
 		"/C/Users/Jeremy/Downloads/forps821/log.txt",
@@ -751,9 +754,7 @@
 		"/C/Users/Jeremy/Downloads/P Masher.ahk",
 		"/C/Users/Jeremy/Documents/AutoHotkey.ahk",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/.meteor/local/.build714994.build/programs/web.browser/merged-stylesheets.css",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service-test.html",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/index.html",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service.html",
 		"/C/Users/Jeremy/Desktop/idea.txt",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/20_main.styl",
 		"/C/Users/Jeremy/Desktop/bankOfTheOzarks",
@@ -849,19 +850,7 @@
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/simple_dom.php",
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/adminer/adminer.css",
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/adminer/adminer-4.2.4-mysql-en.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/custom_import_index.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/sugarfield_scrape_enabled_c.php",
-		"/C/Users/Jeremy/Desktop/Download/simple_html_dom.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/modules/Prospects/websiteScraper_nophone.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/composer.json",
-		"/C/wamp/www/jeremydavidevans.com/jeremydavidevans.com/scraper/scraperTest.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/css/colourSelector.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/_headerModuleList.tpl",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/Home.tpl",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/_head.tpl",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/footer.tpl",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/header.tpl",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/themes/Better/tpls/login.tpl"
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/custom_import_index.php"
 	],
 	"find":
 	{
@@ -879,6 +868,25 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"longText",
+			"modalContent",
+			"scale-transition scale-out",
+			"layout",
+			"{{>nav}}",
+			"slide",
+			"section",
+			"scale-transition",
+			"drag",
+			"drad",
+			"d3",
+			"de",
+			"tabs",
+			"typeIt",
+			"body",
+			"fullPage",
+			"push",
+			"typing",
+			"contactFormPage",
 			"tooltip",
 			"confetti",
 			"transiti",
@@ -987,26 +995,7 @@
 			"ACTIVE_KEYWORDS",
 			"KEYWORDS",
 			"layout",
-			"kw_tier",
-			"kw_1",
-			"kw_",
-			"Lines",
-			"lines",
-			"keywordsManager",
-			"currentKey",
-			"debugger",
-			"KEYWORD.set",
-			"confirm",
-			"events",
-			"debugger",
-			"KEYWORD",
-			"currentKeyword",
-			"KEYWORD_ASSOC",
-			"KEYWORD",
-			"KEYWORDS",
-			"KEYWORD",
-			"domCurrAssoc ",
-			"events"
+			"kw_tier"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1014,6 +1003,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"animator",
+			"scale-transition scale-out",
 			"\\\"",
 			"m6",
 			"Twitter",
@@ -1139,9 +1130,7 @@
 			"<a href=\"#\" class=\"donor\">D</a>",
 			"<a href=\"#\" class=\"community\">C</a>",
 			"<a href=\"#\" class=\"beneficiaries\">B</a>",
-			"<a href=\"#\" class=\"affiliates\">A</a>",
-			"<a href=\"#\">D</a>",
-			"<a href=\"#\"></a>"
+			"<a href=\"#\" class=\"affiliates\">A</a>"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1152,114 +1141,54 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "client/find-your-service.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13164,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3947,
-								3947
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2671.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
 					"file": "client/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9593,
+						"buffer_size": 10066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4384,
-								4384
+								463,
+								463
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 1,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2496.0,
+						"translation.y": 195.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "client/contactForm.html",
+					"buffer": 1,
+					"file": "client/sales.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 887,
+						"buffer_size": 558,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								866,
-								866
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/makeYourStrategy.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 592,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								356,
-								356
+								558,
+								558
 							]
 						],
 						"settings":
@@ -1270,24 +1199,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "client/tactics.html",
+					"buffer": 2,
+					"file": "client/bundles.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6206,
+						"buffer_size": 9178,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1334,
-								1334
+								9055,
+								9055
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 1,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4506.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/tactics.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5935,
+								5935
 							]
 						],
 						"settings":
@@ -1296,39 +1255,40 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 704.0,
+						"translation.y": 3942.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "client/sales.html",
+					"buffer": 4,
+					"file": "client/contactForm.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 37,
+						"buffer_size": 877,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								37,
-								37
+								786,
+								786
 							]
 						],
 						"settings":
 						{
-							"auto_name": "<template name=\"sales\">",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1338,7 +1298,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1361,90 +1321,90 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "client/20_main.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9609,
+						"buffer_size": 10828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9609,
-								9609
+								7459,
+								7459
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 1,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 12311.0,
+						"translation.y": 9732.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "client/00_routing.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1814,
+						"buffer_size": 1896,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1116,
-								1116
+								132,
+								132
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 1,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 286.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "client/20_init.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15818,
+						"buffer_size": 16451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1944,
-								1944
+								16059,
+								16059
 							]
 						],
 						"settings":
@@ -1453,27 +1413,120 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1044.0,
+						"translation.y": 9589.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "client/contactForm.js",
+					"buffer": 9,
+					"file": "client/bundles.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7023,
+						"buffer_size": 2912,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								169,
-								169
+								583,
+								583
+							]
+						],
+						"settings":
+						{
+							"auto_name": "bundle.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "client/tactics.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118909,
+								118805
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54946.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 11,
+					"file": "server/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								556,
+								556
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 104.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "common/common.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
 							]
 						],
 						"settings":
@@ -1486,102 +1539,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "client/findYourService.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 19641,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3847,
-								3880
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3180.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 12,
-					"file": "server/main.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4173,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								328,
-								328
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 65.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "common/common.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 14534,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								576,
-								576
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 455.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
 					"type": "text"
 				}
 			]

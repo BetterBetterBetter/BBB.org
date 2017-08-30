@@ -24,21 +24,35 @@ $gold = #b7b512
  }
 }
 
-rupture.scale = 0 600px 992px 1200px
+rupture.scale = 0 600px 992px 1200px 1600px 2000px 2400px 2800px 3200px
 
 html
+ overflow-x hidden
  +at(1)
   font-size 8px
  +at(2)
-  font-size 12px
+  font-size 10px
  +at(3)
-  font-size 15px
+  font-size 13px
  +at(4)
+  font-size 14px
+ +at(5)
+  font-size 16px
+ +at(6)
   font-size 18px
+ +at(7)
+  font-size 20px
+ +at(8)
+  font-size 22px
+ +at(9)
+  font-size 24px
+ 
 
-body
- overflow auto!important
 
+.btn-floating
+ background-color $purple
+ &:hover
+  background-color $red
 
 #logoHeader
  width 30em
@@ -449,8 +463,32 @@ body
  label 
   font-size 1rem!important
 
+.longText
+  cursor -webkit-zoom-in
+  color #fff
+  background rgba(51, 0, 51,.77)
+  overflow-y auto
+  padding-left .8rem
+  padding-right .8rem
+  margin-left 3%
+  border-radius .5rem
+  width 93%
+  height 72vh
+  box-shadow #303 0 0 3px
+  border-color #fff
+  border-width 1px 
+  border-style solid
+  display inline-block
+  +at(1)
+   font-size 1.35rem
+  +at(2)
+   font-size 1.25rem
+  +at(3)
+   font-size 1.5rem
 
 #tactics
+ .card
+  background #fff
  h1,h2,h3,h4,h5
   text-align center
   color #fff
@@ -466,21 +504,6 @@ body
    width 100%
    text-align center
  .longText
-  cursor -webkit-zoom-in
-  color #fff
-  background rgba(51, 0, 51,.77)
-  overflow-y auto
-  padding-left .3rem
-  padding-right .3rem
-  margin-left 3%
-  border-radius .5rem
-  width 93%
-  height 72vh
-  box-shadow #303 0 0 3px
-  border-color #fff
-  border-width 1px 
-  border-style solid
-  display inline-block
   &.why
    display block
    margin auto
@@ -537,13 +560,19 @@ body
    font-size 2rem
  #email
   bottom 25%
-    
+   
++above(3)
+ .row
+  display flex
+  margin-top 5%
 
-#menu
+
+#contactButton
  position fixed
  bottom 2%
  right 2%
  z-index 9999
+ box-shadow #fff 0 0 5px
  .btn-floating
   background #fff
  i
@@ -562,13 +591,17 @@ body
  *
   color #fff
   text-align right!important
+  padding-left 1em
  +at(1)
   h5
-   font-size 1.15rem
+   font-size 2.15rem
   h2
-   font-size 2.5rem
+   font-size 4.5rem
+  p
+   font-size 2.5em
+   margin 0 
   h3 a
-   font-size 2rem
+   font-size 3rem
    
 .bonus
  h3
@@ -603,9 +636,79 @@ body
  text-align center
  .noSales
   color $red
-  
+ #notificationButton
+  background $red
+
 #sidenav-overlay
  display none
 
 .button-collapse i
  padding-left 1em
+
+.line
+ fill none
+ stroke #000
+ stroke-width 7px
+ stroke-linecap round
+ stroke-linejoin round
+
+.tick
+ display none
+ 
+for i in 1..20
+ .line:nth-child({i})
+  stroke-opacity .05*i
+
+.line:nth-child(2n+1)
+ stroke $gold
+ 
+.line:nth-child(2n)
+ stroke $purple
+ 
+#bundles
+ .priceCont
+  line-height 3em
+  float right
+  text-align right
+  font-size .75rem
+  font-weight 100
+  padding-right 2em
+  .price
+   font-weight 600
+   font-size 2.5em
+ .card-content
+  .btn-floating
+   box-shadow #fff 0 0 5px
+ .row
+  +above(3)
+   width 80%
+ .card-title
+  color $gold
+  font-weight 900
+  text-shadow #fff 0 0, #fff 1px 0 0, #fff -1px 0 0, #fff 0 1px 0, #fff 0 -1px 0, #fff 1px 1px 0, #fff 1px -1px 0, #fff -1px -1px 0
+ .topIndent
+  margin-top 3rem
+ .section
+  background #330033
+  background radial-gradient(ellipse at center, #ee00ee 1%,#330033 66%)
+ .animator
+  visibility hidden
+ .animated
+  visibility visible!important
+
+.navbar-fixed
+ position fixed
+ 
+.salesTitle
+ color #fff
+ font-weight 100
+ text-align center
+ margin-top 5%
+ margin-bottom 0
+ padding-bottom 0
+ 
+.modal-content
+ font-size 1.3em
+ 
+.card-content
+ font-size 1.5rem

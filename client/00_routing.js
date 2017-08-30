@@ -5,6 +5,10 @@ Router.configure({
 	trackPageView: true
 });
 
+
+
+
+
 var SEO_options = {
   title: "Better Marketing",
   suffix: 'BBB',
@@ -49,6 +53,12 @@ Router.route('/contact', {
 Router.route('/sales', {
     name: 'sales',
     template: 'sales'
+});
+
+
+Router.route('/bundles', {
+    name: 'bundles',
+    template: 'bundles'
 });
 
 Router.route('/tactics/:_id', {

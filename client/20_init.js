@@ -2,6 +2,15 @@
 Meteor.startup(function() {
 
  Session.set('welcomed', false)
+ Session.set('firstBundle', false)
+ Session.set('secondBundle', false)
+ Session.set('thirdBundle', false)
+ Session.set('fourthBundle', false)
+ Session.set('fifthBundle', false)
+ Session.set('salesPage', false)
+
+	modalContent = new ReactiveVar();
+
 
 
 AutoForm.setDefaultTemplate('materialize');
@@ -64,7 +73,10 @@ Template.layout.helpers({
 
 
 
+Template.layout.onRendered(function(){
 
+
+});
 
 
 
@@ -80,7 +92,7 @@ Template.layout.helpers({
 	});
 
 	Template.layout.events({
-	 'click #menu': function(e,t){
+	 'click #contactButton': function(e,t){
 		 $('.tap-target').tapTarget('open');
 
 		}
@@ -416,7 +428,7 @@ function confetti (){
 
 		 var options = [
       {selector: '#index-banner', offset: 50, callback: function(el) {
-      	$('#menu').css('opacity', 0);
+      	$('#contactButton').css('opacity', 0);
       	if(!Session.get('welcomed')){
         Materialize.toast("Welcome!", 2500 );
         Session.set('welcomed', true)
@@ -424,7 +436,7 @@ function confetti (){
       } },
       {selector: '#intro', offset: 250, callback: function(el) {
         
-        $('#menu').css('opacity', 1);
+        $('#contactButton').css('opacity', 1);
       	 Materialize.toast("It's great to have you here!", 555 );
 
       	 confetti();
@@ -460,8 +472,8 @@ Template.sales.events({
     }
 			});
 
-			$(e.target).addClass('scale-out');
-			$('#salesPage').append('<h5 class="noSales">No sales at this time.</h5>');
+			$(e.target).removeClass('animator').removeClass('fadeInUp').removeClass('pulse').removeClass('animated').delay(2000).addClass('scale-out');
+			$('#salesPage').append('<h5 class="noSales">No additional sales at this time.</h5>');
 
 	}
 });
@@ -482,3 +494,14 @@ Template.nav.events({
 		});
 	}
 });
+
+
+Template.modal.helpers({
+		modalContent: function(e,t){
+			if(modalContent.get()==undefined){
+				return Spacebars.SafeString('<p></p>');
+			}else{
+				return Spacebars.SafeString(modalContent.get());
+			}
+	}
+})

@@ -1,5 +1,6 @@
 Template.tactics.onCreated(function(){
 	
+
 	var d = this.data;
 	var serviceProduct =	d.serviceProduct
 	var clientTypes =	d.clientTypes
@@ -1012,14 +1013,19 @@ Template.tactics.events({
 
 		var title = $(e.target).parents('.longText').siblings('h3')[0];
 		var content = $(e.target).parents('.longText')[0];
+		if(content==undefined){
+			content = $(e.target)[0];
+		}
 		if(title==undefined){
 			title = '<h3>Description</h3>';
-			var contentStr = title+content.outerHTML;
+		var contentStr = title+content.outerHTML;
 		}else{
 			var contentStr = title.outerHTML+content.outerHTML;
 		}
 		
-		t.modalContent.set(contentStr);
+		contentStr = contentStr.replace(/class="*.*"/g,''); 
+
+		modalContent.set(contentStr);
 
 		$('#modal').modal('open');
 		
@@ -1055,9 +1061,6 @@ Template.tactics.helpers({
 	},
 	firstTemplate: function(e,t){
 		return Template.instance().first.get().template;
-	},
-	modalContent: function(e,t){
-		return Spacebars.SafeString(Template.instance().modalContent.get());
 	},
 	bestPlatformList: function(e,t){
 		return Spacebars.SafeString(platformList);

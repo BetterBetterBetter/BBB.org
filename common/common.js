@@ -1,21 +1,8 @@
 
 
-/*
-AdminConfig = {
-  name: 'BBB.org',
-  adminEmails: ['jeremy@betterbetterbetter.org'],
-  collections: {
-    ContactForm: {
-      color: 'red',
-      icon: 'map-pin',
-      tableColumns: [
-        { label: 'Name', name: 'bizName' }
-       ]
-    }
-  },
-  skin: 'red'
-};
-*/
+
+
+
 
 import SimpleSchema from 'simpl-schema';
 SimpleSchema.extendOptions(['autoform']);
@@ -624,3 +611,27 @@ Schemas.FindService = new SimpleSchema({
 });
 
 FindService.attachSchema(Schemas.FindService); 
+
+
+
+
+
+
+
+
+function generateData(){
+ var prevY = 0;
+ var objArr = [];
+ for (i=1; i < 100; i = i + 1){
+  var newX = i;
+  if(Math.random()>.3){
+   var newY = Math.random()*10+prevY;
+  }else{
+   var newY = -(Math.random()*10)+prevY;
+  }
+  var prevY = newY;
+  var pushObj = {x: newX, y: newY};
+  objArr.push(pushObj);
+ }
+ return objArr;
+}
