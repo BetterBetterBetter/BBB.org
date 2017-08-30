@@ -19,6 +19,7 @@ Template.bundles.onRendered(function(){
 
 	$(document).ready(function(){
 
+		$('.material-tooltip').remove()
 		$('#modal').modal();
 
 			 var options = [

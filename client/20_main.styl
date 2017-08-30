@@ -29,23 +29,23 @@ rupture.scale = 0 600px 992px 1200px 1600px 2000px 2400px 2800px 3200px
 html
  overflow-x hidden
  +at(1)
-  font-size 8px
- +at(2)
-  font-size 10px
- +at(3)
-  font-size 13px
- +at(4)
   font-size 14px
- +at(5)
+ +at(2)
+  font-size 15px
+ +at(3)
   font-size 16px
- +at(6)
+ +at(4)
+  font-size 17px
+ +at(5)
   font-size 18px
+ +at(6)
+  font-size 19px
  +at(7)
   font-size 20px
  +at(8)
-  font-size 22px
+  font-size 21px
  +at(9)
-  font-size 24px
+  font-size 22px
  
 
 
@@ -76,6 +76,14 @@ html
  bottom 0
  left 0
  right 0
+
+#intro
+ +at(1)
+  padding-top 25%
+ +at(2)
+  padding-top 10%
+ +at(3)
+  padding-top 5%
 
 #index-banner, #contactFormPage, .fullPageBG
  height 100%
@@ -266,6 +274,11 @@ html
  width 97%
 
 #services
+ +above(2)
+  .row
+   width 80%
+   margin-left 10%
+   margin-right 10%
  li
   list-style-type circle
  a
@@ -561,10 +574,6 @@ html
  #email
   bottom 25%
    
-+above(3)
- .row
-  display flex
-  margin-top 5%
 
 
 #contactButton
@@ -666,6 +675,10 @@ for i in 1..20
  stroke $purple
  
 #bundles
+ +above(3)
+  .row
+   display flex
+   margin-top 5%
  .priceCont
   line-height 3em
   float right

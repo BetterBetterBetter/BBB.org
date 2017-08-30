@@ -114,6 +114,9 @@ Template.home.onRendered(function(){
 	function resize(){
 		var vw = $(window).width();
 		$('#stackChart').find('svg').attr('width', vw)
+		$('.card.service').each(function(e){
+			$(this).css('height', '')	
+		})
 		var maxH = 0;
 		$('.card.service').each(function(e){
 			var currH = $(this).height()
