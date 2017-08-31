@@ -2,6 +2,7 @@
 Meteor.startup(function() {
 
  Session.set('welcomed', false)
+ Session.set('path', 1)
  Session.set('firstBundle', false)
  Session.set('secondBundle', false)
  Session.set('thirdBundle', false)
@@ -62,6 +63,7 @@ Template.home.events({
 
 Template.layout.helpers({
 	contactVisible: function(){
+		Session.get('path');
 		var pathname = window.location.pathname;
 		if(!pathname.includes('find-your-service')){
 			return true;
@@ -448,7 +450,10 @@ function confetti (){
         $('#contactButton').css('opacity', 1);
       	 Materialize.toast("It's great to have you here!", 555 );
 
-      	 confetti();
+      	 if($('#stackChart svg').length===0){
+      	 	confetti();	
+      	 }
+      	 
 
       } }
     ];
@@ -489,7 +494,9 @@ Template.sales.events({
 
 Template.nav.onRendered(function(){
 		$(document).ready(function(){
-			$(".button-collapse").sideNav();
+			$(".button-collapse").sideNav({
+				closeOnClick: true
+			});
 		});
 });
 Template.nav.events({
@@ -501,6 +508,17 @@ Template.nav.events({
 			$(this).remove();
 
 		});
+
+		setTimeout(function(){
+			p = Session.get('path')
+			Session.set('path', p+1)
+			setTimeout(function(){
+				p = Session.get('path')
+		  Session.set('path', p+1)
+			}, 1111)
+		},1)
+
+
 	}
 });
 
@@ -514,3 +532,6 @@ Template.modal.helpers({
 			}
 	}
 })
+
+
+
