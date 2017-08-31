@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"mod",
+				"modalContent"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
 				"slide",
 				"slideInRight"
 			],
@@ -12,28 +56,12 @@
 				"slideInLeft"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
-				"back",
-				"background-color"
-			],
-			[
 				"scale",
 				"scale-out"
 			],
 			[
-				"margin",
-				"margin-top"
-			],
-			[
 				"gen",
 				"generateData"
-			],
-			[
-				"text",
-				"text-shadow"
 			],
 			[
 				"onRend",
@@ -62,10 +90,6 @@
 			[
 				"path",
 				"pathname"
-			],
-			[
-				"padd",
-				"padding-left"
 			],
 			[
 				"padin",
@@ -102,10 +126,6 @@
 			[
 				"pa",
 				"padding-right"
-			],
-			[
-				"mar",
-				"margin-left"
 			],
 			[
 				"socialMed",
@@ -284,10 +304,6 @@
 				"removeClass"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"select",
 				"selectize"
 			],
@@ -380,10 +396,6 @@
 				"transform"
 			],
 			[
-				"font-",
-				"font-size"
-			],
-			[
 				"max",
 				"max-width"
 			],
@@ -472,10 +484,6 @@
 				"bizNameUrl\tmain.js"
 			],
 			[
-				"padding",
-				"padding-left"
-			],
-			[
 				"table",
 				"table-layout"
 			],
@@ -506,14 +514,6 @@
 			[
 				"this",
 				"thisListing\tmain.js"
-			],
-			[
-				"margin-",
-				"margin-bottom"
-			],
-			[
-				"open",
-				"openInfoWindowMarker\tmap.js"
 			]
 		]
 	},
@@ -523,45 +523,28 @@
 			"file": "client/index.html",
 			"settings":
 			{
-				"buffer_size": 10066,
+				"buffer_size": 10449,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "client/sales.html",
+			"file": "client/tools/tools.html",
 			"settings":
 			{
-				"buffer_size": 558,
+				"buffer_size": 1434,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "client/bundles.html",
+			"file": "client/tools/tacticsAdmin.html",
 			"settings":
 			{
-				"buffer_size": 9178,
+				"buffer_size": 1792,
 				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/tactics.html",
-			"settings":
-			{
-				"buffer_size": 5952,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/contactForm.html",
-			"settings":
-			{
-				"buffer_size": 877,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"line_ending": "Windows",
+				"name": "tacticsAdmin.html"
 			}
 		},
 		{
@@ -576,7 +559,7 @@
 			"file": "client/20_main.styl",
 			"settings":
 			{
-				"buffer_size": 10828,
+				"buffer_size": 12789,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -585,8 +568,24 @@
 			"file": "client/00_routing.js",
 			"settings":
 			{
-				"buffer_size": 1896,
+				"buffer_size": 2240,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/tools/tools.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/bundles/bundles.js",
+			"settings":
+			{
+				"buffer_size": 4812,
 				"line_ending": "Windows"
 			}
 		},
@@ -594,26 +593,7 @@
 			"file": "client/20_init.js",
 			"settings":
 			{
-				"buffer_size": 16451,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "client/bundles.js",
-			"settings":
-			{
-				"buffer_size": 2912,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "bundle.js"
-			}
-		},
-		{
-			"file": "client/tactics.js",
-			"settings":
-			{
-				"buffer_size": 118999,
+				"buffer_size": 17448,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -633,6 +613,14 @@
 			{
 				"buffer_size": 14596,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "serviceProduct\nclientTypes\ndistribution\nreturnBusiness\nmarginPerCustomer\npreexistingBudget\navgVolume\nnewClients\nageDemographic\nidealAge\nclientIncomeRange\nidealIncome\nindustry\nsexFemale\ncurrentAssets\ntotalInvestment\nhowSecure\ntotalMaintenance\nclientListQuality\nclientListQuantity\nclientListConversion\nusingLandingPages\nwebsiteTraffic\norganicTraffic\ninorganicTraffic\nwebsiteConversion\nsocialMediaPlatforms\nsocialMediaReach\nsocialMediaConversion\nlocalPlatforms\nleadsGenerated\nreputationGoogle\nreputationFacebook\nreputationYelp\nreputationBing\nmessage\nemail\ncreatedAt",
+			"settings":
+			{
+				"buffer_size": 562,
 				"line_ending": "Windows"
 			}
 		}
@@ -715,6 +703,9 @@
 	[
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/bundles",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/contact",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tools",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/common",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/public",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/public/font",
@@ -723,6 +714,19 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tools/findYourService.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tools.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/20_init.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tools.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/bundles.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/sales.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/bundles.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/contactForm.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tactics.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tactics.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/services.html",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/.meteor/local/.build181434.build/programs/web.browser/packages/aldeed_autoform.js",
+		"/C/Users/Jeremy/Desktop/node/bbb_estimation/.meteor/local/.build114417.build/programs/web.browser/packages/modules.js",
 		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Adobe Flash Professional CC 13.1/README.txt",
 		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Adobe Bridge CC 6.0.1/readme.txt",
 		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[ALL CRACKS]/Keygen/Instructions.txt",
@@ -732,22 +736,17 @@
 		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Torrent downloaded from Hollytorrents.com.txt",
 		"/C/Users/Jeremy/Downloads/Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/[www.hollytorrents.com]Adobe Creative Cloud Collection (2014) FULL + Crack - Exclusive/Torrent downloaded from AhaShare.com.txt",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/findYourService.js",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tactics.js",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/craftYourStrategy.js",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/sales.html",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/makeYourStrategy.html",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/public/stocks.csv",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service.html",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/contactForm.html",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/contactForm.js",
 		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/find-your-service-test.html",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/tactics.html",
 		"/C/Users/Jeremy/Downloads/BM030/renpy/config.pyo",
 		"/C/Users/Jeremy/Downloads/BM030/log.txt",
 		"/C/Users/Jeremy/Downloads/BM030/ReadMe.txt",
 		"/C/Users/Jeremy/Downloads/SuperPowered 0.12.30/game/scripts.rpa",
 		"/C/Users/Jeremy/Downloads/SuperPowered 0.12.30/game/saves/auto-1-LT1.save",
-		"/C/Users/Jeremy/Desktop/node/bbb_estimation/client/services.html",
 		"/V/info.txt",
 		"/C/Users/Jeremy/Downloads/forps821/log.txt",
 		"/C/Users/Jeremy/Downloads/forps821/README.html",
@@ -842,15 +841,7 @@
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/sugarfield_sites_to_crawl_c.php",
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/sugarfield_crawl_depth_c.php",
 		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/modules/Prospects/Ext/Language/en_us.lang.ext.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Language/en_us.scrape.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Language/en_us.massConversion.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/scrape.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/convertMass - Copy.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/convertMass.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/simple_dom.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/adminer/adminer.css",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/adminer/adminer-4.2.4-mysql-en.php",
-		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Vardefs/custom_import_index.php"
+		"/C/wamp/www/JoomlaServer/our.betterbetterbetter.link/public_html/custom/Extension/modules/Prospects/Ext/Language/en_us.scrape.php"
 	],
 	"find":
 	{
@@ -861,6 +852,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\Users\\Jeremy\\Desktop\\node\\bbb_estimation\\public\\img"
 		]
 	},
 	"find_state":
@@ -868,6 +860,33 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Session.set(",
+			"nav",
+			"Session.get",
+			"Session",
+			"phone",
+			"botLeft",
+			"botLeftPop",
+			"card-content",
+			"index-bann",
+			"contactFormPage",
+			"contactCont",
+			"longTe",
+			"resize",
+			"tooltip",
+			"row",
+			"m7",
+			"#menu",
+			"show-on-small",
+			"btn-floating",
+			"show-on-small-only",
+			"card-content",
+			"waves-effect",
+			"card",
+			".row",
+			"row",
+			"modal",
+			"analytics",
 			"longText",
 			"modalContent",
 			"scale-transition scale-out",
@@ -968,34 +987,7 @@
 			"reputation",
 			"locality",
 			"B2C",
-			"clientType",
-			"\n",
-			"contactForm",
-			"color[0-50]",
-			"display",
-			"default",
-			"typing",
-			"66.11.122.60",
-			"upActArr[upActArr.length-1] ",
-			"ADDED_KW",
-			"CHANGED",
-			"ADDED_KW",
-			"bject.keys(",
-			"debugger",
-			"kw_tier1",
-			"onAdd",
-			"autorun",
-			"onCre",
-			"onCreat",
-			"kw_",
-			"kw1",
-			"autorun",
-			"layout",
-			"KEYWORDS",
-			"ACTIVE_KEYWORDS",
-			"KEYWORDS",
-			"layout",
-			"kw_tier"
+			"clientType"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1003,6 +995,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"m8",
+			"#contactButton",
+			"hide-on-med-and-up",
+			"show-on-small",
+			"",
 			"animator",
 			"scale-transition scale-out",
 			"\\\"",
@@ -1125,12 +1122,7 @@
 			"<a href=\"#directories\"",
 			"<a href=\"#directory\"",
 			"<a href=\"#blog\"",
-			"<a href=\"#email\"",
-			"<a href=\"#website\"",
-			"<a href=\"#\" class=\"donor\">D</a>",
-			"<a href=\"#\" class=\"community\">C</a>",
-			"<a href=\"#\" class=\"beneficiaries\">B</a>",
-			"<a href=\"#\" class=\"affiliates\">A</a>"
+			"<a href=\"#email\""
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1141,7 +1133,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1150,15 +1142,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10066,
+						"buffer_size": 10449,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								463,
-								463
+								501,
+								501
 							]
 						],
 						"settings":
@@ -1168,27 +1160,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 195.0,
+						"translation.y": 312.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "client/sales.html",
+					"file": "client/tools/tools.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 558,
+						"buffer_size": 1434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								558,
-								558
+								259,
+								259
 							]
 						],
 						"settings":
@@ -1199,96 +1191,36 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "client/bundles.html",
+					"file": "client/tools/tacticsAdmin.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9178,
+						"buffer_size": 1792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9055,
-								9055
+								189,
+								189
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 1,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4506.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "client/tactics.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5952,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5935,
-								5935
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3942.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "client/contactForm.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 877,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								786,
-								786
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"auto_name": "tacticsAdmin.html",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1298,7 +1230,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 5,
+					"buffer": 3,
 					"semi_transient": false,
 					"settings":
 					{
@@ -1321,24 +1253,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 4,
 					"file": "client/20_main.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10828,
+						"buffer_size": 12789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7459,
-								7459
+								12557,
+								12557
 							]
 						],
 						"settings":
@@ -1348,33 +1280,33 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 9732.0,
+						"translation.y": 16661.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "client/00_routing.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1896,
+						"buffer_size": 2240,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								132,
-								132
+								1120,
+								1120
 							]
 						],
 						"settings":
@@ -1384,10 +1316,66 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 601.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "client/tools/tools.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "client/bundles/bundles.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4812,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								620,
+								620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 195.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1396,15 +1384,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16451,
+						"buffer_size": 17448,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16059,
-								16059
+								17022,
+								17022
 							]
 						],
 						"settings":
@@ -1413,78 +1401,20 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9589.0,
+						"translation.y": 10304.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "client/bundles.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2912,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								583,
-								583
-							]
-						],
-						"settings":
-						{
-							"auto_name": "bundle.js",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 216.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "client/tactics.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 118999,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								118909,
-								118805
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 54946.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
-					"buffer": 11,
+					"buffer": 9,
 					"file": "server/main.js",
 					"semi_transient": false,
 					"settings":
@@ -1509,11 +1439,11 @@
 						"translation.y": 104.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 10,
 					"file": "common/common.js",
 					"semi_transient": false,
 					"settings":
@@ -1525,8 +1455,156 @@
 						"selection":
 						[
 							[
-								2,
-								2
+								887,
+								873
+							],
+							[
+								1146,
+								1157
+							],
+							[
+								1393,
+								1405
+							],
+							[
+								1759,
+								1773
+							],
+							[
+								2172,
+								2189
+							],
+							[
+								2588,
+								2605
+							],
+							[
+								3019,
+								3028
+							],
+							[
+								3128,
+								3138
+							],
+							[
+								3238,
+								3252
+							],
+							[
+								3807,
+								3815
+							],
+							[
+								4213,
+								4230
+							],
+							[
+								4763,
+								4774
+							],
+							[
+								5140,
+								5148
+							],
+							[
+								6409,
+								6418
+							],
+							[
+								6833,
+								6846
+							],
+							[
+								7376,
+								7391
+							],
+							[
+								7511,
+								7520
+							],
+							[
+								7935,
+								7951
+							],
+							[
+								8071,
+								8088
+							],
+							[
+								8515,
+								8533
+							],
+							[
+								8655,
+								8675
+							],
+							[
+								9109,
+								9126
+							],
+							[
+								9279,
+								9293
+							],
+							[
+								9420,
+								9434
+							],
+							[
+								9557,
+								9573
+							],
+							[
+								9696,
+								9713
+							],
+							[
+								10147,
+								10167
+							],
+							[
+								10639,
+								10655
+							],
+							[
+								10778,
+								10799
+							],
+							[
+								11233,
+								11247
+							],
+							[
+								12139,
+								12153
+							],
+							[
+								12273,
+								12289
+							],
+							[
+								12695,
+								12713
+							],
+							[
+								13119,
+								13133
+							],
+							[
+								13539,
+								13553
+							],
+							[
+								13959,
+								13966
+							],
+							[
+								14054,
+								14059
+							],
+							[
+								14160,
+								14169
 							]
 						],
 						"settings":
@@ -1534,6 +1612,33 @@
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10725.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								562,
+								562
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1639,7 +1744,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
