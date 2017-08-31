@@ -113,23 +113,29 @@ Template.home.onRendered(function(){
 
 	function resize(){
 		var vw = $(window).width();
-		$('#stackChart').find('svg').attr('width', vw)
+		var vh = $('html').height();
+		$('#stackChart').find('svg').attr('width', vw).attr('height', vh);
 		$('.card.service').each(function(e){
 			$(this).css('height', '')	
 		})
-		var maxH = 0;
-		$('.card.service').each(function(e){
-			var currH = $(this).height()
-			if(currH > maxH){
-				maxH = currH
-			}
-		})
-		$('.card.service').each(function(e){
-			$(this).height(maxH)	
-		})
+
+		if(vw>599){
+			var maxH = 0;
+			$('.card.service').each(function(e){
+				var currH = $(this).height()
+				if(currH > maxH){
+					maxH = currH
+				}
+			})
+			$('.card.service').each(function(e){
+				$(this).height(maxH)	
+			})
+		}
+		
+
 	}
 
-
+	setTimeout(resize,2222)
 
 
 

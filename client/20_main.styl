@@ -72,6 +72,7 @@ html
  
 .absoluteFullScreen
  position absolute
+ height 100vh
  top 0
  bottom 0
  left 0
@@ -99,7 +100,13 @@ html
  animation strobeBG 60s linear 50s infinite forwards, throb 60s linear 0s infinite alternate
  & *
   z-index 9
- 
+
+#index-banner 
+ min-height 0
+ max-height 9000px
+
+#contactFormPage
+ height 125%
 
 #heroBG
  height 100%
@@ -150,6 +157,7 @@ html
  width 100%
 .tabs
  background transparent
+ overflow-x hidden
 
 
 
@@ -493,7 +501,7 @@ html
   border-style solid
   display inline-block
   +at(1)
-   font-size 1.35rem
+   font-size 1rem
   +at(2)
    font-size 1.25rem
   +at(3)
@@ -603,14 +611,16 @@ html
   padding-left 1em
  +at(1)
   h5
-   font-size 2.15rem
+   font-size 1.15rem
   h2
-   font-size 4.5rem
+   font-size 2.5rem
   p
-   font-size 2.5em
+   font-size 1.5em
    margin 0 
-  h3 a
-   font-size 3rem
+  h3
+   padding-left 0 
+   a
+    font-size 2.3rem
    
 .bonus
  h3
@@ -619,20 +629,43 @@ html
   +at(1)
    font-size 1.4rem
 
+#contactForm
+ +at(1)
+  width 100%
+ +at(2)
+  width 90%
+ +at(3)
+  width 80%
+ +above(3)
+  width 70%
+ #submitBtn
+  text-align center
+  background $red
+ .submitRow
+  text-align center
+
 .contactCont  
  display flex
  justify-content center
- #contactForm
-  width 67%
-  .phone
+ 
+#contactForm
+ .phone
+  text-align center
+  margin auto
+  +at(1)
+   font-size 1.2rem
+  +at(2)
+   font-size 1.5rem
+  +at(3)
+   font-size 1.75rem
+  +above(3)
    font-size 2rem
-   margin auto
-   a
-    text-shadow #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px
-    color $red
-    transition all 333ms ease
-    &:hover
-     color $gold
+  a
+   text-shadow #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px
+   color $red
+   transition all 333ms ease
+   &:hover
+    color $gold
 
 #contactFormPage
  #contactForm
@@ -675,6 +708,8 @@ for i in 1..20
  stroke $purple
  
 #bundles
+ .longText
+  margin-top 1rem
  +above(3)
   .row
    display flex
@@ -724,4 +759,26 @@ for i in 1..20
  font-size 1.3em
  
 .card-content
- font-size 1.5rem
+ font-size 1rem
+ 
+.toolsIntro
+ border-bottom #000 2px solid
+ text-align center
+ padding-top 5%
+ em
+  border-bottom #000 1px solid
+ h5
+  padding-left 20%
+  padding-right 20%
+ h1, h2, h3
+  font-weight 100
+ 
+
+#findYourServiceRow
+ .card
+  background $purple
+  margin-top 5em
+  .card-action
+   text-align right
+  *
+   color #fff

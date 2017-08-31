@@ -55,6 +55,10 @@ Router.route('/sales', {
     template: 'sales'
 });
 
+Router.route('/tools', {
+    name: 'tools',
+    template: 'tools'
+});
 
 Router.route('/bundles', {
     name: 'bundles',
@@ -64,6 +68,18 @@ Router.route('/bundles', {
 Router.route('/tactics/:_id', {
   name: 'tactics',
   template: 'tactics',
+  waitOn: function () {
+  return Meteor.subscribe('findService');
+  },
+  data: function(){
+      var id = this.params._id;
+      return FindService.findOne({ _id: id });
+  }
+});
+
+Router.route('/tactics/:_id/admin_view', {
+  name: 'tacticsAdmin',
+  template: 'tacticsAdmin',
   waitOn: function () {
   return Meteor.subscribe('findService');
   },

@@ -12,6 +12,11 @@
 
 </head>
 
+
+
+
+
+
 <template name="layout">
  
   {{> nav}}
@@ -38,22 +43,31 @@
 
 </template>
 
+
+
+
+
+
+
 <template name="nav">
   <!--Navigation-->
   <div class="navbar-fixed ">
    <nav id="nav_f" class="default_color waves-effect" role="navigation"> 
    <div class="container">
     <div class="nav-wrapper">
-     <a href="{{pathFor 'home'}}" id="logo-container" class="brand-logo">BBB</a>
+     <a href="{{pathFor 'home'}}" id="logo-container" class="brand-logo">BBB
+     </a>
      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
      <ul class="right hide-on-med-and-down">
       <li><a href="{{pathFor 'home'}}">Services</a></li>
-      <li><a href="{{pathFor 'bundles'}}">Sales</a></li>
+      <li><a href="{{pathFor 'bundles'}}">Deals</a></li>
+      <li><a href="{{pathFor 'tools'}}">Tools</a></li>
       <li><a href="{{pathFor 'contactFormPage'}}">Contact</a></li>
      </ul>
      <ul id="nav-mobile" class="side-nav">
       <li><a href="{{pathFor 'home'}}">Services</a></li>
-      <li><a href="{{pathFor 'bundles'}}">Sales</a></li>
+      <li><a href="{{pathFor 'bundles'}}">Deals</a></li>
+      <li><a href="{{pathFor 'tools'}}">Tools</a></li>
       <li><a href="{{pathFor 'contactFormPage'}}">Contact</a></li>
      </ul>
      </div>
