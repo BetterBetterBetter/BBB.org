@@ -5,7 +5,9 @@ Router.configure({
 	trackPageView: true
 });
 
-
+if (Meteor.isClient) {
+    Router.plugin('reywood:iron-router-ga');
+}
 
 
 

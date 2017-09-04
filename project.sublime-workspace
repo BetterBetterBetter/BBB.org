@@ -559,7 +559,7 @@
 			"file": "client/20_main.styl",
 			"settings":
 			{
-				"buffer_size": 12789,
+				"buffer_size": 12844,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1156,7 +1156,7 @@
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 1,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1214,7 +1214,8 @@
 						"settings":
 						{
 							"auto_name": "tacticsAdmin.html",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1262,25 +1263,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12789,
+						"buffer_size": 12844,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12557,
-								12557
+								10258,
+								10258
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 1,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 16661.0,
+						"translation.y": 13775.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1312,7 +1313,7 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 1,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1401,7 +1402,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 10304.0,
+						"translation.y": 2816.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

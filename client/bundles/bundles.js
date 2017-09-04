@@ -25,6 +25,10 @@ Template.bundles.onRendered(function(){
 			// resize event
 		$(window).resize(function(){
 			resize()
+			setTimeout(resize,1111);
+			setTimeout(resize,2222);
+			setTimeout(resize,3333);
+			setTimeout(resize,4444);
 		});// end resize
 
 		function resize(){

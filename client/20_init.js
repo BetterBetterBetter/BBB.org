@@ -504,9 +504,7 @@ Template.nav.events({
 	'click i, click a': function(){
 
 		$('#sidenav-overlay').each(function(){
-
 			$(this).remove();
-
 		});
 
 		setTimeout(function(){
@@ -517,6 +515,13 @@ Template.nav.events({
 		  Session.set('path', p+1)
 			}, 1111)
 		},1)
+
+var vh = $(document).scrollTop()
+	$("html, body").animate({ scrollTop: "0px" }, vh );
+	setTimeout(function(){
+		$(window).trigger('resize');	
+	});
+	
 
 
 	}
