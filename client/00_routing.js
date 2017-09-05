@@ -11,29 +11,7 @@ if (Meteor.isClient) {
 
 
 
-var SEO_options = {
-  title: "Better Marketing",
-  suffix: 'BBB',
-  separator: '|',
-  description: 'Better marketing for a better world.',        // Will apply to meta, Twitter and OpenGraph.
-  image: 'http://betterbetterbetter.org/wp-content/uploads/2015/12/common-205x205-7931.png',// Will apply to Twitter and OpenGraph.
-  meta: {
-    keywords: ['social business','capitalism','marketing','business directory']
-  },
-  twitter: {
-    card: 'Better marketing for a better world.',
-    creator: '@betterbetterbe'
-  },
-  og: {
-    site_name: 'Better Better Better',
-    image: 'http://betterbetterbetter.org/wp-content/uploads/2015/12/common-205x205-7931.png'
-  }
-};
-/*
-Router.plugin('seo', 
-	{defaults: SEO_options}
-	);
-*/
+
 
 
 
@@ -101,6 +79,17 @@ Router.route('/craft-your-strategy', {
     template: 'craftYourStrategy'
 });
 
+sitemaps.add('/sitemap.xml', function() {
+  return [
+    { page: '/', lastmod: "Tue Sep 05 2017 00:59:34 GMT-0600 (Mountain Daylight Time)", changefreq: 'monthly', priority: 0.8 },
+    { page: '/find-your-service', lastmod: "Tue Sep 05 2017 00:59:34 GMT-0600 (Mountain Daylight Time)", changefreq: 'monthly', priority: 0.8 },
+    { page: '/contact', lastmod: "Tue Sep 05 2017 00:59:34 GMT-0600 (Mountain Daylight Time)", changefreq: 'monthly', priority: 0.8 },
+    { page: '/sales', lastmod: "Tue Sep 05 2017 00:59:34 GMT-0600 (Mountain Daylight Time)", changefreq: 'monthly', priority: 0.8 },
+    { page: '/tools', lastmod: "Tue Sep 05 2017 00:59:34 GMT-0600 (Mountain Daylight Time)", changefreq: 'monthly', priority: 0.8 },
+    { page: '/bundles', lastmod: "Tue Sep 05 2017 00:59:34 GMT-0600 (Mountain Daylight Time)", changefreq: 'monthly', priority: 0.8 }
+  ];
+});
+
 
 
 Router.onBeforeAction('loading');
@@ -110,3 +99,31 @@ Router.onAfterAction(function() {
     return Meteor.isReadyForSpiderable = true;
   }
 });
+
+
+
+
+
+
+var SEO_options = {
+  title: "Better Marketing",
+  suffix: 'BBB',
+  separator: '|',
+  description: 'Good Businesses Deserve Better Marketing.',        // Will apply to meta, Twitter and OpenGraph.
+  image: 'http://betterbetterbetter.org/wp-content/uploads/2015/12/common-205x205-7931.png',// Will apply to Twitter and OpenGraph.
+  meta: {
+    keywords: ['online marketing','internet marketing','social business','capitalism','marketing','better marketing','better better better']
+  },
+  twitter: {
+    card: 'Better marketing for a better world.',
+    creator: '@betterbetterbe'
+  },
+  og: {
+    site_name: 'Better Better Better',
+    image: 'http://betterbetterbetter.org/wp-content/uploads/2015/12/common-205x205-7931.png'
+  }
+};
+
+Router.plugin('seo', 
+  {defaults: SEO_options}
+  );

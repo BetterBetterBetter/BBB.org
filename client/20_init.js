@@ -516,11 +516,11 @@ Template.nav.events({
 			}, 1111)
 		},1)
 
-var vh = $(document).scrollTop()
-	$("html, body").animate({ scrollTop: "0px" }, vh );
-	setTimeout(function(){
-		$(window).trigger('resize');	
-	});
+	var vh = $(document).scrollTop()
+		$("html, body").animate({ scrollTop: "0px" }, vh );
+		setTimeout(function(){
+			$(window).trigger('resize');	
+		});
 	
 
 
