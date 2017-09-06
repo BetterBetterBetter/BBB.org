@@ -85,12 +85,13 @@ Router.route('/craft-your-strategy', {
 
 Router.onBeforeAction('loading');
 
+/*
 Router.onAfterAction(function() {
   if (this.ready()) {
     return Meteor.isReadyForSpiderable = true;
   }
 });
-
+*/
 
 
 
