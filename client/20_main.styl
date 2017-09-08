@@ -158,6 +158,7 @@ html
 .card.service
  background rgba(255,255,255,.6)
  width 100%
+ transition background 777ms ease
 .tabs
  background transparent
  overflow-x hidden
@@ -285,6 +286,8 @@ html
  width 97%
 
 #services
+ .card:hover, .card:active
+  background rgba(255,255,255,1)
  +above(2)
   .row
    width 80%

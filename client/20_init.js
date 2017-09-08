@@ -102,6 +102,47 @@ Template.layout.onRendered(function(){
 
 
 
+SEO.config({
+        title: 'Better Marketing | BBB',
+        meta: {
+          'description': 'Good Businesses Deserve Better Marketing.',
+           'rel_author': 'https://jeremydavidevans.com'
+        },
+        og: {
+          'image': 'https://blog.betterbetterbetter.org/wp-content/uploads/2015/12/common-205x205-7931.png' 
+        }
+      });
+/*
+find-your-service
+contact
+sales
+tools
+bundles
+
+SeoCollection.update(
+    {
+        route_name: 'contact'
+    },
+    {
+        $set: {
+            route_name: 'contact',
+            title: 'Contact | BBB',
+            meta: {
+                'description': ''
+            },
+            og: {
+                'image': 'https://blog.betterbetterbetter.org/wp-content/uploads/2015/12/common-205x205-7931.png'
+            }
+        }
+    },
+    {
+        upsert: true
+    }
+);
+*/
+
+
+
 });//end Meteor.startup
 
 
@@ -111,6 +152,11 @@ Template.home.onRendered(function(){
 	// resize event
 	$(window).resize(function(){
 		resize()
+		setTimeout(resize, 1000)
+		setTimeout(resize, 2000)
+		setTimeout(resize, 3000)
+		setTimeout(resize, 4000)
+		setTimeout(resize, 5000)
 	});// end resize
 
 	function resize(){

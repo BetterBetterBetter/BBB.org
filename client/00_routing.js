@@ -96,13 +96,13 @@ Router.onAfterAction(function() {
 
 
 
-
+/*
 var SEO_options = {
   title: "Better Marketing",
   suffix: 'BBB',
   separator: '|',
   description: 'Good Businesses Deserve Better Marketing.',        // Will apply to meta, Twitter and OpenGraph.
-  image: 'http://betterbetterbetter.org/wp-content/uploads/2015/12/common-205x205-7931.png',// Will apply to Twitter and OpenGraph.
+  image: 'https://blog.betterbetterbetter.org/wp-content/uploads/2015/12/common-205x205-7931.png',// Will apply to Twitter and OpenGraph.
   meta: {
     keywords: ['online marketing','internet marketing','social business','capitalism','marketing','better marketing','better better better']
   },
@@ -119,3 +119,4 @@ var SEO_options = {
 Router.plugin('seo', 
   {defaults: SEO_options}
   );
+*/
