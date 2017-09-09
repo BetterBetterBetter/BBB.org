@@ -127,6 +127,7 @@ html
  height 95vh
 
 #typingHeader
+ margin 0
  font-family "Roboto"
  font-weight 100
  color #fff
@@ -152,8 +153,14 @@ html
    line-height 2.75rem
    padding-left 0!important
    padding-right 0!important
- 
 
+#findServiceForm
+ .at-nouislider
+  margin-bottom 10rem!important
+  +at(1)
+   margin-bottom 20rem!important
+  +at(2)
+   margin-bottom 15rem!important
 
 .card.service
  background rgba(255,255,255,.6)
@@ -414,12 +421,12 @@ html
    right 5%
    bottom 75%
    +at(1)
-    bottom 3%
+    bottom 5%
   &#back
    left 5%
    bottom 75%
    +at(1)
-    bottom 3%
+    bottom 5%
 
 .noUi-tooltip span
  width 100%
